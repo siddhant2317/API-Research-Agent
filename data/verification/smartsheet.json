@@ -1,0 +1,36 @@
+{
+  "app_slug": "smartsheet",
+  "app_name": "Smartsheet",
+  "category": "Productivity and Project Management",
+  "original_record": {
+    "auth_methods": [
+      "api_key",
+      "oauth2"
+    ],
+    "self_serve": true,
+    "gating_type": "free_trial",
+    "buildability_score": 4,
+    "main_blocker": "none",
+    "composio_supported": false,
+    "confidence": "high"
+  },
+  "composio_ground_truth": null,
+  "thinking_reextract": {
+    "auth_methods": [
+      "HTTP Basic"
+    ],
+    "self_serve": true,
+    "gating_type": "none",
+    "buildability_score": 6,
+    "main_blocker": "Deprecated documentation",
+    "confidence": "medium",
+    "reasoning": "Smartsheet API has authentication methods documented (HTTP Basic), but the documentation is marked as deprecated with a new reference site available. The API appears to be self-serve but the deprecated status creates uncertainty about stability and current implementation details."
+  },
+  "field_agreement": {
+    "auth_methods_original_vs_thinking": false,
+    "auth_methods_original_vs_composio": null,
+    "self_serve_agreement": true,
+    "buildability_agreement": false
+  },
+  "verdict": "self_inconsistent"
+}

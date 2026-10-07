@@ -1,0 +1,42 @@
+{
+  "id": 52,
+  "app_name": "SE Ranking",
+  "app_slug": "se-ranking",
+  "category": "Data, SEO and Scraping",
+  "website": "https://seranking.com",
+  "docs_url": "https://seranking.com/api.html",
+  "primary_docs_url_used": "https://seranking.com/api.html",
+  "one_line_description": "All-in-one SEO platform with API access",
+  "auth_methods": [
+    "api_key"
+  ],
+  "auth_methods_evidence": "Authentication section in the docs mentions using API keys for authentication",
+  "self_serve": true,
+  "self_serve_evidence": "The API documentation includes a 'Getting API access' section and mentions API plans, suggesting developers can obtain credentials themselves",
+  "gating_type": "free_trial",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest"
+  ],
+  "endpoint_count_estimate": 50,
+  "openapi_spec_available": false,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 3,
+  "buildability_rationale": "Good API documentation with broad functionality but requires API key authentication and has some gating through trial plans",
+  "main_blocker": "gated_access",
+  "evidence_urls": [
+    "https://seranking.com/api.html"
+  ],
+  "confidence": "medium",
+  "agent_notes": "The API documentation shows a comprehensive set of SEO-related endpoints but doesn't explicitly state the total number of endpoints. Authentication is via API keys, and there appears to be a trial or paid gating mechanism.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544413.1430774
+}

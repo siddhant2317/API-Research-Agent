@@ -1,0 +1,32 @@
+{
+  "app_id": 25,
+  "app_name": "Pumble",
+  "app_slug": "pumble",
+  "started_at": 1783544296.963766,
+  "fetched_urls": [
+    {
+      "url": "https://pumble.com/help/api/introduction-to-pumble-api/",
+      "status": 404,
+      "md_len": 0
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 6.13,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544305.239103,
+  "duration_s": 8.28
+}

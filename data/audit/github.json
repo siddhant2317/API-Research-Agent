@@ -1,0 +1,36 @@
+{
+  "app_id": 61,
+  "app_name": "GitHub",
+  "app_slug": "github",
+  "started_at": 1783544436.1440902,
+  "fetched_urls": [
+    {
+      "url": "https://docs.github.com/en/rest",
+      "status": 200,
+      "md_len": 12694
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 30.36,
+      "success": false
+    }
+  ],
+  "errors": [
+    "extraction_failed"
+  ],
+  "composio_lookup": {
+    "found": true,
+    "slug": "github",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "tools_count": 871
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544472.3901327,
+  "duration_s": 36.25
+}

@@ -1,0 +1,32 @@
+{
+  "app_id": 95,
+  "app_name": "Reducto",
+  "app_slug": "reducto",
+  "started_at": 1783544581.9545994,
+  "fetched_urls": [
+    {
+      "url": "https://docs.reducto.ai/",
+      "status": 200,
+      "md_len": 8498
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 21.75,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544607.8044581,
+  "duration_s": 25.85
+}

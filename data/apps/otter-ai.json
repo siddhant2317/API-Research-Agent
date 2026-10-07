@@ -1,0 +1,39 @@
+{
+  "id": 92,
+  "app_name": "Otter AI",
+  "app_slug": "otter-ai",
+  "category": "AI, Research and Media-native",
+  "website": "https://otter.ai",
+  "docs_url": "https://help.otter.ai/s/article/Otter-API",
+  "primary_docs_url_used": "https://help.otter.ai/s/article/Otter-API",
+  "one_line_description": "AI meeting transcription (no public API)",
+  "auth_methods": [],
+  "auth_methods_evidence": "Otter.ai does not have a public developer API as of 2026. The 'API' page returns 404. https://help.otter.ai/s/article/Otter-API",
+  "self_serve": false,
+  "self_serve_evidence": "No public API available.",
+  "gating_type": "unknown",
+  "api_surface_breadth": "unknown",
+  "api_protocol": [],
+  "endpoint_count_estimate": 0,
+  "openapi_spec_available": false,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 0,
+  "buildability_rationale": "No public API exists.",
+  "main_blocker": "no_public_api",
+  "evidence_urls": [
+    "https://help.otter.ai/s/article/Otter-API"
+  ],
+  "confidence": "high",
+  "agent_notes": "[HUMAN OVERRIDE: Otter.ai's API page 404s. No public API available despite the assignment hint.] [HUMAN-IN-THE-LOOP: verified manually with cited docs URL]",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544592.0746002,
+  "human_override_at": 1783545417.4465265
+}

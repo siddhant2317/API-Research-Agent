@@ -1,0 +1,36 @@
+{
+  "app_slug": "lark-larksuite",
+  "app_name": "Lark (Larksuite)",
+  "category": "Communications and Messaging",
+  "original_record": {
+    "auth_methods": [
+      "oauth2",
+      "bearer_token"
+    ],
+    "self_serve": true,
+    "gating_type": "free",
+    "buildability_score": 3,
+    "main_blocker": "poor_docs",
+    "composio_supported": false,
+    "confidence": "medium"
+  },
+  "composio_ground_truth": null,
+  "thinking_reextract": {
+    "auth_methods": [
+      "OAuth 2.0"
+    ],
+    "self_serve": true,
+    "gating_type": "tiered",
+    "buildability_score": 6,
+    "main_blocker": "Limited public documentation available",
+    "confidence": "medium",
+    "reasoning": "Based on general knowledge of Lark/Larksuite as an enterprise collaboration platform. The API likely uses OAuth 2.0 for authentication, which is standard for such platforms. Self-service access is probable as many enterprise collaboration platforms offer developer portals. Without specific documenta"
+  },
+  "field_agreement": {
+    "auth_methods_original_vs_thinking": false,
+    "auth_methods_original_vs_composio": null,
+    "self_serve_agreement": true,
+    "buildability_agreement": false
+  },
+  "verdict": "self_inconsistent"
+}

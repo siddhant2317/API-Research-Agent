@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2303.11366",
+    "name": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+    "snippet": "We propose Reflexion, a novel framework to reinforce language agents not by updating weights, but instead through linguistic feedback.",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://openreview.net/pdf?id=vAElhFcKW6",
+    "name": "[PDF] Reflexion: Language Agents with Verbal Reinforcement Learning",
+    "snippet": "In this paper, we show that several of these concepts can be enhanced with self-reflection to build a persisting memory of self-reflective experiences which ...",
+    "host_name": "openreview.net",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://neurips.cc/virtual/2023/poster/70114",
+    "name": "Reflexion: language agents with verbal reinforcement learning",
+    "snippet": "In the Reflexion runs, the agent uses self-reflection to find its mistake, update its memory, reset the environment, and start a new trial. To avoid very long ...",
+    "host_name": "neurips.cc",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/noahshinn/reflexion",
+    "name": "[NeurIPS 2023] Reflexion: Language Agents with Verbal Reinforcement",
+    "snippet": "This repo holds the code, demos, and log files for Reflexion: Language Agents with Verbal Reinforcement Learning by Noah Shinn, Federico Cassano, Edward Berman.",
+    "host_name": "github.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/401463998_Reflexion_language_agents_with_verbal_reinforcement_learning",
+    "name": "Reflexion: language agents with verbal reinforcement learning",
+    "snippet": "Reflexion [30] showed that language agents can improve across trials by verbally reflecting on feedback and storing those reflections in ...",
+    "host_name": "www.researchgate.net",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.promptingguide.ai/techniques/reflexion",
+    "name": "Reflexion | Prompt Engineering Guide",
+    "snippet": "Reflexion is a framework to reinforce language-based agents through linguistic feedback. According to Shinn et al. (2023) (opens in a new ...",
+    "host_name": "www.promptingguide.ai",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@vikram40441/implementing-reflexion-language-agents-with-verbal-reinforcement-learning-e4cb300278b6",
+    "name": "Reflexion: Verbal Reinforcement Learning with Autogen - Medium",
+    "snippet": "This innovative approach reinforces language agents through verbal feedback, allowing them to reflect on their past actions and improve their decision-making ...",
+    "host_name": "medium.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://scholar.google.com/citations?user=zTfIpA4AAAAJ&hl=en",
+    "name": "‪Noah Shinn‬ - ‪Google Scholar‬",
+    "snippet": "Reflexion: Language agents with verbal reinforcement learning, june 2023. N Shinn, F Cassano, B Labash, A Gopinath, K Narasimhan, S Yao. arXiv preprint arXiv: ...",
+    "host_name": "scholar.google.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

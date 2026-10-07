@@ -1,0 +1,36 @@
+{
+  "app_id": 17,
+  "app_name": "Plain",
+  "app_slug": "plain",
+  "started_at": 1783544264.632259,
+  "fetched_urls": [
+    {
+      "url": "https://www.plain.com/docs/api",
+      "status": 404,
+      "md_len": 0
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 30.31,
+      "success": false
+    }
+  ],
+  "errors": [
+    "extraction_failed"
+  ],
+  "composio_lookup": {
+    "found": true,
+    "slug": "plain",
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "tools_count": 22
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544296.9616852,
+  "duration_s": 32.33
+}

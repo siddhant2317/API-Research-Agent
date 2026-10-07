@@ -1,0 +1,39 @@
+{
+  "id": 25,
+  "app_name": "Pumble",
+  "app_slug": "pumble",
+  "category": "Communications and Messaging",
+  "website": "https://pumble.com",
+  "docs_url": "https://pumble.com/help/api/introduction-to-pumble-api/",
+  "primary_docs_url_used": "https://pumble.com/help/api/introduction-to-pumble-api/",
+  "one_line_description": "Slack-alternative team chat (no public API)",
+  "auth_methods": [],
+  "auth_methods_evidence": "Pumble has no public developer API as of 2026. The docs URL 404s. https://pumble.com/help/api/introduction-to-pumble-api/",
+  "self_serve": false,
+  "self_serve_evidence": "No public API available.",
+  "gating_type": "unknown",
+  "api_surface_breadth": "unknown",
+  "api_protocol": [],
+  "endpoint_count_estimate": 0,
+  "openapi_spec_available": false,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 0,
+  "buildability_rationale": "No public API. Docs URL returns 404.",
+  "main_blocker": "no_public_api",
+  "evidence_urls": [
+    "https://pumble.com/help/api/introduction-to-pumble-api/"
+  ],
+  "confidence": "high",
+  "agent_notes": "[HUMAN OVERRIDE: Pumble's API docs page 404s. Appears to have no public API.] [HUMAN-IN-THE-LOOP: verified manually with cited docs URL]",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544305.23878,
+  "human_override_at": 1783545417.4522421
+}

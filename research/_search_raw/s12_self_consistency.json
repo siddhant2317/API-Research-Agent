@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2203.11171",
+    "name": "Self-Consistency Improves Chain of Thought Reasoning in  - arXiv",
+    "snippet": "In this paper, we propose a new decoding strategy, self-consistency, to replace the naive greedy decoding used in chain-of-thought prompting.",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://openreview.net/forum?id=1PL1NIMMrw",
+    "name": "Self-Consistency Improves Chain of Thought Reasoning in",
+    "snippet": "This paper investigates an improved version of Chain-of-thought prompting by leveraging self consistency and shows empirical evidence that their ...",
+    "host_name": "openreview.net",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ylwangy.github.io/pub/ACL_2025_RVSC.pdf",
+    "name": "[PDF] Ranked Voting based Self-Consistency of Large Language Models",
+    "snippet": "Majority voting is considered an effective method to enhance chain-of-thought reason- ing, as it selects the answer with the highest. “self-consistency” ...",
+    "host_name": "ylwangy.github.io",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://zeroentropy.dev/concepts/self-consistency",
+    "name": "Self-consistency: majority-vote across reasoning samples",
+    "snippet": "The intuition, made explicit by Wang et al. (2022): correct reasoning paths tend to converge on the same final answer, while incorrect paths spray across many ...",
+    "host_name": "zeroentropy.dev",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://aclanthology.org/2024.findings-emnlp.135.pdf",
+    "name": "[PDF] Mirror-Consistency: Harnessing Inconsistency in Majority Voting",
+    "snippet": "Self-Consistency, a widely-used decoding strat- egy, significantly boosts the reasoning capa- bilities of Large Language Models (LLMs).",
+    "host_name": "aclanthology.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@johannes.koeppern/self-consistency-with-chain-of-thought-cot-sc-2f7a1ea9f941",
+    "name": "Self-Consistency with Chain of Thought (CoT-SC) - Medium",
+    "snippet": "It is a method to improve the quality of the answers from large language models in terms of their correctness compared to pure Chain of Thought.",
+    "host_name": "medium.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

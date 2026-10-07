@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://docs.composio.dev/docs/migration-guide/new-sdk",
+    "name": "Our next generation SDKs - Composio Docs",
+    "snippet": "A vastly improved TypeScript SDK that is meaningfully more type-safe and has full feature parity with the Python SDK. There aren't too many new flashy features ...",
+    "host_name": "docs.composio.dev",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.linkup.so/pages/integrations/composio/composio",
+    "name": "Composio - Linkup API Documentation",
+    "snippet": "Navigate to the All Apps section in Composio and search for “Linkup”. Search for tools in Composio Search results showing Linkup. 3. Get your Linkup API Key ...",
+    "host_name": "docs.linkup.so",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pypi.org/project/composio",
+    "name": "composio - PyPI",
+    "snippet": "The Composio Python SDK allows you to interact with the Composio Platform. It provides a powerful and flexible way to manage and execute tools, handle ...",
+    "host_name": "pypi.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://composio.dev",
+    "name": "Composio",
+    "snippet": "Connect Claude or ChatGPT to the apps you already use — Gmail, Slack, Notion, Calendar, and 1,000+ more. One prompt, real work, done.",
+    "host_name": "composio.dev",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.composio.dev/reference/sdk-reference/python",
+    "name": "Python SDK Reference - Composio Docs",
+    "snippet": "Python SDK Reference. Complete API reference for the composio Python package. Installation.",
+    "host_name": "docs.composio.dev",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/composiohq/composio",
+    "name": "ComposioHQ/composio - GitHub",
+    "snippet": "Python SDK (/python). The Python SDK offers a Pythonic interface to Composio's services, making it easy to integrate Composio into your Python applications.",
+    "host_name": "github.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.together.ai/docs/composio",
+    "name": "Composio - Together AI docs",
+    "snippet": "You can get all the tools for a given app as shown below, but you can get specific actions and filter actions using usecase & tags. Python. TypeScript.",
+    "host_name": "docs.together.ai",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://neon.com/guides/composio-crewai-neon",
+    "name": "Building AI Agents with CrewAI, Composio, and Neon - Neon Guides",
+    "snippet": "For example, to get a list of your Neon projects, you would change the actions list in toolset.get_tools(...) to: tools = toolset.get_tools(actions ...",
+    "host_name": "neon.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

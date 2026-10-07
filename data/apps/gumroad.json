@@ -1,0 +1,46 @@
+{
+  "id": 48,
+  "app_name": "Gumroad",
+  "app_slug": "gumroad",
+  "category": "Ecommerce",
+  "website": "https://gumroad.com",
+  "docs_url": "https://app.gumroad.com/api",
+  "primary_docs_url_used": "https://app.gumroad.com/api",
+  "one_line_description": "Sells digital goods, physical products, and memberships",
+  "auth_methods": [
+    "oauth2"
+  ],
+  "auth_methods_evidence": "Composio registry indicates OAuth2 as the authentication scheme",
+  "self_serve": true,
+  "self_serve_evidence": "Composio registry indicates the app is publicly available with OAuth2 authentication",
+  "gating_type": "free",
+  "api_surface_breadth": "unknown",
+  "api_protocol": [
+    "other"
+  ],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": false,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:gumroad"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "OAUTH2"
+  ],
+  "composio_tools_count": 7,
+  "buildability_score": 3,
+  "buildability_rationale": "OAuth2 authentication available but API documentation is not accessible to determine full API surface and implementation details",
+  "main_blocker": "poor_docs",
+  "evidence_urls": [
+    "https://app.gumroad.com/api"
+  ],
+  "confidence": "medium",
+  "agent_notes": "The official API documentation URL returns a 200 status but contains no actual documentation content. Composio registry provides some information about the API structure and authentication, but without accessible documentation, the full API surface cannot be determined.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544392.6997206
+}

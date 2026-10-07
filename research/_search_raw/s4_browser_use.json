@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://playwright.dev/docs/auth",
+    "name": "Authentication - Playwright",
+    "snippet": "Playwright executes tests in isolated environments called browser contexts. This isolation model improves reproducibility and prevents cascading test failures.",
+    "host_name": "playwright.dev",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=NSDdeDYr3dY",
+    "name": "How To Perform API Testing Using Playwright - YouTube",
+    "snippet": "... API testing using Playwright, a powerful end-to-end testing framework. Playwright is not just for UI automation—it also allows you to test ...",
+    "host_name": "www.youtube.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/technology-hits/lesser-known-strengths-of-playwright-9638f77089cd",
+    "name": "Lesser known Strengths of Playwright | by Anjali Kulkarni - Medium",
+    "snippet": "Playwright simplifies this by providing inbuilt support for API testing, making it a complete framework for both frontend and backend automation ...",
+    "host_name": "medium.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://playwright.dev",
+    "name": "Playwright: Fast and reliable end-to-end testing for modern web apps",
+    "snippet": "Playwright enables reliable web automation for testing, scripting, and AI agents. One API to drive Chromium, Firefox, and WebKit — in your tests, ...",
+    "host_name": "playwright.dev",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=zPvwi0kHhUU",
+    "name": "Browser Use AI Agent with playwright, My Real  - YouTube",
+    "snippet": "In this video, I take you through my hands-on experience with Browser-Use – an AI-powered agent designed to automate browser interactions ...",
+    "host_name": "www.youtube.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mailslurp.com/blog/playwright-browser-automation",
+    "name": "Playwright guide for browser automation and email verification tests",
+    "snippet": "Practical Playwright guide for engineering teams. Compare with Cypress and Selenium, then add email and OTP assertions that catch real release failures.",
+    "host_name": "www.mailslurp.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://circleci.com/blog/api-testing-with-playwright",
+    "name": "API testing with Playwright - CircleCI",
+    "snippet": "Learn how to set up the Playwright APIRequestContext, authentication persistence with Playwright and how to integrate Playwright testing ...",
+    "host_name": "circleci.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.labellerr.com/blog/browser-use-agent",
+    "name": "Browser-Use: Open-Source AI Agent For Web Automation - Labellerr",
+    "snippet": "Browser-Use is an open-source AI agent for web automation. It uses LLMs, visual recognition, for seamless, real-time browser control.",
+    "host_name": "www.labellerr.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

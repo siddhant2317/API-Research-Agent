@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://jina.ai/reader",
+    "name": "Reader API - Jina AI",
+    "snippet": "ReaderLM-v2 is a 1.5B parameter language model specialized in HTML-to-Markdown conversion and HTML-to-JSON extraction. It supports documents up to 512K ...",
+    "host_name": "jina.ai",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/jina-ai/reader",
+    "name": "GitHub - jina-ai/reader: Convert any URL to an LLM-friendly input with a",
+    "snippet": "With Reader, http://s.jina.ai automatically fetches the content from the top 5 search result URLs for you (reusing the tech stack behind http://r.jina.ai ).",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://jina.ai",
+    "name": "Jina AI - Your Search Foundation, Supercharged.",
+    "snippet": "Embeddings, rerankers, web reader, deepsearch, small language models. Search AI for multilingual and multimodal data.",
+    "host_name": "jina.ai",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.elastic.co/search-labs/tutorials/jina-tutorial/jina-reader",
+    "name": "Jina Reader - Elasticsearch Labs",
+    "snippet": "Follow these Jina tutorials to learn how to use the Jina v3 reranker, reader and v3 embedding model with Elasticsearch.",
+    "host_name": "www.elastic.co",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://jina.ai/api-dashboard",
+    "name": "Jina Search Foundation API - Jina AI",
+    "snippet": "Manage API keys for all Jina AI services—Embeddings, Reader, Reranker, and more.",
+    "host_name": "jina.ai",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://webclaw.io/blog/jina-reader-alternative-llm-web-scraping",
+    "name": "Jina Reader Alternative That Handles Cloudflare (2026) - Webclaw",
+    "snippet": "Jina Reader breaks on Cloudflare and DataDome. Same r.jina.ai-style URL to markdown, plus crawling, batching, and anti-bot bypass that ...",
+    "host_name": "webclaw.io",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/akash-biswas_the-reader-api-provided-by-jina-ai-is-free-activity-7276125491495899136-EOgo",
+    "name": "Akash Biswas' Post - LinkedIn",
+    "snippet": "The Reader API provided by Jina AI is free to use. You can utilize it by prepending 'https://r.jina.ai/' to your desired URL, which converts ...",
+    "host_name": "www.linkedin.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://scrapegraphai.com/blog/jina-alternatives",
+    "name": "Jina Reader Alternatives: 7 AI Web Scraping Tools",
+    "snippet": "Compare Jina Reader alternatives for clean Markdown, structured extraction, RAG pipelines, website crawling, and AI web scraping.",
+    "host_name": "scrapegraphai.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

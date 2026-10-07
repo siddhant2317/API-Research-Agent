@@ -1,0 +1,49 @@
+{
+  "id": 69,
+  "app_name": "Datadog",
+  "app_slug": "datadog",
+  "category": "Developer, Infra and Data platforms",
+  "website": "https://datadoghq.com",
+  "docs_url": "https://docs.datadoghq.com/api/latest/",
+  "primary_docs_url_used": "https://docs.datadoghq.com/api/latest/",
+  "one_line_description": "Unified monitoring, observability, and security for cloud-scale applications",
+  "auth_methods": [
+    "oauth2",
+    "api_key"
+  ],
+  "auth_methods_evidence": "Composio registry lists auth_schemes as [\"OAUTH2\", \"API_KEY\"]",
+  "self_serve": true,
+  "self_serve_evidence": "The website offers a free trial and self-service sign-up process without requiring contact with sales",
+  "gating_type": "free_trial",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest"
+  ],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": false,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:datadog"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "OAUTH2",
+    "API_KEY"
+  ],
+  "composio_tools_count": 42,
+  "buildability_score": 5,
+  "buildability_rationale": "Self-serve access with free trial, comprehensive API documentation, broad API surface, and Composio support with 42 tools",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://docs.datadoghq.com/api/latest/",
+    "https://www.datadoghq.com"
+  ],
+  "confidence": "high",
+  "agent_notes": "The documentation is comprehensive and the API is well-documented. Composio registry confirms the authentication methods and tool count.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544491.0500963
+}

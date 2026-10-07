@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://docs.ragas.io/en/stable/concepts/metrics/available_metrics",
+    "name": "List of available metrics - Ragas",
+    "snippet": "Ragas provides a set of evaluation metrics that can be used to measure the performance of your LLM application. Relevancy Faithfulness Multimodal",
+    "host_name": "docs.ragas.io",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.ragas.io/en/stable/concepts/metrics/available_metrics/faithfulness",
+    "name": "Faithfulness - Ragas",
+    "snippet": "The Faithfulness metric measures how factually consistent a response is with the retrieved context. It ranges from 0 to 1, with higher scores indicating better ...",
+    "host_name": "docs.ragas.io",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dkaarthick.medium.com/ragas-for-rag-in-llms-a-comprehensive-guide-to-evaluation-metrics-3aca142d6e38",
+    "name": "RAGAS for RAG in LLMs: A Comprehensive Guide to",
+    "snippet": "RAGAS introduces several metrics that provide a more holistic evaluation of RAG models, focusing on aspects like faithfulness, answer relevancy, ...",
+    "host_name": "dkaarthick.medium.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sapotacorp.vn/blog/rag-evaluation-ragas-faithfulness-relevance",
+    "name": "RAG Evaluation with RAGAs: Faithfulness, Context Recall, and",
+    "snippet": "The three metrics that carry the most diagnostic weight in our production work are faithfulness, context recall, and answer relevance. Each one ...",
+    "host_name": "www.sapotacorp.vn",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://deepchecks.com/rag-evaluation-metrics-answer-relevancy-faithfulness-accuracy",
+    "name": "RAG Evaluation Metrics: Answer Relevancy, Faithfulness, and Real",
+    "snippet": "Faithfulness enhances reliability by ensuring answers are firmly grounded in the retrieved context, thereby significantly reducing ...",
+    "host_name": "deepchecks.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/pdf/2407.12873",
+    "name": "[PDF] Evaluation of RAG Metrics for Question Answering in the Telecom",
+    "snippet": "RAG Assessment (RAGAS) (Es et al., 2023) proposes multiple measures such as faithfulness, context and answer relevance to assess RAG responses ...",
+    "host_name": "arxiv.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

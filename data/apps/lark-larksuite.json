@@ -1,0 +1,45 @@
+{
+  "id": 24,
+  "app_name": "Lark (Larksuite)",
+  "app_slug": "lark-larksuite",
+  "category": "Communications and Messaging",
+  "website": "https://larksuite.com",
+  "docs_url": "https://open.larksuite.com/document/",
+  "primary_docs_url_used": "https://open.larksuite.com/document/",
+  "one_line_description": "Bytedance's enterprise messaging + office suite API",
+  "auth_methods": [
+    "oauth2",
+    "bearer_token"
+  ],
+  "auth_methods_evidence": "Lark Open Platform uses OAuth 2.0 + tenant_access_token (bearer). https://open.larksuite.com/document/server-docs/authentication-management",
+  "self_serve": true,
+  "self_serve_evidence": "Free Lark developer account at open.larksuite.com. https://open.larksuite.com/app",
+  "gating_type": "free",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest",
+    "webhook"
+  ],
+  "endpoint_count_estimate": 200,
+  "openapi_spec_available": false,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 3,
+  "buildability_rationale": "Self-serve broad API, but docs are JS-heavy and English coverage is partial.",
+  "main_blocker": "poor_docs",
+  "evidence_urls": [
+    "https://open.larksuite.com/document/server-docs/authentication-management"
+  ],
+  "confidence": "medium",
+  "agent_notes": "[HUMAN OVERRIDE: Lark uses OAuth2 + tenant_access_token. Free dev account. English docs incomplete.] [HUMAN-IN-THE-LOOP: verified manually with cited docs URL]",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544299.1021934,
+  "human_override_at": 1783545417.4382172
+}

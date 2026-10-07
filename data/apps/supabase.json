@@ -1,0 +1,49 @@
+{
+  "id": 65,
+  "app_name": "Supabase",
+  "app_slug": "supabase",
+  "category": "Developer, Infra and Data platforms",
+  "website": "https://supabase.com",
+  "docs_url": "https://supabase.com/docs/reference",
+  "primary_docs_url_used": "https://supabase.com/docs/reference",
+  "one_line_description": "Open-source backend-as-a-service with Postgres database and APIs",
+  "auth_methods": [
+    "oauth2",
+    "api_key"
+  ],
+  "auth_methods_evidence": "Supabase also has a Management API to help with managing your Supabase Platform, and a CLI for local development and CI workflows.",
+  "self_serve": true,
+  "self_serve_evidence": "The Supabase client libraries help you interact with Supabase products, such as the Postgres Database, Auth, and Realtime. They are available in several popular programming languages.",
+  "gating_type": "free",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest",
+    "graphql"
+  ],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": false,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:supabase"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "OAUTH2",
+    "API_KEY"
+  ],
+  "composio_tools_count": 124,
+  "buildability_score": 5,
+  "buildability_rationale": "Self-serve with free tier, broad API coverage, multiple auth methods, and Composio support.",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://supabase.com/docs/reference"
+  ],
+  "confidence": "high",
+  "agent_notes": "Supabase provides a comprehensive set of client libraries for multiple programming languages and has a Management API for platform management.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544475.5544057
+}

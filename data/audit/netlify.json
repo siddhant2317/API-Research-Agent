@@ -1,0 +1,32 @@
+{
+  "app_id": 63,
+  "app_name": "Netlify",
+  "app_slug": "netlify",
+  "started_at": 1783544448.3756537,
+  "fetched_urls": [
+    {
+      "url": "https://docs.netlify.com/api/get-started/",
+      "status": 200,
+      "md_len": 40794
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 8.32,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544462.3720129,
+  "duration_s": 14.0
+}

@@ -1,0 +1,44 @@
+{
+  "id": 60,
+  "app_name": "Clay",
+  "app_slug": "clay",
+  "category": "Data, SEO and Scraping",
+  "website": "https://clay.com",
+  "docs_url": "https://docs.clay.com/",
+  "primary_docs_url_used": "https://docs.clay.com/",
+  "one_line_description": "Data enrichment and sales prospecting",
+  "auth_methods": [
+    "api_key"
+  ],
+  "auth_methods_evidence": "Clay API uses API keys. https://docs.clay.com/",
+  "self_serve": true,
+  "self_serve_evidence": "Free tier with API access. https://clay.com/pricing",
+  "gating_type": "free",
+  "api_surface_breadth": "narrow",
+  "api_protocol": [
+    "rest",
+    "webhook"
+  ],
+  "endpoint_count_estimate": 15,
+  "openapi_spec_available": false,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 3,
+  "buildability_rationale": "Self-serve, API key, webhook support, but narrow enrichment-focused API.",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://docs.clay.com/"
+  ],
+  "confidence": "medium",
+  "agent_notes": "[HUMAN OVERRIDE: Clay uses API key. Narrow data enrichment API. Free tier.] [HUMAN-IN-THE-LOOP: verified manually with cited docs URL]",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544448.3420467,
+  "human_override_at": 1783545417.4633784
+}

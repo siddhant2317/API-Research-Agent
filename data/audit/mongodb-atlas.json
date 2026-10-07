@@ -1,0 +1,34 @@
+{
+  "app_id": 68,
+  "app_name": "MongoDB Atlas",
+  "app_slug": "mongodb-atlas",
+  "started_at": 1783544472.3925905,
+  "fetched_urls": [
+    {
+      "url": "https://www.mongodb.com/docs/atlas/reference/api-resources-spec/v2/",
+      "status": 200,
+      "md_len": 0
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 35.32,
+      "success": false
+    }
+  ],
+  "errors": [
+    "extraction_failed"
+  ],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544515.3320909,
+  "duration_s": 42.94
+}

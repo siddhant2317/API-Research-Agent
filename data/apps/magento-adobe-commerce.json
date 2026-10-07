@@ -1,0 +1,45 @@
+{
+  "id": 45,
+  "app_name": "Magento (Adobe Commerce)",
+  "app_slug": "magento-adobe-commerce",
+  "category": "Ecommerce",
+  "website": "https://magento.com",
+  "docs_url": "https://developer.adobe.com/commerce/webapi/rest/",
+  "primary_docs_url_used": "https://developer.adobe.com/commerce/webapi/rest/",
+  "one_line_description": "E-commerce platform with REST and GraphQL APIs",
+  "auth_methods": [
+    "oauth",
+    "bearer_token",
+    "other"
+  ],
+  "auth_methods_evidence": "Adobe Commerce REST APIs support multiple authentication methods, including: Third-party applications authenticate with OAuth 1.0a. Mobile applications authenticate using tokens. Administrators and customers are authenticated with login credentials. In Adobe Commerce as a Cloud Service, you must use Adobe Identity Management Service (IMS) to authenticate your requests. The authentication system supports both interactive user-based workflows and automated server-to-server integrations, ensuring secure and appropriate access for different use cases. Both of these authentication methods require every request to be signed with an IMS Access Token.",
+  "self_serve": false,
+  "self_serve_evidence": "The documentation mentions authentication methods but doesn't explicitly state that developers can self-serve credentials without contacting sales/admin/partner. Adobe Commerce as a Cloud Service requires Adobe Identity Management Service (IMS) authentication, which suggests an enterprise-level authentication process.",
+  "gating_type": "enterprise_only",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest",
+    "graphql"
+  ],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": false,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 2,
+  "buildability_rationale": "Enterprise-level authentication with IMS and unclear self-serve options create friction, though the API surface is broad with both REST and GraphQL support.",
+  "main_blocker": "gated_access",
+  "evidence_urls": [
+    "https://developer.adobe.com/commerce/webapi/rest/"
+  ],
+  "confidence": "medium",
+  "agent_notes": "Adobe Commerce as a Cloud Service requires Adobe Identity Management Service (IMS) authentication, which suggests an enterprise-level authentication process. The documentation doesn't clearly state if developers can self-serve credentials without contacting sales/admin/partner.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544386.517574
+}

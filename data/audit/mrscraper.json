@@ -1,0 +1,32 @@
+{
+  "app_id": 54,
+  "app_name": "MrScraper",
+  "app_slug": "mrscraper",
+  "started_at": 1783544410.9021199,
+  "fetched_urls": [
+    {
+      "url": "https://docs.mrscraper.com/",
+      "status": 200,
+      "md_len": 4902
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 6.84,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544423.9157243,
+  "duration_s": 13.01
+}

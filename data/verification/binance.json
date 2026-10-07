@@ -1,0 +1,34 @@
+{
+  "app_slug": "binance",
+  "app_name": "Binance",
+  "category": "Finance and Fintech",
+  "original_record": {
+    "auth_methods": [
+      "api_key",
+      "bearer_token"
+    ],
+    "self_serve": true,
+    "gating_type": "free",
+    "buildability_score": 4,
+    "main_blocker": "auth_complexity",
+    "composio_supported": false,
+    "confidence": "medium"
+  },
+  "composio_ground_truth": null,
+  "thinking_reextract": {
+    "auth_methods": [],
+    "self_serve": false,
+    "gating_type": "unknown",
+    "buildability_score": 0,
+    "main_blocker": "No documentation available in provided research",
+    "confidence": "low",
+    "reasoning": "No specific documentation, search snippets, or Composio registry data were provided for Binance's API. Without this information, it's not possible to accurately determine the API characteristics. All values are set to their most conservative defaults."
+  },
+  "field_agreement": {
+    "auth_methods_original_vs_thinking": false,
+    "auth_methods_original_vs_composio": null,
+    "self_serve_agreement": false,
+    "buildability_agreement": false
+  },
+  "verdict": "self_inconsistent"
+}

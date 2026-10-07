@@ -1,0 +1,35 @@
+{
+  "app_id": 65,
+  "app_name": "Supabase",
+  "app_slug": "supabase",
+  "started_at": 1783544461.3638005,
+  "fetched_urls": [
+    {
+      "url": "https://supabase.com/docs/reference",
+      "status": 200,
+      "md_len": 5099
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 8.47,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": true,
+    "slug": "supabase",
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "tools_count": 124
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544475.5547607,
+  "duration_s": 14.19
+}

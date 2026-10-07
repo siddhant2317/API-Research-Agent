@@ -1,0 +1,48 @@
+{
+  "app_slug": "stripe",
+  "app_name": "Stripe",
+  "category": "Finance and Fintech",
+  "original_record": {
+    "auth_methods": [
+      "api_key",
+      "oauth2"
+    ],
+    "self_serve": true,
+    "gating_type": "free",
+    "buildability_score": 5,
+    "main_blocker": "none",
+    "composio_supported": true,
+    "confidence": "high"
+  },
+  "composio_ground_truth": {
+    "slug": "stripe",
+    "auth_schemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "tools_count": 425,
+    "normalized_auth": [
+      "api_key",
+      "oauth2"
+    ]
+  },
+  "thinking_reextract": {
+    "auth_methods": [
+      "api_key",
+      "oauth2"
+    ],
+    "self_serve": true,
+    "gating_type": "api_key",
+    "buildability_score": 7,
+    "main_blocker": "Does not support bulk updates - only one object per request",
+    "confidence": "high",
+    "reasoning": "Based on Composio registry data, Stripe API supports api_key and oauth2 authentication with 425 available tools. The documentation explicitly mentions that the API doesn't support bulk updates, working on only one object per request, which limits batch operations. Despite this, the API is well-docum"
+  },
+  "field_agreement": {
+    "auth_methods_original_vs_thinking": true,
+    "auth_methods_original_vs_composio": true,
+    "self_serve_agreement": true,
+    "buildability_agreement": false
+  },
+  "verdict": "correct"
+}

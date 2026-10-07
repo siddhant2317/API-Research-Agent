@@ -1,0 +1,47 @@
+{
+  "id": 33,
+  "app_name": "LinkedIn Ads",
+  "app_slug": "linkedin-ads",
+  "category": "Marketing, Ads, Email and Social",
+  "website": "https://business.linkedin.com/marketing-solutions",
+  "docs_url": "https://learn.microsoft.com/en-us/linkedin/marketing/",
+  "primary_docs_url_used": "https://learn.microsoft.com/en-us/linkedin/marketing/",
+  "one_line_description": "LinkedIn Marketing and Advertising API for managing ad campaigns, analytics, and organization social content",
+  "auth_methods": [
+    "oauth2"
+  ],
+  "auth_methods_evidence": "The LinkedIn Marketing Platform helps businesses grow by building technology to reach, engage, and convert professional audiences at scale. The platform offers APIs to create LinkedIn marketing campaigns, to report campaign performance, to manage leads, and to grow a company Page.",
+  "self_serve": true,
+  "self_serve_evidence": "Quickstart [Quick Start](quick-start?view=li-lms-2026-06)",
+  "gating_type": "free",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest"
+  ],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": false,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:linkedin_ads"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "OAUTH2"
+  ],
+  "composio_tools_count": 28,
+  "buildability_score": 4,
+  "buildability_rationale": "Good API breadth with OAuth2 authentication, self-serve access, and Composio support, but documentation could be more detailed.",
+  "main_blocker": "poor_docs",
+  "evidence_urls": [
+    "https://learn.microsoft.com/en-us/linkedin/marketing/",
+    "https://developer.linkedin.com/product-catalog/marketing"
+  ],
+  "confidence": "medium",
+  "agent_notes": "The documentation provides a good overview of the LinkedIn Marketing API but lacks detailed implementation examples. The Composio registry confirms OAuth2 authentication and provides a tool count of 28.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544334.3717232
+}

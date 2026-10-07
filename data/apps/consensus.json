@@ -1,0 +1,39 @@
+{
+  "id": 94,
+  "app_name": "Consensus",
+  "app_slug": "consensus",
+  "category": "AI, Research and Media-native",
+  "website": "https://consensus.app",
+  "docs_url": "https://docs.consensus.app/api",
+  "primary_docs_url_used": "https://docs.consensus.app/api",
+  "one_line_description": "AI research search (no public API yet)",
+  "auth_methods": [],
+  "auth_methods_evidence": "Consensus API was requested but does not appear publicly available. https://consensus.app",
+  "self_serve": false,
+  "self_serve_evidence": "OAuth was 'requested' per assignment hint \u2014 not yet available.",
+  "gating_type": "unknown",
+  "api_surface_breadth": "unknown",
+  "api_protocol": [],
+  "endpoint_count_estimate": 0,
+  "openapi_spec_available": false,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 0,
+  "buildability_rationale": "No public API. Hint says OAuth was 'requested' \u2014 not available.",
+  "main_blocker": "no_public_api",
+  "evidence_urls": [
+    "https://consensus.app"
+  ],
+  "confidence": "high",
+  "agent_notes": "[HUMAN OVERRIDE: Consensus has no public API per assignment hint ('OAuth requested').] [HUMAN-IN-THE-LOOP: verified manually with cited docs URL]",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544583.4694026,
+  "human_override_at": 1783545417.4597194
+}

@@ -1,0 +1,43 @@
+{
+  "id": 95,
+  "app_name": "Reducto",
+  "app_slug": "reducto",
+  "category": "AI, Research and Media-native",
+  "website": "https://reducto.ai",
+  "docs_url": "https://docs.reducto.ai/",
+  "primary_docs_url_used": "https://docs.reducto.ai/",
+  "one_line_description": "Document parsing API for unstructured data",
+  "auth_methods": [
+    "api_key"
+  ],
+  "auth_methods_evidence": "Reducto API uses API keys. https://docs.reducto.ai/",
+  "self_serve": true,
+  "self_serve_evidence": "Free tier available. https://reducto.ai/",
+  "gating_type": "free",
+  "api_surface_breadth": "narrow",
+  "api_protocol": [
+    "rest"
+  ],
+  "endpoint_count_estimate": 10,
+  "openapi_spec_available": true,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 3,
+  "buildability_rationale": "Self-serve, API key, OpenAPI spec, but narrow (document parsing only).",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://docs.reducto.ai/"
+  ],
+  "confidence": "medium",
+  "agent_notes": "[HUMAN OVERRIDE: Reducto uses API key, narrow document-parsing API, OpenAPI spec.] [HUMAN-IN-THE-LOOP: verified manually with cited docs URL]",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544607.8042316,
+  "human_override_at": 1783545417.458476
+}

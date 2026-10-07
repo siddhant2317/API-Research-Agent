@@ -1,0 +1,36 @@
+{
+  "app_id": 31,
+  "app_name": "Google Ads",
+  "app_slug": "google-ads",
+  "started_at": 1783544319.8407648,
+  "fetched_urls": [
+    {
+      "url": "https://developers.google.com/google-ads/api/docs/start",
+      "status": 200,
+      "md_len": 41651
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 30.36,
+      "success": false
+    }
+  ],
+  "errors": [
+    "extraction_failed"
+  ],
+  "composio_lookup": {
+    "found": true,
+    "slug": "googleads",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "tools_count": 22
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544352.066045,
+  "duration_s": 32.23
+}

@@ -1,0 +1,35 @@
+{
+  "app_id": 1,
+  "app_name": "Salesforce",
+  "app_slug": "salesforce",
+  "started_at": 1783544203.592052,
+  "fetched_urls": [
+    {
+      "url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_define_resources.htm",
+      "status": 403,
+      "md_len": 0
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 7.44,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": true,
+    "slug": "salesforce",
+    "auth_schemes": [
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "tools_count": 184
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544214.0783675,
+  "duration_s": 10.49
+}

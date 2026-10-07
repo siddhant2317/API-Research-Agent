@@ -1,0 +1,37 @@
+{
+  "app_slug": "amazon-selling-partner",
+  "app_name": "Amazon Selling Partner",
+  "category": "Ecommerce",
+  "original_record": {
+    "auth_methods": [
+      "oauth2"
+    ],
+    "self_serve": true,
+    "gating_type": "free",
+    "buildability_score": 4,
+    "main_blocker": "none",
+    "composio_supported": false,
+    "confidence": "high"
+  },
+  "composio_ground_truth": null,
+  "thinking_reextract": {
+    "auth_methods": [
+      "public",
+      "private",
+      "special"
+    ],
+    "self_serve": true,
+    "gating_type": "registration",
+    "buildability_score": 7,
+    "main_blocker": "authorization setup and role permissions",
+    "confidence": "high",
+    "reasoning": "Amazon provides comprehensive documentation with clear onboarding steps, multiple authorization methods, and resources for both developers and service providers. The API appears to be well-maintained with regular release notes and deprecation schedules."
+  },
+  "field_agreement": {
+    "auth_methods_original_vs_thinking": false,
+    "auth_methods_original_vs_composio": null,
+    "self_serve_agreement": true,
+    "buildability_agreement": false
+  },
+  "verdict": "self_inconsistent"
+}

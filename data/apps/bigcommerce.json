@@ -1,0 +1,45 @@
+{
+  "id": 43,
+  "app_name": "BigCommerce",
+  "app_slug": "bigcommerce",
+  "category": "Ecommerce",
+  "website": "https://bigcommerce.com",
+  "docs_url": "https://developer.bigcommerce.com/api-reference",
+  "primary_docs_url_used": "https://developer.bigcommerce.com/api-reference",
+  "one_line_description": "E-commerce platform with APIs for store management",
+  "auth_methods": [
+    "oauth2",
+    "api_key"
+  ],
+  "auth_methods_evidence": "BigCommerce supports OAuth2 for apps and API keys (Bearer tokens) for store API. Nango lists OAUTH2. https://developer.bigcommerce.com/api-reference",
+  "self_serve": true,
+  "self_serve_evidence": "The documentation shows API token creation endpoints that developers can use without contacting sales",
+  "gating_type": "free_trial",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest",
+    "graphql"
+  ],
+  "endpoint_count_estimate": 200,
+  "openapi_spec_available": false,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 4,
+  "buildability_rationale": "Good documentation with broad API coverage and self-serve authentication, though some endpoints may require enterprise features",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://developer.bigcommerce.com/api-reference"
+  ],
+  "confidence": "high",
+  "agent_notes": "The documentation shows extensive API coverage for both storefront and admin operations with clear authentication methods [NANGO CROSS-CHECK: Nango lists OAUTH2. Updated \u2014 BigCommerce supports both OAuth2 and API keys.]",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544373.4702,
+  "cross_checked_at": 1783548223.4242997
+}

@@ -1,0 +1,35 @@
+{
+  "app_id": 32,
+  "app_name": "Meta Ads",
+  "app_slug": "meta-ads",
+  "started_at": 1783544324.1022363,
+  "fetched_urls": [
+    {
+      "url": "https://developers.facebook.com/docs/marketing-apis",
+      "status": 400,
+      "md_len": 0
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 7.95,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": true,
+    "slug": "metaads",
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "tools_count": 50
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544333.84628,
+  "duration_s": 9.74
+}

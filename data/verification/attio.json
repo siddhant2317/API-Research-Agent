@@ -1,0 +1,44 @@
+{
+  "app_slug": "attio",
+  "app_name": "Attio",
+  "category": "CRM and Sales",
+  "original_record": {
+    "auth_methods": [
+      "oauth2"
+    ],
+    "self_serve": true,
+    "gating_type": "free",
+    "buildability_score": 4,
+    "main_blocker": "none",
+    "composio_supported": true,
+    "confidence": "high"
+  },
+  "composio_ground_truth": {
+    "slug": "attio",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "tools_count": 99,
+    "normalized_auth": [
+      "oauth2"
+    ]
+  },
+  "thinking_reextract": {
+    "auth_methods": [
+      "oauth2"
+    ],
+    "self_serve": true,
+    "gating_type": "unknown",
+    "buildability_score": 8,
+    "main_blocker": "unknown",
+    "confidence": "high",
+    "reasoning": "Attio provides a comprehensive developer platform with multiple integration options (SDK, REST API, MCP, SQL) and uses OAuth2 authentication, which is standard for modern APIs. The presence of 99 tools and extensive documentation suggests high buildability."
+  },
+  "field_agreement": {
+    "auth_methods_original_vs_thinking": true,
+    "auth_methods_original_vs_composio": true,
+    "self_serve_agreement": true,
+    "buildability_agreement": false
+  },
+  "verdict": "correct"
+}

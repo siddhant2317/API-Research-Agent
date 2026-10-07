@@ -1,0 +1,37 @@
+{
+  "app_id": 2,
+  "app_name": "HubSpot",
+  "app_slug": "hubspot",
+  "started_at": 1783544203.806449,
+  "fetched_urls": [
+    {
+      "url": "https://developers.hubspot.com/docs/api/overview",
+      "status": 200,
+      "md_len": 2120
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 30.35,
+      "success": false
+    }
+  ],
+  "errors": [
+    "extraction_failed"
+  ],
+  "composio_lookup": {
+    "found": true,
+    "slug": "hubspot",
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "tools_count": 244
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544237.1798344,
+  "duration_s": 33.37
+}

@@ -1,0 +1,35 @@
+{
+  "app_id": 19,
+  "app_name": "Gorgias",
+  "app_slug": "gorgias",
+  "started_at": 1783544274.5939224,
+  "fetched_urls": [
+    {
+      "url": "https://docs.gorgias.com/en-us/api",
+      "status": 404,
+      "md_len": 0
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 6.92,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": true,
+    "slug": "gorgias",
+    "auth_schemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "tools_count": 32
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544282.8831503,
+  "duration_s": 8.29
+}

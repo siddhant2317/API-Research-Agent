@@ -1,0 +1,48 @@
+{
+  "id": 56,
+  "app_name": "Firecrawl",
+  "app_slug": "firecrawl",
+  "category": "Data, SEO and Scraping",
+  "website": "https://firecrawl.dev",
+  "docs_url": "https://docs.firecrawl.dev/",
+  "primary_docs_url_used": "https://docs.firecrawl.dev/",
+  "one_line_description": "Web crawling, scraping, and search API for AI",
+  "auth_methods": [
+    "api_key"
+  ],
+  "auth_methods_evidence": "Sign up and get your API key to start using Firecrawl",
+  "self_serve": true,
+  "self_serve_evidence": "Sign up and get your API key to start using Firecrawl",
+  "gating_type": "free_trial",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest",
+    "webhook"
+  ],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": false,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:firecrawl"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "API_KEY"
+  ],
+  "composio_tools_count": 29,
+  "buildability_score": 5,
+  "buildability_rationale": "Self-serve with API key authentication, good documentation, broad API surface, free trial available, and MCP server exists.",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://docs.firecrawl.dev/",
+    "https://docs.firecrawl.dev/introduction"
+  ],
+  "confidence": "high",
+  "agent_notes": "Firecrawl provides a comprehensive API for web scraping, searching, and interacting with web content. It offers SDKs for multiple programming languages and has MCP server support through Composio.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544435.6416843
+}

@@ -1,0 +1,35 @@
+{
+  "app_id": 88,
+  "app_name": "Brex",
+  "app_slug": "brex",
+  "started_at": 1783544554.7073925,
+  "fetched_urls": [
+    {
+      "url": "https://developer.brex.com/",
+      "status": 200,
+      "md_len": 4030
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 8.83,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": true,
+    "slug": "brex",
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "tools_count": 84
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544564.7320993,
+  "duration_s": 10.02
+}

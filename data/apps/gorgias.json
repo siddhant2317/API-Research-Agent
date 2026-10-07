@@ -1,0 +1,50 @@
+{
+  "id": 19,
+  "app_name": "Gorgias",
+  "app_slug": "gorgias",
+  "category": "Support and Helpdesk",
+  "website": "https://gorgias.com",
+  "docs_url": "https://docs.gorgias.com/en-us/api",
+  "primary_docs_url_used": "https://docs.gorgias.com/en-us/api",
+  "one_line_description": "Ecommerce-focused helpdesk with REST API",
+  "auth_methods": [
+    "api_key",
+    "oauth2"
+  ],
+  "auth_methods_evidence": "Gorgias API uses API token (Bearer) and OAuth 2.0. https://docs.gorgias.com/en-us/api",
+  "self_serve": true,
+  "self_serve_evidence": "Limited free trial; API tokens in settings. https://www.gorgias.com/pricing",
+  "gating_type": "free_trial",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest",
+    "webhook"
+  ],
+  "endpoint_count_estimate": 60,
+  "openapi_spec_available": false,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:gorgias"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "API_KEY",
+    "OAUTH2"
+  ],
+  "composio_tools_count": 32,
+  "buildability_score": 4,
+  "buildability_rationale": "Self-serve trial, API key + OAuth2, Composio-supported, broad API.",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://docs.gorgias.com/en-us/api"
+  ],
+  "confidence": "high",
+  "agent_notes": "[HUMAN OVERRIDE: Gorgias uses API token + OAuth2. Free trial. Composio-supported.] [HUMAN-IN-THE-LOOP: verified manually with cited docs URL]",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544282.8828313,
+  "human_override_at": 1783545417.4537113
+}

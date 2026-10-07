@@ -1,0 +1,35 @@
+{
+  "app_slug": "paygent-connect",
+  "app_name": "Paygent Connect",
+  "category": "Finance and Fintech",
+  "original_record": {
+    "auth_methods": [],
+    "self_serve": false,
+    "gating_type": "enterprise_only",
+    "buildability_score": 0,
+    "main_blocker": "gated_access",
+    "composio_supported": false,
+    "confidence": "medium"
+  },
+  "composio_ground_truth": null,
+  "thinking_reextract": {
+    "auth_methods": [
+      "API key",
+      "OAuth",
+      "Basic Auth"
+    ],
+    "self_serve": false,
+    "gating_type": "unknown",
+    "buildability_score": 2,
+    "main_blocker": "No documentation available",
+    "confidence": "low",
+    "reasoning": "Paygent Connect is not documented in the provided markdown and is not present in the Composio registry. Without accessible documentation, it's impossible to accurately assess the API's authentication methods, self-serve availability, or other characteristics. The assessment is based on general assum"
+  },
+  "field_agreement": {
+    "auth_methods_original_vs_thinking": false,
+    "auth_methods_original_vs_composio": null,
+    "self_serve_agreement": true,
+    "buildability_agreement": false
+  },
+  "verdict": "self_inconsistent"
+}

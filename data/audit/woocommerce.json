@@ -1,0 +1,32 @@
+{
+  "app_id": 42,
+  "app_name": "WooCommerce",
+  "app_slug": "woocommerce",
+  "started_at": 1783544358.0457594,
+  "fetched_urls": [
+    {
+      "url": "https://woocommerce.com/document/woocommerce-rest-api/",
+      "status": 200,
+      "md_len": 12340
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 24.02,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544383.9289954,
+  "duration_s": 25.88
+}

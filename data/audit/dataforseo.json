@@ -1,0 +1,34 @@
+{
+  "app_id": 51,
+  "app_name": "DataForSEO",
+  "app_slug": "dataforseo",
+  "started_at": 1783544397.7247128,
+  "fetched_urls": [
+    {
+      "url": "https://docs.dataforseo.com/v3/",
+      "status": 200,
+      "md_len": 52863
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 8.02,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": true,
+    "slug": "dataforseo",
+    "auth_schemes": [
+      "BASIC"
+    ],
+    "tools_count": 312
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544410.9011965,
+  "duration_s": 13.18
+}

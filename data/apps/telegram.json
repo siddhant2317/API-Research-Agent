@@ -1,0 +1,47 @@
+{
+  "id": 27,
+  "app_name": "Telegram",
+  "app_slug": "telegram",
+  "category": "Communications and Messaging",
+  "website": "https://telegram.org",
+  "docs_url": "https://core.telegram.org/bots/api",
+  "primary_docs_url_used": "https://core.telegram.org/bots/api",
+  "one_line_description": "Cloud-based messaging app with focus on security and speed",
+  "auth_methods": [
+    "api_key"
+  ],
+  "auth_methods_evidence": "Each bot is given a unique authentication token when it is created. The token looks something like `123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11`",
+  "self_serve": true,
+  "self_serve_evidence": "You can learn about obtaining tokens and generating new ones in this document",
+  "gating_type": "free",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest",
+    "webhook"
+  ],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": false,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:telegram"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "API_KEY"
+  ],
+  "composio_tools_count": 18,
+  "buildability_score": 5,
+  "buildability_rationale": "Self-serve API key authentication, comprehensive documentation, broad API surface with webhook support, and Composio integration",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://core.telegram.org/bots/api"
+  ],
+  "confidence": "high",
+  "agent_notes": "The Telegram Bot API provides a well-documented, self-service authentication system using API tokens. The API supports both REST and webhook patterns, with extensive functionality for building bots.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544313.0313342
+}

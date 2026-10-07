@@ -1,0 +1,42 @@
+{
+  "id": 54,
+  "app_name": "MrScraper",
+  "app_slug": "mrscraper",
+  "category": "Data, SEO and Scraping",
+  "website": "https://mrscraper.com",
+  "docs_url": "https://docs.mrscraper.com/",
+  "primary_docs_url_used": "https://docs.mrscraper.com/",
+  "one_line_description": "AI-powered web scraping platform for data extraction",
+  "auth_methods": [
+    "api_key"
+  ],
+  "auth_methods_evidence": "Token Plan (/docs/getting-started/api-token)",
+  "self_serve": true,
+  "self_serve_evidence": "Quickstart (/docs/getting-started/quickstart) and API Token (/docs/getting-started/api-token) sections suggest self-service access",
+  "gating_type": "free_trial",
+  "api_surface_breadth": "medium",
+  "api_protocol": [
+    "rest"
+  ],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": false,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 3,
+  "buildability_rationale": "API key authentication with decent documentation but unclear endpoint count and trial limitations",
+  "main_blocker": "gated_access",
+  "evidence_urls": [
+    "https://docs.mrscraper.com/"
+  ],
+  "confidence": "medium",
+  "agent_notes": "Documentation mentions API token authentication but doesn't provide clear details about endpoint count or pricing structure",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544423.9154592
+}

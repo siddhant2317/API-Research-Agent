@@ -1,0 +1,43 @@
+{
+  "id": 63,
+  "app_name": "Netlify",
+  "app_slug": "netlify",
+  "category": "Developer, Infra and Data platforms",
+  "website": "https://netlify.com",
+  "docs_url": "https://docs.netlify.com/api/get-started/",
+  "primary_docs_url_used": "https://docs.netlify.com/api/get-started/",
+  "one_line_description": "Platform for deploying and managing modern web applications",
+  "auth_methods": [
+    "oauth2",
+    "bearer_token"
+  ],
+  "auth_methods_evidence": "Netlify uses OAuth2 for authentication. All requests must use HTTPS. To generate a personal access token (PAT):...Use your PAT for manual authentication in shell scripts or commands that use the Netlify API. To authenticate API requests, include the token in the authorization header: `Authorization: Bearer <YOUR_PERSONAL_ACCESS_TOKEN>`",
+  "self_serve": true,
+  "self_serve_evidence": "To generate a personal access token (PAT): 1. Go to [ Applications > Personal access tokens](https://app.netlify.com/user/applications#personal-access-tokens). 2. Select New access token.",
+  "gating_type": "free",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest"
+  ],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": true,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 4,
+  "buildability_rationale": "Good documentation, OAuth2 and bearer token authentication, broad API surface, and self-serve access with free tier available.",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://docs.netlify.com/api/get-started/"
+  ],
+  "confidence": "high",
+  "agent_notes": "The documentation provides clear authentication methods and API usage instructions. The API has a broad surface area with multiple endpoints for various functionalities.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544462.371754
+}

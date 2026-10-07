@@ -1,0 +1,4 @@
+Verifying 25 apps (stratified sample)
+Sample: ['Apify', 'Ahrefs', 'DataForSEO', 'Pumble', 'Zoho Cliq', 'Lark (Larksuite)', 'Asana', 'Notion', 'Smartsheet', 'WooCommerce', 'Salesforce Commerce Cloud', 'Amazon Selling Partner', 'Attio', 'Close', 'DealCloud', 'Paygent Connect', 'Stripe', 'Binance', 'Supabase', 'MongoDB Atlas', 'Sentry', 'Grain', 'Otter AI', 'higgsfield', 'Freshdesk']
+  ? apify
+  ? ahrefs

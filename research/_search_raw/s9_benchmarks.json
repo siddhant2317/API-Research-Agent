@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://rapidclaw.dev/blog/ai-agent-benchmarks-2026",
+    "name": "AI Agent Leaderboard 2026 [All 5 Benchmarks Ranked] | Rapid Claw",
+    "snippet": "In April 2026, Claude Opus 4.7 leads SWE-bench Verified at 87.6% and Claude Sonnet 4.5 leads GAIA (Princeton HAL) at 74.6%. Anthropic models ...",
+    "host_name": "rapidclaw.dev",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.swebench.com",
+    "name": "SWE-bench Leaderboards",
+    "snippet": "mini-SWE-agent scores up to 74% on SWE-bench Verified in 100 lines of Python code. Click here to learn more. Verified Multilingual Lite Full Multimodal.",
+    "host_name": "www.swebench.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.spheron.network/blog/ai-agent-benchmarking-gpu-cloud-swebench-gaia",
+    "name": "AI Agent Benchmarking Infrastructure on GPU Cloud: Run SWE-bench",
+    "snippet": "Every major lab published SWE-bench and GAIA numbers in 2026. Behind every number is a repeatable infrastructure: Docker sandboxes, ...",
+    "host_name": "www.spheron.network",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://moogician.github.io/blog/2026/trustworthy-benchmarks-cont",
+    "name": "How We Broke Top AI Agent Benchmarks: And What Comes Next",
+    "snippet": "We built an automated scanning agent that systematically audited eight among the most prominent AI agent benchmarks — SWE-bench, WebArena, ...",
+    "host_name": "moogician.github.io",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.adaline.ai/blog/evaluating-ai-agents-in-2026",
+    "name": "Evaluating AI Agents In 2026: Benchmarks For Teams | Adaline",
+    "snippet": "On broader agent benchmarks, the 2026 AI Index reports GAIA accuracy at 74.5%, WebArena success at 74.3% against a 78.24% human baseline, ...",
+    "host_name": "www.adaline.ai",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://leaderboard.steel.dev/results",
+    "name": "AI Agent Benchmark Results: All 13 Leaderboards in One Index",
+    "snippet": "Browse 312 sourced results across 13 AI agent benchmarks — WebVoyager, WebArena, OSWorld, SWE-bench Verified, GAIA, BrowseComp, and more.",
+    "host_name": "leaderboard.steel.dev",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2605.20530v1",
+    "name": "AgentAtlas: Beyond Outcome Leaderboards for LLM Agents - arXiv",
+    "snippet": "Between 2023 and early 2026 the best verified success rates on the four canonical outcome benchmarks (OSWorld, WebArena, GAIA (Mialon et al., ...",
+    "host_name": "arxiv.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://decodethefuture.org/en/ai-agent-benchmarks-2026",
+    "name": "AI Agent Benchmarks 2026: 6 Tests That Matter - decodethefuture",
+    "snippet": "Top scores cluster between 74–94% on the easier suites — but those numbers are inflated by 5–15 points by contamination, scaffolding, and single ...",
+    "host_name": "decodethefuture.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

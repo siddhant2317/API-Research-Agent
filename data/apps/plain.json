@@ -1,0 +1,49 @@
+{
+  "id": 17,
+  "app_name": "Plain",
+  "app_slug": "plain",
+  "category": "Support and Helpdesk",
+  "website": "https://plain.com",
+  "docs_url": "https://www.plain.com/docs/api",
+  "primary_docs_url_used": "https://www.plain.com/docs/api",
+  "agent_notes": "Official documentation at https://www.plain.com/docs/api returns 404 error, making it difficult to verify certain details.",
+  "confidence": "medium",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": [
+      "extraction_failed"
+    ],
+    "retry_thinking_enabled": true,
+    "retry_succeeded": true
+  },
+  "researched_at": 1783544296.9613793,
+  "one_line_description": "B2B support platform with AI-powered interface",
+  "auth_methods": [
+    "API_KEY"
+  ],
+  "auth_methods_evidence": "From Composio registry: auth_schemes: [\"API_KEY\"]",
+  "self_serve": "unknown",
+  "self_serve_evidence": "Official docs URL (https://www.plain.com/docs/api) returns 404 error",
+  "gating_type": "unknown",
+  "api_surface_breadth": "broad",
+  "api_protocol": [],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": false,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:plain"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "API_KEY"
+  ],
+  "composio_tools_count": 22,
+  "buildability_score": 3,
+  "buildability_rationale": "API key authentication available with good tool coverage but docs inaccessible",
+  "main_blocker": "poor_docs",
+  "evidence_urls": [
+    "https://www.plain.com/docs/api"
+  ],
+  "retried_at": 1783545294.5972972
+}

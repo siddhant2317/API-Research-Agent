@@ -1,0 +1,46 @@
+{
+  "id": 82,
+  "app_name": "Plaid",
+  "app_slug": "plaid",
+  "category": "Finance and Fintech",
+  "website": "https://plaid.com",
+  "docs_url": "https://plaid.com/docs/api/",
+  "primary_docs_url_used": "https://plaid.com/docs/api/",
+  "agent_notes": "[HUMAN OVERRIDE: Plaid uses client_id+secret \u2192 access_token model. Free sandbox for developers.] [HUMAN-IN-THE-LOOP: verified manually with cited docs URL]",
+  "confidence": "high",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": [
+      "extraction_failed"
+    ]
+  },
+  "researched_at": 1783544567.214019,
+  "auth_methods": [
+    "api_key",
+    "client_credentials"
+  ],
+  "auth_methods_evidence": "Plaid uses client_id + secret for API auth, exchanged for access_token. https://plaid.com/docs/api/tokens/",
+  "self_serve": true,
+  "self_serve_evidence": "Free Sandbox tier with test credentials, no sales contact. https://plaid.com/docs/sandbox/",
+  "gating_type": "free_trial",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest",
+    "webhook"
+  ],
+  "endpoint_count_estimate": 80,
+  "openapi_spec_available": true,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "buildability_score": 5,
+  "buildability_rationale": "Self-serve sandbox, broad API, OpenAPI spec, well-documented.",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://plaid.com/docs/api/",
+    "https://plaid.com/docs/sandbox/"
+  ],
+  "one_line_description": "Financial data API connecting banks to apps",
+  "human_override_at": 1783545417.4350219
+}

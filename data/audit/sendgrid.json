@@ -1,0 +1,34 @@
+{
+  "app_id": 40,
+  "app_name": "SendGrid",
+  "app_slug": "sendgrid",
+  "started_at": 1783544352.0684311,
+  "fetched_urls": [
+    {
+      "url": "https://docs.sendgrid.com/api-reference",
+      "status": 200,
+      "md_len": 52354
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 12.3,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": true,
+    "slug": "sendgrid",
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "tools_count": 359
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544366.4095106,
+  "duration_s": 14.34
+}

@@ -1,0 +1,50 @@
+{
+  "id": 8,
+  "app_name": "Close",
+  "app_slug": "close",
+  "category": "CRM and Sales",
+  "website": "https://close.com",
+  "docs_url": "https://developer.close.com/",
+  "primary_docs_url_used": "https://developer.close.com/",
+  "one_line_description": "CRM platform for sales process management and automation",
+  "auth_methods": [
+    "api_key",
+    "oauth2"
+  ],
+  "auth_methods_evidence": "AuthenticationAPI keys for scripts or OAuth 2.0 for user-facing integrations.",
+  "self_serve": true,
+  "self_serve_evidence": "Build an IntegrationCreate an OAuth app, connect your product, and get listed.",
+  "gating_type": "free",
+  "api_surface_breadth": "medium",
+  "api_protocol": [
+    "rest",
+    "webhook"
+  ],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": false,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:close"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "API_KEY"
+  ],
+  "composio_tools_count": 6,
+  "buildability_score": 4,
+  "buildability_rationale": "Good docs with both API key and OAuth2 auth, free self-serve access, and Composio support with 6 tools.",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://developer.close.com/"
+  ],
+  "confidence": "high",
+  "agent_notes": "The docs mention both API key and OAuth2 authentication methods. The Composio registry confirms API key auth and lists 6 tools. The platform appears to be free with self-serve integration options.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544238.9442668,
+  "verification_note": "Note: agent found [api_key, oauth2] but Composio lists only [api_key]. Close API primarily uses API keys; OAuth2 support is uncertain. Marked as partial \u2014 agent may have over-reported.",
+  "audited_at": 1783548121.090097
+}

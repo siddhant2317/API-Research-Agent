@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://github.com/composiohq/composio",
+    "name": "ComposioHQ/composio - GitHub",
+    "snippet": "The Python SDK offers a Pythonic interface to Composio's services, making it easy to integrate Composio into your Python applications. It supports Python 3.10+",
+    "host_name": "github.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://composio.dev",
+    "name": "Composio",
+    "snippet": "Connect your AI to 1,000+ apps. SDK, tool execution, and agent infrastructure for production workloads. SDK, tool execution, and agent infrastructure for ...",
+    "host_name": "composio.dev",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pypi.org/project/composio",
+    "name": "composio - PyPI",
+    "snippet": "The Composio Python SDK allows you to interact with the Composio Platform. It way to manage and execute tools, functionality to list, retrieve, and execute ...",
+    "host_name": "pypi.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.together.ai/docs/composio",
+    "name": "Composio - Together AI docs",
+    "snippet": "Composio allows developers to integrate external tools and services into their AI applications. It handles tool calling, web-hooks, authentication, and more.",
+    "host_name": "docs.together.ai",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dev.to/composiodev/openai-agents-sdk-a-step-by-step-guide-to-building-real-world-mcp-agents-with-composio-4f92?ref=aiagentinsider.ai",
+    "name": "OpenAI Agents SDK: A Step-by-Step Guide to Building Real-World MCP",
+    "snippet": "The following examples show how to use the OpenAI Agents SDK to run MCP agents connected to real tools via Composio. Before running these ...",
+    "host_name": "dev.to",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.linkup.so/pages/integrations/composio/composio",
+    "name": "Composio - Linkup API Documentation",
+    "snippet": "Log in to your Composio account at composio.dev. ... Navigate to the All Apps section in Composio and search for “Linkup”. Search for tools in Composio",
+    "host_name": "docs.linkup.so",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.tavily.com/documentation/integrations/composio",
+    "name": "Composio - Tavily Docs",
+    "snippet": "Composio provides a platform to connect your AI agents to external tools like Tavily, making it easy to incorporate real-time web search and data extraction ...",
+    "host_name": "docs.tavily.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=sgXnucSW6nc",
+    "name": "How To Make Machines Work With Composio Part 2 - YouTube",
+    "snippet": "... App interaction process 4) Recap ... Introducing Composio Tools Agentic LLMs API Gateway| How To Make Machines Work With Composio Part 2.",
+    "host_name": "www.youtube.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

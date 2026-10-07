@@ -1,0 +1,47 @@
+{
+  "id": 96,
+  "app_name": "Devin",
+  "app_slug": "devin",
+  "category": "AI, Research and Media-native",
+  "website": "https://devin.ai",
+  "docs_url": "https://docs.devin.ai/",
+  "primary_docs_url_used": "https://docs.devin.ai/",
+  "one_line_description": "AI software engineer that writes, runs and tests code",
+  "auth_methods": [
+    "api_key"
+  ],
+  "auth_methods_evidence": "Devin is available via the Devin API. The Composio registry shows API_KEY as an auth scheme.",
+  "self_serve": true,
+  "self_serve_evidence": "To access Devin, sign up at app.devin.ai. Individual and Teams plans are available. You can also install Devin CLI to use Devin directly from your command line.",
+  "gating_type": "free_trial",
+  "api_surface_breadth": "unknown",
+  "api_protocol": [
+    "other"
+  ],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": false,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:devin_mcp"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "API_KEY"
+  ],
+  "composio_tools_count": 4,
+  "buildability_score": 3,
+  "buildability_rationale": "API key authentication available, MCP server exists with 4 tools, but API documentation is limited and access requires sign-up.",
+  "main_blocker": "poor_docs",
+  "evidence_urls": [
+    "https://docs.devin.ai/",
+    "https://mcp.devin.ai/mcp"
+  ],
+  "confidence": "medium",
+  "agent_notes": "The documentation mentions an API but doesn't provide detailed API documentation or authentication details beyond mentioning API key authentication through Composio.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544601.267447
+}

@@ -1,0 +1,49 @@
+{
+  "id": 1,
+  "app_name": "Salesforce",
+  "app_slug": "salesforce",
+  "category": "CRM and Sales",
+  "website": "https://salesforce.com",
+  "docs_url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_define_resources.htm",
+  "primary_docs_url_used": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_define_resources.htm",
+  "one_line_description": "Leading CRM platform for customer relationship management",
+  "auth_methods": [
+    "oauth2",
+    "s2s_oauth2"
+  ],
+  "auth_methods_evidence": "Composio registry shows auth_schemes: [\"OAUTH2\", \"S2S_OAUTH2\"]",
+  "self_serve": true,
+  "self_serve_evidence": "Composio registry indicates this is a publicly accessible CRM platform with developer tools, suggesting self-serve access is available",
+  "gating_type": "free_trial",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest",
+    "soap"
+  ],
+  "endpoint_count_estimate": 184,
+  "openapi_spec_available": false,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:salesforce"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "OAUTH2",
+    "S2S_OAUTH2"
+  ],
+  "composio_tools_count": 184,
+  "buildability_score": 4,
+  "buildability_rationale": "Broad API with OAuth2 authentication, self-serve access, and Composio support, though official docs were inaccessible",
+  "main_blocker": "poor_docs",
+  "evidence_urls": [
+    "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_define_resources.htm"
+  ],
+  "confidence": "medium",
+  "agent_notes": "Official docs URL returned 403 error, but Composio registry provides comprehensive information about Salesforce's API capabilities and authentication methods",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544214.0780706
+}

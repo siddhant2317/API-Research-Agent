@@ -1,0 +1,32 @@
+{
+  "app_id": 37,
+  "app_name": "systeme.io",
+  "app_slug": "systeme-io",
+  "started_at": 1783544341.4547317,
+  "fetched_urls": [
+    {
+      "url": "https://docs.systeme.io/",
+      "status": 404,
+      "md_len": 0
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 6.28,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544350.807764,
+  "duration_s": 9.35
+}

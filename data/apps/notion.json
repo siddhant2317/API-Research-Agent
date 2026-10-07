@@ -1,0 +1,50 @@
+{
+  "id": 71,
+  "app_name": "Notion",
+  "app_slug": "notion",
+  "category": "Productivity and Project Management",
+  "website": "https://notion.so",
+  "docs_url": "https://developers.notion.com/reference/intro",
+  "primary_docs_url_used": "https://developers.notion.com/reference/intro",
+  "one_line_description": "Centralizes notes, docs, wikis, and tasks in a unified workspace",
+  "auth_methods": [
+    "oauth2",
+    "api_key",
+    "bearer_token"
+  ],
+  "auth_methods_evidence": "A bearer token is required to interact with the Notion API. Use an installation access token from an internal connection, an OAuth access token from a public connection, or a personal access token",
+  "self_serve": true,
+  "self_serve_evidence": "If you're not an admin in any of your workspaces, create a personal workspace for free or use a PAT where workspace policy allows it",
+  "gating_type": "free",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest",
+    "webhook"
+  ],
+  "endpoint_count_estimate": 50,
+  "openapi_spec_available": false,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:notion"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "OAUTH2",
+    "API_KEY"
+  ],
+  "composio_tools_count": 45,
+  "buildability_score": 5,
+  "buildability_rationale": "Self-serve with good docs, broad API, multiple auth options, and Composio support",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://developers.notion.com/reference/intro"
+  ],
+  "confidence": "high",
+  "agent_notes": "Notion offers comprehensive API documentation with multiple authentication methods and a broad set of endpoints for integration",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544496.9380884
+}

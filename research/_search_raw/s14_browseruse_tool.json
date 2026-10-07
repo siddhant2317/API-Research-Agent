@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://github.com/browser-use/browser-use",
+    "name": "GitHub - browser-use/browser-use: Make websites accessible for AI",
+    "snippet": "The CLI allows your agent to control the browser via Python, and it manages the browser in the background. Agent Skill. For Claude Code, Codex, and other agents ...\nBrowser-Use is open source and free to use. You only need to choose an LLM provider (like OpenAI, Google, ChatBrowserUse, or run local models with Ollama).",
+    "host_name": "github.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://browser-use.com",
+    "name": "Browser Use - The way AI uses the internet",
+    "snippet": "Browser Harness. Open-source, thin, self-healing harness. Give your agent superpowers to complete any task on the web.\nThe Way AI uses the web. Agents at scale. Undetectable browsers. The API for any website. Get Started. Trusted by teams at.",
+    "host_name": "browser-use.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/syntest/llm-model-browser-use-web-ui-create-your-own-ai-agent-and-automate-browser-tasks-c90021aee14c",
+    "name": "LLM Model + browser-use + Web-UI: Create your own AI agent and",
+    "snippet": "Setting up browser-use and Web UI can push your AI-powered web automation, but many developers run into tricky Python, pip, and environment issues.",
+    "host_name": "medium.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/browser-use/web-ui",
+    "name": "browser-use/web-ui: 🖥️ Run AI Agent in your browser. - GitHub",
+    "snippet": "This project builds upon the foundation of the browser-use, which is designed to make websites accessible for AI agents.",
+    "host_name": "github.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/vercel-labs/agent-browser",
+    "name": "vercel-labs/agent-browser: Browser automation CLI for AI agents",
+    "snippet": "## Browser Automation Use `agent-browser` for web automation. Run `agent-browser --help` for all commands. Core workflow: 1. `agent-browser open <url> ...\nServes bundled skill content that always matches the installed CLI version. AI agents use this to get current instructions rather than relying on cached copies.",
+    "host_name": "github.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/topics/ai-browser-agent",
+    "name": "ai-browser-agent · GitHub Topics",
+    "snippet": "Agent First Browse: An autonomous AI web automation tool built with Python and Playwright to handle complex web tasks, DOM interactions, and form filling.",
+    "host_name": "github.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "app_id": 92,
+  "app_name": "Otter AI",
+  "app_slug": "otter-ai",
+  "started_at": 1783544568.0655344,
+  "fetched_urls": [
+    {
+      "url": "https://help.otter.ai/s/article/Otter-API",
+      "status": 404,
+      "md_len": 0
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 22.43,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544592.0748372,
+  "duration_s": 24.01
+}

@@ -1,0 +1,35 @@
+{
+  "app_id": 71,
+  "app_name": "Notion",
+  "app_slug": "notion",
+  "started_at": 1783544487.4383316,
+  "fetched_urls": [
+    {
+      "url": "https://developers.notion.com/reference/intro",
+      "status": 200,
+      "md_len": 9515
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 8.49,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": true,
+    "slug": "notion",
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "tools_count": 45
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544496.9383962,
+  "duration_s": 9.5
+}

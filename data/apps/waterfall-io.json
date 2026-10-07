@@ -1,0 +1,43 @@
+{
+  "id": 59,
+  "app_name": "Waterfall.io",
+  "app_slug": "waterfall-io",
+  "category": "Data, SEO and Scraping",
+  "website": "https://waterfall.io",
+  "docs_url": "https://docs.waterfall.io/",
+  "primary_docs_url_used": "https://docs.waterfall.io/",
+  "one_line_description": "Find and enrich contacts, prospect by title and company, verify emails",
+  "auth_methods": [
+    "api_key"
+  ],
+  "auth_methods_evidence": "All requests require an API key in the `x-api-key` header.",
+  "self_serve": true,
+  "self_serve_evidence": "API Keys Management section in docs suggests developers can manage their own keys",
+  "gating_type": "free_trial",
+  "api_surface_breadth": "medium",
+  "api_protocol": [
+    "rest",
+    "webhook"
+  ],
+  "endpoint_count_estimate": 15,
+  "openapi_spec_available": true,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 4,
+  "buildability_rationale": "Good API documentation with clear endpoints, API key authentication, and self-serve access",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://docs.waterfall.io/"
+  ],
+  "confidence": "high",
+  "agent_notes": "The API appears well-documented with clear endpoints for various data enrichment and prospecting functions. The documentation includes an OpenAPI specification and suggests developers can manage their own API keys.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544447.6024284
+}

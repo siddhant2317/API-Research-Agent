@@ -1,0 +1,32 @@
+{
+  "app_id": 6,
+  "app_name": "Podio",
+  "app_slug": "podio",
+  "started_at": 1783544214.0799732,
+  "fetched_urls": [
+    {
+      "url": "https://developers.podio.com/",
+      "status": 200,
+      "md_len": 4317
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 7.16,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544226.9201992,
+  "duration_s": 12.84
+}

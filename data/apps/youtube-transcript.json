@@ -1,0 +1,45 @@
+{
+  "id": 99,
+  "app_name": "YouTube Transcript",
+  "app_slug": "youtube-transcript",
+  "category": "AI, Research and Media-native",
+  "website": "https://transcriptapi.com",
+  "docs_url": "https://transcriptapi.com/",
+  "primary_docs_url_used": "https://transcriptapi.com/",
+  "one_line_description": "Get YouTube transcripts, search videos, browse channels via API",
+  "auth_methods": [
+    "api_key",
+    "bearer_token"
+  ],
+  "auth_methods_evidence": "curl \"https://transcriptapi.com/api/v2/youtube/transcript?video_url=dQw4w9WgXcQ&format=\" \n      -H \"Authorization: Bearer API_KEY\"",
+  "self_serve": true,
+  "self_serve_evidence": "Get a free API key at transcriptapi.com/signup",
+  "gating_type": "free_trial",
+  "api_surface_breadth": "medium",
+  "api_protocol": [
+    "rest"
+  ],
+  "endpoint_count_estimate": 6,
+  "openapi_spec_available": false,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "https://transcriptapi.com/mcp"
+  ],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 4,
+  "buildability_rationale": "Self-serve with good docs, API key auth, and MCP support available",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://transcriptapi.com/"
+  ],
+  "confidence": "high",
+  "agent_notes": "The API provides multiple endpoints for YouTube content access including transcripts, search, channel browsing, and playlist extraction. It offers both REST API and MCP integration options.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544608.8308923
+}

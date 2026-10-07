@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://medium.com/@adnanmasood/a-field-guide-to-llm-failure-modes-5ffaeeb08e80",
+    "name": "A Field Guide to LLM Failure Modes | by Adnan Masood, PhD.",
+    "snippet": "A Field Guide to LLM Failure Modes. Diagnose, mitigate, and monitor the 20+ ways LLMs go wrong — with checklists, code snippets, and guardrails.",
+    "host_name": "medium.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2509.25498v1",
+    "name": "Not Wrong, But Untrue: LLM Overconfidence in Document-Based",
+    "snippet": "Our annotations also suggest ways that hallucination taxonomies should expand to capture journalism's specific failure modes. Existing ...",
+    "host_name": "arxiv.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.adlibsoftware.com/news/why-llms-hallucinate-more-on-enterprise-documents",
+    "name": "Why LLMs Hallucinate More on Enterprise Documents, And What to",
+    "snippet": "LLM hallucination in enterprise AI is rarely a model problem. It's an input quality problem. Learn why enterprise documents create higher ...",
+    "host_name": "www.adlibsoftware.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/paulbostick_the-default-failure-mode-of-an-llm-in-business-activity-7458523076394172416-vS0j",
+    "name": "LLM Default Failure Mode: Confident Hallucination in Business",
+    "snippet": "The default failure mode of an LLM in business software is confident hallucination. The model doesn't know what it doesn't know.",
+    "host_name": "www.linkedin.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.firecrawl.dev/blog/reduce-llm-hallucinations",
+    "name": "Reduce LLM & Agent Hallucinations With Real-Time Web Search",
+    "snippet": "LLM agents hallucinate from stale data and knowledge gaps. Why hallucinations persist despite smarter models, and how real-time web search ...",
+    "host_name": "www.firecrawl.dev",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.evidentlyai.com/blog/llm-hallucination-examples",
+    "name": "LLM hallucinations and failures: lessons from 5 examples",
+    "snippet": "One common issue is LLM hallucination, where the model generates factually incorrect or fabricated information. Malicious users can also ...",
+    "host_name": "www.evidentlyai.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dev.to/maximsaplin/ai-agent-failure-modes-beyond-hallucination-208g",
+    "name": "AI Agent Failure Modes Beyond Hallucination - DEV Community",
+    "snippet": "AI Agent Failure Modes Beyond Hallucination ... AI can make mistakes, models hallucinate, models make stuff up - those are well-known complaints.",
+    "host_name": "dev.to",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://insightfinder.com/blog/hallucination-root-cause-analysis-llm-failure-modes",
+    "name": "How to Diagnose and Prevent LLM Failure Modes - InsightFinder AI",
+    "snippet": "Learn how to diagnose the root causes of LLM hallucinations and prevent failure modes by applying observability across retrieval, ...",
+    "host_name": "insightfinder.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

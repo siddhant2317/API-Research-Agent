@@ -1,0 +1,32 @@
+{
+  "app_id": 85,
+  "app_name": "iPayX",
+  "app_slug": "ipayx",
+  "started_at": 1783544543.4733286,
+  "fetched_urls": [
+    {
+      "url": "https://ipayx.ai/docs",
+      "status": 200,
+      "md_len": 1283
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 6.93,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544554.7061062,
+  "duration_s": 11.23
+}

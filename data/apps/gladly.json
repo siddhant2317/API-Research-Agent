@@ -1,0 +1,43 @@
+{
+  "id": 20,
+  "app_name": "Gladly",
+  "app_slug": "gladly",
+  "category": "Support and Helpdesk",
+  "website": "https://gladly.com",
+  "docs_url": "https://developer.gladly.com/rest/",
+  "primary_docs_url_used": "https://developer.gladly.com/rest/",
+  "one_line_description": "Customer service platform with API for support interactions",
+  "auth_methods": [
+    "basic"
+  ],
+  "auth_methods_evidence": "Gladly API uses token-based Basic Authentication. API tokens are associated with designated Gladly users. To create and use an API token, your user must have the API User permission.",
+  "self_serve": true,
+  "self_serve_evidence": "Gladly Administrators can set API permissions on an agent-by-agent basis. To allow a user to create API tokens and access the API: 1. Log in to your Gladly instance. 2. Open the menu on the top left-hand corner of the page. 3. Navigate to Settings > *Users 4. Search and click the user profile you wish to give access to. 5. You'll see a permission called API User. Select it, while making sure to keep the user's Agent role intact. 6. Hit Save to give access.",
+  "gating_type": "free",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest",
+    "webhook"
+  ],
+  "endpoint_count_estimate": 50,
+  "openapi_spec_available": true,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 4,
+  "buildability_rationale": "Good documentation with clear authentication process and broad API surface, though requires basic auth setup.",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://developer.gladly.com/rest/"
+  ],
+  "confidence": "high",
+  "agent_notes": "The API requires a dedicated user with API User permission to create tokens, but this can be self-served by administrators. The documentation is comprehensive with clear examples.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544290.6434255
+}

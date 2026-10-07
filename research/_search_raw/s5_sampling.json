@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://wikidocs.net/218105",
+    "name": "B_1. Uncertainty sampling - M. Human-in-the-Loop Machine Learning - Eng.",
+    "snippet": "Uncertainty sampling is a set of techniques for identifying unlabeled items that are near a decision boundary in your current machine learning model.",
+    "host_name": "wikidocs.net",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://hal.science/hal-04891894/document",
+    "name": "[PDF] On The Effectiveness of Active Learning by Uncertainty Sampling",
+    "snippet": "To this aim we develop a precise characterization of confidence- based active learning in a streaming setting. Our approach draws upon recent ...\nABSTRACT. Active learning aims to reduce the cost of labeling through selective sampling. Despite reported empirical success over passive ...",
+    "host_name": "hal.science",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ieeexplore.ieee.org/iel8/6287639/10820123/11215701.pdf",
+    "name": "Active Learning for Imbalanced Classification: Empirical Insights",
+    "snippet": "This work presents a reproducible, statistically rigorous evaluation of three core AL strategies, uncertainty sampling, diversity-based sampling ...",
+    "host_name": "ieeexplore.ieee.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://openreview.net/forum?id=VShuGzpK61",
+    "name": "Calibrated Uncertainty Sampling for Active Learning - OpenReview",
+    "snippet": "Confidence: 3: You are fairly confident in your assessment. It is possible that you did not understand some parts of the submission or that ...\nWe study the problem of actively learning a classifier with a low calibration error. One of the most popular Acquisition Functions (AFs) in ...",
+    "host_name": "openreview.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://sml.disi.unitn.it/papers/hhai2023_wp.pdf",
+    "name": "[PDF] Value- are tive arning Aw Ac Le",
+    "snippet": "In this paper, we study whether these findings have an impact on active learning. (AL) scenarios. In particular, we investigate whether uncertainty sampling [6] ...",
+    "host_name": "sml.disi.unitn.it",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://keylabs.ai/blog/uncertainty-sampling-explained-targeting-the-most-informative-samples",
+    "name": "Sampling Explained: Most Informative Samples - Keylabs",
+    "snippet": "Uncertainty sampling is an active learning method that identifies the most uncertain data points in an unlabeled dataset for labeling. This ...\nUncertainty sampling in active learning encompasses different approaches. Each aims to optimize the labeling process by focusing on data points ...",
+    "host_name": "keylabs.ai",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2510.03162v1",
+    "name": "Calibrated Uncertainty Sampling for Active Learning - arXiv",
+    "snippet": "Abstract. Report issue for preceding element. We study the problem of actively learning a classifier with a low calibration error.",
+    "host_name": "arxiv.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/data-science/uncertainty-sampling-cheatsheet-ec57bc067c0b",
+    "name": "Uncertainty Sampling Cheatsheet - Medium",
+    "snippet": "This article shares a cheatsheet for these four common ways to calculate uncertainty, with examples, equations and python code.",
+    "host_name": "medium.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

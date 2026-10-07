@@ -1,0 +1,53 @@
+{
+  "id": 3,
+  "app_name": "Pipedrive",
+  "app_slug": "pipedrive",
+  "category": "CRM and Sales",
+  "website": "https://pipedrive.com",
+  "docs_url": "https://developers.pipedrive.com/docs/api/v1",
+  "primary_docs_url_used": "https://developers.pipedrive.com/docs/api/v1",
+  "agent_notes": "Pipedrive provides a comprehensive REST API with both OAuth2 and API key authentication methods. They offer a developer sandbox for testing purposes. [OVERRIDE: filled from Composio registry ground truth]",
+  "confidence": "high",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": [
+      "extraction_failed"
+    ],
+    "retry_thinking_enabled": true,
+    "retry_succeeded": true
+  },
+  "researched_at": 1783544237.5861924,
+  "one_line_description": "Pipedrive is a sales management tool built around pipeline visualization, lead tracking, activity reminders, and automation to keep deals progressing",
+  "auth_methods": [
+    "oauth2",
+    "api_key"
+  ],
+  "auth_methods_evidence": "From Composio registry: auth_schemes=['OAUTH2', 'API_KEY'] (ground truth from Composio backend)",
+  "self_serve": true,
+  "self_serve_evidence": "To test your applications, we recommend creating a new, separate Pipedrive account for sandboxing purposes. Go to the Developer Sandbox Account page to learn more and request your own sandbox account.",
+  "gating_type": "free_trial",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest"
+  ],
+  "endpoint_count_estimate": 50,
+  "openapi_spec_available": true,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:pipedrive"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "OAUTH2",
+    "API_KEY"
+  ],
+  "composio_tools_count": 399,
+  "buildability_score": 4,
+  "buildability_rationale": "Composio-supported with 2 auth method(s) and 399 tools; integration proven by Composio.",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://developers.pipedrive.com/docs/api/v1"
+  ],
+  "retried_at": 1783545210.8132477
+}

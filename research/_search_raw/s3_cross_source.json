@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://arxiv.org/html/2602.18693v1",
+    "name": "Dual‑Perspective, Multi‑Source Retrieval-Based Claim Verification",
+    "snippet": "We introduce a novel dual-perspective, multi-source, retrieval-based claim verification approach that considers both supporting and opposing ...",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://aclanthology.org/2024.acl-long.556.pdf",
+    "name": "[PDF] Retrieval Augmented Fact Verification by Synthesizing Contrastive",
+    "snippet": "We propose a RAG-based framework, where relevant documents are retrieved from reliable sources to fact-check input claims. 2. We design RAFTS in ...",
+    "host_name": "aclanthology.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.nature.com/articles/s41598-026-41862-z",
+    "name": "Multi-agent systems and credibility-based advanced scoring",
+    "snippet": "Meanwhile, fact-checking with large language models (LLMs) is becoming increasingly popular with the increase in the performance of LLMs.",
+    "host_name": "www.nature.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260218693B/abstract",
+    "name": "Dual Perspective, Multi Source Retrieval Based Claim Verification",
+    "snippet": "Contradiction to Consensus: Dual Perspective, Multi Source Retrieval Based Claim Verification with Source Level Disagreement using LLM. Badsha Biswas, Md ...",
+    "host_name": "ui.adsabs.harvard.edu",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://thesis.unipd.it/retrieve/39ee02f8-f852-4aed-a5b6-25f8fedd4370/main.pdf",
+    "name": "[PDF] FactCheck: Knowledge Graph Fact Verification Through Retrieval",
+    "snippet": "To evaluate the correctness of a fact, humans need to check the information against several external sources, which can be time-consuming ...",
+    "host_name": "thesis.unipd.it",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/400855459_Context_Shapes_LLMs_Retrieval-Augmented_Fact-Checking_Effectiveness",
+    "name": "(PDF) Context Shapes LLMs Retrieval-Augmented Fact-Checking",
+    "snippet": "While prior research has emphasized mid-context degradation in question answering, this study examines the impact of context in LLM-based fact ...",
+    "host_name": "www.researchgate.net",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/Cartus/Automated-Fact-Checking-Resources",
+    "name": "Automated-Fact-Checking-Resources - GitHub",
+    "snippet": "This repo contains relevant resources from our survey paper A Survey on Automated Fact-Checking in TACL 2022 and the follow up multimodal survey paper ...",
+    "host_name": "github.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://milvus.io/ai-quick-reference/how-can-we-evaluate-whether-an-answer-from-the-llm-is-fully-supported-by-the-retrieval-context-consider-methods-like-answer-verification-against-sources-or-using-a-secondary-model-to-crosscheck-facts",
+    "name": "How can we evaluate whether an answer from the LLM is fully",
+    "snippet": "To evaluate whether an LLM's answer is fully supported by its retrieval context, developers can use a combination of direct verification against sources and ...",
+    "host_name": "milvus.io",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

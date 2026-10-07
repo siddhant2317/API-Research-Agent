@@ -1,0 +1,44 @@
+{
+  "id": 44,
+  "app_name": "Salesforce Commerce Cloud",
+  "app_slug": "salesforce-commerce-cloud",
+  "category": "Ecommerce",
+  "website": "https://salesforce.com/commerce-cloud",
+  "docs_url": "https://developer.salesforce.com/docs/commerce/commerce-api/overview",
+  "primary_docs_url_used": "https://developer.salesforce.com/docs/commerce/commerce-api/overview",
+  "one_line_description": "Enterprise commerce platform with REST/GraphQL APIs",
+  "auth_methods": [
+    "oauth2"
+  ],
+  "auth_methods_evidence": "Salesforce Commerce Cloud uses OAuth 2.0 with client credentials. https://developer.salesforce.com/docs/commerce/commerce-api/overview",
+  "self_serve": false,
+  "self_serve_evidence": "Requires Salesforce Commerce Cloud account (paid) + Account Manager provisioning. https://developer.salesforce.com/docs/commerce/commerce-api/guide/get-started.html",
+  "gating_type": "enterprise_only",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest",
+    "graphql"
+  ],
+  "endpoint_count_estimate": 150,
+  "openapi_spec_available": true,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 2,
+  "buildability_rationale": "Broad API but enterprise-gated; no self-serve path. Hard for individual devs.",
+  "main_blocker": "gated_access",
+  "evidence_urls": [
+    "https://developer.salesforce.com/docs/commerce/commerce-api/overview"
+  ],
+  "confidence": "high",
+  "agent_notes": "[HUMAN OVERRIDE: SFCC requires enterprise account. OAuth2 with client_credentials. No self-serve path.] [HUMAN-IN-THE-LOOP: verified manually with cited docs URL]",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544375.2439926,
+  "human_override_at": 1783545417.4440045
+}

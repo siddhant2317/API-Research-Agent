@@ -1,0 +1,34 @@
+{
+  "app_id": 4,
+  "app_name": "Attio",
+  "app_slug": "attio",
+  "started_at": 1783544203.8353639,
+  "fetched_urls": [
+    {
+      "url": "https://docs.attio.com/",
+      "status": 200,
+      "md_len": 2344
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 6.53,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": true,
+    "slug": "attio",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "tools_count": 99
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544213.369698,
+  "duration_s": 9.53
+}

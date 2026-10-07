@@ -1,0 +1,43 @@
+{
+  "id": 9,
+  "app_name": "Copper",
+  "app_slug": "copper",
+  "category": "CRM and Sales",
+  "website": "https://copper.com",
+  "docs_url": "https://developer.copper.com/",
+  "primary_docs_url_used": "https://developer.copper.com/",
+  "one_line_description": "CRM and sales platform with developer API for integration",
+  "auth_methods": [
+    "oauth2"
+  ],
+  "auth_methods_evidence": "Authentication\n      * Overview\n      * OAuth2.0\n        * Overview\n        * Quickstart Guide\n        * Documentation",
+  "self_serve": true,
+  "self_serve_evidence": "The Copper Web API allows you to access and build your own applications that interact with Copper in more complex ways than the integrations we provide out of the box.",
+  "gating_type": "free",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest",
+    "webhook"
+  ],
+  "endpoint_count_estimate": 50,
+  "openapi_spec_available": true,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 4,
+  "buildability_rationale": "Good documentation, broad API with REST and webhook support, OAuth2 authentication, and self-serve access.",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://developer.copper.com/"
+  ],
+  "confidence": "high",
+  "agent_notes": "The API provides extensive functionality for CRM and sales operations with clear documentation and Postman resources available.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544248.1937597
+}

@@ -1,0 +1,46 @@
+{
+  "id": 12,
+  "app_name": "Intercom",
+  "app_slug": "intercom",
+  "category": "Support and Helpdesk",
+  "website": "https://intercom.com",
+  "docs_url": "https://developers.intercom.com/docs/references/",
+  "primary_docs_url_used": "https://developers.intercom.com/docs/references/",
+  "one_line_description": "Live chat, messaging, and customer engagement tools",
+  "auth_methods": [
+    "oauth2"
+  ],
+  "auth_methods_evidence": "Composio registry shows OAuth2 as the authentication scheme",
+  "self_serve": true,
+  "self_serve_evidence": "Composio registry indicates the app is accessible with OAuth2 authentication, which typically allows self-service setup",
+  "gating_type": "free",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest"
+  ],
+  "endpoint_count_estimate": 133,
+  "openapi_spec_available": false,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:intercom"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "OAUTH2"
+  ],
+  "composio_tools_count": 133,
+  "buildability_score": 4,
+  "buildability_rationale": "Good API breadth with OAuth2 authentication and self-service access, though official docs were not accessible",
+  "main_blocker": "poor_docs",
+  "evidence_urls": [
+    "https://developers.intercom.com/docs/references/"
+  ],
+  "confidence": "medium",
+  "agent_notes": "Official documentation returned a 404 error, but Composio registry provides reliable information about the API structure and authentication",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544256.1967995
+}

@@ -1,0 +1,45 @@
+{
+  "app_slug": "asana",
+  "app_name": "Asana",
+  "category": "Productivity and Project Management",
+  "original_record": {
+    "auth_methods": [
+      "oauth2",
+      "api_key"
+    ],
+    "self_serve": true,
+    "gating_type": "free",
+    "buildability_score": 5,
+    "main_blocker": "none",
+    "composio_supported": true,
+    "confidence": "high"
+  },
+  "composio_ground_truth": {
+    "slug": "asana",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "tools_count": 153,
+    "normalized_auth": [
+      "oauth2"
+    ]
+  },
+  "thinking_reextract": {
+    "auth_methods": [
+      "OAUTH2"
+    ],
+    "self_serve": true,
+    "gating_type": "none",
+    "buildability_score": 9,
+    "main_blocker": "none",
+    "confidence": "high",
+    "reasoning": "The Composio registry confirms OAUTH2 as the authentication method for Asana. The documentation indicates that apps can be built and shared with other Asana users or just for one organization, suggesting it is self-serve. The API is comprehensive with 153 tools, making it highly buildable. No signif"
+  },
+  "field_agreement": {
+    "auth_methods_original_vs_thinking": false,
+    "auth_methods_original_vs_composio": false,
+    "self_serve_agreement": true,
+    "buildability_agreement": false
+  },
+  "verdict": "partial"
+}

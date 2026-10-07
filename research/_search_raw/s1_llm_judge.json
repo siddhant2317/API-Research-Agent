@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://aclanthology.org/2025.ijcnlp-long.18.pdf",
+    "name": "[PDF] A Systematic Study of Position Bias in LLM-as-a-Judge - ACL Anthology",
+    "snippet": "This exploratory study evaluates position bias in LLM judges across pairwise into the distribution of judging difficulty across the dataset,",
+    "host_name": "aclanthology.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2406.07791v7",
+    "name": "A Systematic Study of Position Bias in LLM-as-a-Judge - arXiv",
+    "snippet": "This study investigates position bias in LLM judges across pairwise and list-wise comparison settings, introducing three metrics: repetition stability, ...",
+    "host_name": "arxiv.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://neurips.cc/virtual/2023/poster/73434",
+    "name": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+    "snippet": "We examine the usage and limitations of LLM-as-a-judge, including position, verbosity, and self-enhancement biases, as well as limited reasoning ability,",
+    "host_name": "neurips.cc",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/pii/S2666675825004564",
+    "name": "A survey on LLM-as-a-judge - ScienceDirect.com",
+    "snippet": "Additionally, targeted adjustments to prompts can address potential biases of LLMs, such as position bias.",
+    "host_name": "www.sciencedirect.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://openreview.net/forum?id=eQxVeNZcYT",
+    "name": "Quantifying biases in LLM-as-Judge evals - OpenReview",
+    "snippet": "The paper introduces a Bayesian Generalized Linear Model (GLM) framework to identify and quantify biases in “LLM-as-a-judge” evaluation settings.",
+    "host_name": "openreview.net",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/DataArcTech/LLM-as-a-Judge",
+    "name": "DataArcTech/LLM-as-a-Judge - GitHub",
+    "snippet": "We released A Survey on LLM-as-a-Judge, exploring LLMs as reliable, scalable evaluators and outlining key challenges and future directions!",
+    "host_name": "github.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://llm-judge-bias.github.io",
+    "name": "Justice or Prejudice? Quantifying Biases in LLM-as-a-Judge",
+    "snippet": "When LLMs are used to determine whether a refined answer is better than the original, bias occurs if the LLM judge is informed about the refinement process.",
+    "host_name": "llm-judge-bias.github.io",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mbrenndoerfer.com/writing/position-bias-in-llm-judges",
+    "name": "Position Bias in LLM Judges: Measurement and Mitigation",
+    "snippet": "Position bias in LLM evaluation refers to the tendency of a judge model to systematically prefer responses that appear in a particular position ...",
+    "host_name": "mbrenndoerfer.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

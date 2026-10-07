@@ -1,0 +1,32 @@
+{
+  "app_id": 34,
+  "app_name": "GoHighLevel",
+  "app_slug": "gohighlevel",
+  "started_at": 1783544333.8472042,
+  "fetched_urls": [
+    {
+      "url": "https://highlevel.stoplight.io/documentation/introduction",
+      "status": 404,
+      "md_len": 0
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 5.87,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544341.4526474,
+  "duration_s": 7.61
+}

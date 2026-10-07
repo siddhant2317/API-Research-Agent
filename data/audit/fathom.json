@@ -1,0 +1,35 @@
+{
+  "app_id": 93,
+  "app_name": "Fathom",
+  "app_slug": "fathom",
+  "started_at": 1783544572.6318629,
+  "fetched_urls": [
+    {
+      "url": "https://fathom.video/api",
+      "status": 404,
+      "md_len": 0
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 7.96,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": true,
+    "slug": "fathom",
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "tools_count": 7
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544581.9525402,
+  "duration_s": 9.32
+}

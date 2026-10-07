@@ -1,0 +1,52 @@
+{
+  "id": 22,
+  "app_name": "Twilio",
+  "app_slug": "twilio",
+  "category": "Communications and Messaging",
+  "website": "https://twilio.com",
+  "docs_url": "https://www.twilio.com/docs/iam/api",
+  "primary_docs_url_used": "https://www.twilio.com/docs/iam/api",
+  "agent_notes": "[HUMAN OVERRIDE: Twilio is a foundational comms API. Auth is API key + Basic (AC...:SK...). Free trial self-serve.] [HUMAN-IN-THE-LOOP: verified manually with cited docs URL] [AUDIT FIX: mcp_server_exists True\u2192False; we have no verified MCP source.]",
+  "confidence": "high",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": [
+      "extraction_failed"
+    ],
+    "retry_thinking_enabled": true,
+    "retry_succeeded": true
+  },
+  "researched_at": 1783544319.8383598,
+  "one_line_description": "Programmable SMS, voice, video, and messaging APIs",
+  "auth_methods": [
+    "api_key",
+    "basic"
+  ],
+  "auth_methods_evidence": "Twilio uses API keys (SK...) and HTTP Basic Auth with ACCOUNT_SID:AUTH_TOKEN. Source: https://www.twilio.com/docs/iam/api",
+  "self_serve": true,
+  "self_serve_evidence": "Free Twilio trial account with $15 credit, no sales contact needed. https://www.twilio.com/try-twilio",
+  "gating_type": "free_trial",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest",
+    "webhook"
+  ],
+  "endpoint_count_estimate": 200,
+  "openapi_spec_available": true,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 5,
+  "buildability_rationale": "Self-serve free trial, broad REST API with webhooks, well-documented, OpenAPI spec available.",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://www.twilio.com/docs/iam/api",
+    "https://www.twilio.com/try-twilio"
+  ],
+  "retried_at": 1783545346.3223825,
+  "human_override_at": 1783545417.433357,
+  "audited_at": 1783548003.4091976
+}

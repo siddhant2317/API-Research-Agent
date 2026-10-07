@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://arxiv.org/html/2601.01743v1",
+    "name": "AI Agent Systems: Architectures, Applications, and Evaluation - arXiv",
+    "snippet": "Key elements include sandboxed tool execution, schema validation, identity/permission enforcement, audit logs, caching, and observability ( ...",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://deepeval.com/guides/guides-ai-agent-evaluation",
+    "name": "AI Agent Evaluation | DeepEval - The LLM Evaluation Framework",
+    "snippet": "An AI agent is an LLM-powered system that autonomously reasons about tasks, creates plans, and executes actions using external tools to accomplish user goals.",
+    "host_name": "deepeval.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.braintrust.dev/articles/ai-agent-evaluation-framework",
+    "name": "AI agent evaluation: A practical framework for testing multi-step",
+    "snippet": "Learn how to evaluate AI agents with metrics, harnesses, and regression gates. A practical framework for testing multi-step agent workflows ...",
+    "host_name": "www.braintrust.dev",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.langchain.com/resources/llm-evaluation-framework",
+    "name": "LLM Evaluation Framework: Trajectories vs. Outputs - LangChain",
+    "snippet": "Trajectory evaluation requires capturing the full execution tree of your AI agent. You need tracing that reveals every tool selected, every ...",
+    "host_name": "www.langchain.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://langfuse.com/guides/cookbook/example_pydantic_ai_mcp_agent_evaluation",
+    "name": "How to Evaluate LLM Agents (Metrics, Strategies & Examples) - Langfuse",
+    "snippet": "Manual tracing gives you immediate insight into the agent's reasoning, tool calls, and failure points. Use Langfuse's trace viewer to step through each action ...",
+    "host_name": "langfuse.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.confident-ai.com/blog/llm-agent-evaluation-complete-guide",
+    "name": "LLM Agent Evaluation Metrics in 2026: Tool Calling  - Confident AI",
+    "snippet": "Learn how to evaluate LLM agents end-to-end with tool calling, task completion, reasoning, trace-based evals, human review, and DeepEval ...",
+    "host_name": "www.confident-ai.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.openlayer.com/products/llm-agent-evaluation",
+    "name": "LLM agent evaluation | Test and debug multi-step AI systems",
+    "snippet": "LLM agents operate through chaining, tool use, and reasoning steps. Evaluating them requires tracing not just final outputs, but every decision and interaction ...",
+    "host_name": "www.openlayer.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mlflow.org/llm-evaluation",
+    "name": "LLM Evaluation and Agent Evaluation | MLflow AI Platform",
+    "snippet": "LLM evaluation systematically measures the quality of LLM applications across dimensions like correctness, relevance, safety, and coherence. Agent evaluation ...",
+    "host_name": "mlflow.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

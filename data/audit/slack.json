@@ -1,0 +1,34 @@
+{
+  "app_id": 21,
+  "app_name": "Slack",
+  "app_slug": "slack",
+  "started_at": 1783544282.8851259,
+  "fetched_urls": [
+    {
+      "url": "https://api.slack.com/web",
+      "status": 200,
+      "md_len": 11944
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 7.97,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": true,
+    "slug": "slack",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "tools_count": 158
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544291.8658066,
+  "duration_s": 8.98
+}

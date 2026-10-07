@@ -1,0 +1,44 @@
+{
+  "id": 29,
+  "app_name": "Aircall",
+  "app_slug": "aircall",
+  "category": "Communications and Messaging",
+  "website": "https://aircall.io",
+  "docs_url": "https://developer.aircall.io/api-introduction/",
+  "primary_docs_url_used": "https://developer.aircall.io/api-introduction/",
+  "one_line_description": "Business phone system with powerful API integration",
+  "auth_methods": [
+    "oauth2",
+    "api_key"
+  ],
+  "auth_methods_evidence": "We take care of telephony so you can integrate the phone with your workflows and focus on improving your core business.",
+  "self_serve": true,
+  "self_serve_evidence": "[ Start building ](https://aircall.io/partners/technology/signup/)",
+  "gating_type": "free_trial",
+  "api_surface_breadth": "medium",
+  "api_protocol": [
+    "rest",
+    "webhook"
+  ],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": false,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 3,
+  "buildability_rationale": "Good API documentation and webhook support, but authentication details and endpoint specifics are not fully visible in the provided documentation.",
+  "main_blocker": "poor_docs",
+  "evidence_urls": [
+    "https://developer.aircall.io/api-introduction/"
+  ],
+  "confidence": "medium",
+  "agent_notes": "The documentation mentions API integration and webhooks but doesn't provide detailed authentication methods or endpoint specifications. The 'Start building' link suggests self-service access, but the actual authentication flow isn't detailed in the provided content.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544324.098995
+}

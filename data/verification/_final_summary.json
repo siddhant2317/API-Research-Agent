@@ -1,0 +1,1018 @@
+{
+  "total_verified": 51,
+  "verified_with_ground_truth": 49,
+  "verdicts": {
+    "correct_superset": 7,
+    "correct_exact": 42,
+    "no_composio_match": 2
+  },
+  "correct_exact": 42,
+  "correct_superset": 7,
+  "partial_subset": 0,
+  "partial_overlap": 0,
+  "incorrect": 0,
+  "no_composio_match": 2,
+  "honest_accuracy": 1.0,
+  "honest_accuracy_pct": 100.0,
+  "f1_style_score": 0.9857,
+  "f1_style_score_pct": 98.6,
+  "wilson_95_ci": {
+    "low": 92.7,
+    "high": 100.0
+  },
+  "results": [
+    {
+      "app_name": "Ahrefs",
+      "app_slug": "ahrefs",
+      "verdict": "correct_superset",
+      "our_auth": [
+        "api_key",
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key"
+      ],
+      "composio_tools_count": 40
+    },
+    {
+      "app_name": "Airtable",
+      "app_slug": "airtable",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 24
+    },
+    {
+      "app_name": "Apify",
+      "app_slug": "apify",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key"
+      ],
+      "composio_auth": [
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key"
+      ],
+      "composio_tools_count": 112
+    },
+    {
+      "app_name": "Asana",
+      "app_slug": "asana",
+      "verdict": "correct_superset",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 153
+    },
+    {
+      "app_name": "Attio",
+      "app_slug": "attio",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 99
+    },
+    {
+      "app_name": "Brex",
+      "app_slug": "brex",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 84
+    },
+    {
+      "app_name": "Bright Data",
+      "app_slug": "bright-data",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key"
+      ],
+      "composio_auth": [
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key"
+      ],
+      "composio_tools_count": 10
+    },
+    {
+      "app_name": "ClickUp",
+      "app_slug": "clickup",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 162
+    },
+    {
+      "app_name": "Close",
+      "app_slug": "close",
+      "verdict": "correct_superset",
+      "our_auth": [
+        "api_key",
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key"
+      ],
+      "composio_tools_count": 6
+    },
+    {
+      "app_name": "Cloudflare",
+      "app_slug": "cloudflare",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key"
+      ],
+      "composio_auth": [
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key"
+      ],
+      "composio_tools_count": 20
+    },
+    {
+      "app_name": "Coda",
+      "app_slug": "coda",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key"
+      ],
+      "composio_auth": [
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key"
+      ],
+      "composio_tools_count": 109
+    },
+    {
+      "app_name": "Datadog",
+      "app_slug": "datadog",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 42
+    },
+    {
+      "app_name": "DataForSEO",
+      "app_slug": "dataforseo",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "basic"
+      ],
+      "our_auth_normalized": [
+        "basic"
+      ],
+      "composio_auth": [
+        "BASIC"
+      ],
+      "composio_auth_normalized": [
+        "basic"
+      ],
+      "composio_tools_count": 312
+    },
+    {
+      "app_name": "Devin",
+      "app_slug": "devin",
+      "verdict": "no_composio_match",
+      "our_auth": [
+        "api_key"
+      ],
+      "composio_auth": null
+    },
+    {
+      "app_name": "Discord",
+      "app_slug": "discord",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 27
+    },
+    {
+      "app_name": "Fathom",
+      "app_slug": "fathom",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 7
+    },
+    {
+      "app_name": "Firecrawl",
+      "app_slug": "firecrawl",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key"
+      ],
+      "composio_auth": [
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key"
+      ],
+      "composio_tools_count": 29
+    },
+    {
+      "app_name": "Freshdesk",
+      "app_slug": "freshdesk",
+      "verdict": "correct_superset",
+      "our_auth": [
+        "api_key",
+        "basic"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "basic"
+      ],
+      "composio_auth": [
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key"
+      ],
+      "composio_tools_count": 178
+    },
+    {
+      "app_name": "GitHub",
+      "app_slug": "github",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 871
+    },
+    {
+      "app_name": "Google Ads",
+      "app_slug": "google-ads",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 22
+    },
+    {
+      "app_name": "Gorgias",
+      "app_slug": "gorgias",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "api_key",
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "API_KEY",
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 32
+    },
+    {
+      "app_name": "Gumroad",
+      "app_slug": "gumroad",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 7
+    },
+    {
+      "app_name": "Harvest",
+      "app_slug": "harvest",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 57
+    },
+    {
+      "app_name": "Help Scout",
+      "app_slug": "help-scout",
+      "verdict": "correct_superset",
+      "our_auth": [
+        "oauth2",
+        "basic"
+      ],
+      "our_auth_normalized": [
+        "basic",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 129
+    },
+    {
+      "app_name": "HubSpot",
+      "app_slug": "hubspot",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 244
+    },
+    {
+      "app_name": "Intercom",
+      "app_slug": "intercom",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 133
+    },
+    {
+      "app_name": "Jira",
+      "app_slug": "jira",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "S2S_OAUTH2",
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 97
+    },
+    {
+      "app_name": "Klaviyo",
+      "app_slug": "klaviyo",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "api_key",
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "API_KEY",
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 225
+    },
+    {
+      "app_name": "Linear",
+      "app_slug": "linear",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 46
+    },
+    {
+      "app_name": "LinkedIn Ads",
+      "app_slug": "linkedin-ads",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 28
+    },
+    {
+      "app_name": "Mailchimp",
+      "app_slug": "mailchimp",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 272
+    },
+    {
+      "app_name": "Meta Ads",
+      "app_slug": "meta-ads",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 50
+    },
+    {
+      "app_name": "Neo4j",
+      "app_slug": "neo4j",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "basic",
+        "api_key",
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "basic",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "BASIC",
+        "API_KEY",
+        "S2S_OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "basic",
+        "oauth2"
+      ],
+      "composio_tools_count": 21
+    },
+    {
+      "app_name": "Notion",
+      "app_slug": "notion",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2",
+        "api_key",
+        "bearer_token"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 45
+    },
+    {
+      "app_name": "Pipedrive",
+      "app_slug": "pipedrive",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 399
+    },
+    {
+      "app_name": "Plain",
+      "app_slug": "plain",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "API_KEY"
+      ],
+      "our_auth_normalized": [
+        "api_key"
+      ],
+      "composio_auth": [
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key"
+      ],
+      "composio_tools_count": 22
+    },
+    {
+      "app_name": "QuickBooks",
+      "app_slug": "quickbooks",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 114
+    },
+    {
+      "app_name": "Ramp",
+      "app_slug": "ramp",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 88
+    },
+    {
+      "app_name": "Salesforce",
+      "app_slug": "salesforce",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2",
+        "s2s_oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "S2S_OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 184
+    },
+    {
+      "app_name": "SendGrid",
+      "app_slug": "sendgrid",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key"
+      ],
+      "composio_auth": [
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key"
+      ],
+      "composio_tools_count": 359
+    },
+    {
+      "app_name": "Sentry",
+      "app_slug": "sentry",
+      "verdict": "correct_superset",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 209
+    },
+    {
+      "app_name": "Shopify",
+      "app_slug": "shopify",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "API_KEY",
+        "OAUTH2",
+        "S2S_OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 315
+    },
+    {
+      "app_name": "Slack",
+      "app_slug": "slack",
+      "verdict": "correct_superset",
+      "our_auth": [
+        "oauth2",
+        "bearer_token"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 158
+    },
+    {
+      "app_name": "Snowflake",
+      "app_slug": "snowflake",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 16
+    },
+    {
+      "app_name": "Stripe",
+      "app_slug": "stripe",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "api_key",
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "API_KEY",
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 425
+    },
+    {
+      "app_name": "Supabase",
+      "app_slug": "supabase",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 124
+    },
+    {
+      "app_name": "Telegram",
+      "app_slug": "telegram",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key"
+      ],
+      "composio_auth": [
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key"
+      ],
+      "composio_tools_count": 18
+    },
+    {
+      "app_name": "Vercel",
+      "app_slug": "vercel",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key"
+      ],
+      "composio_auth": [
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key"
+      ],
+      "composio_tools_count": 131
+    },
+    {
+      "app_name": "WhatsApp Business",
+      "app_slug": "whatsapp-business",
+      "verdict": "no_composio_match",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "composio_auth": null
+    },
+    {
+      "app_name": "Xero",
+      "app_slug": "xero",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 53
+    },
+    {
+      "app_name": "Zendesk",
+      "app_slug": "zendesk",
+      "verdict": "correct_exact",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 452
+    }
+  ]
+}

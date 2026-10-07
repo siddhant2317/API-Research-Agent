@@ -1,0 +1,39 @@
+{
+  "id": 37,
+  "app_name": "systeme.io",
+  "app_slug": "systeme-io",
+  "category": "Marketing, Ads, Email and Social",
+  "website": "https://systeme.io",
+  "docs_url": "https://docs.systeme.io/",
+  "primary_docs_url_used": "https://docs.systeme.io/",
+  "one_line_description": "All-in-one funnel builder (no public API)",
+  "auth_methods": [],
+  "auth_methods_evidence": "systeme.io has no public developer API as of 2026. https://docs.systeme.io/",
+  "self_serve": false,
+  "self_serve_evidence": "No public API documented.",
+  "gating_type": "unknown",
+  "api_surface_breadth": "unknown",
+  "api_protocol": [],
+  "endpoint_count_estimate": 0,
+  "openapi_spec_available": false,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 0,
+  "buildability_rationale": "No public API. Docs site exists but no API content.",
+  "main_blocker": "no_public_api",
+  "evidence_urls": [
+    "https://docs.systeme.io/"
+  ],
+  "confidence": "high",
+  "agent_notes": "[HUMAN OVERRIDE: systeme.io has no public API despite being a funnel builder.] [HUMAN-IN-THE-LOOP: verified manually with cited docs URL]",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544350.807418,
+  "human_override_at": 1783545417.4653292
+}

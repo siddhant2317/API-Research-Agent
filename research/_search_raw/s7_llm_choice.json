@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://ai.plainenglish.io/claude-sonnet-4-5-vs-gpt-5-vs-gemini-2-5-turbo-a-data-leaders-real-world-comparison-8b7e7e4c7f1f",
+    "name": "Claude Sonnet 4.5 vs GPT-5 vs Gemini 2.5 Turbo: A Data Leader's",
+    "snippet": "Claude Sonnet 4.5 vs GPT-5 vs Gemini 2.5 Turbo: A Data Leader's Real-World Comparison I spent three weeks and $47K testing the latest LLMs ...",
+    "host_name": "ai.plainenglish.io",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pub.towardsai.net/why-claude-sonnet-4-5-is-so-much-better-than-gpt-5-codex-and-gemini-2-5-pro-here-is-the-result-6b44b3072f97",
+    "name": "Why Claude Sonnet 4.5 Is So Much Better Than GPT-5(Codex) And",
+    "snippet": "Let's compare Gemini 2.5 Pro and GPT-5 (Codex) and verify how much performance Claude Sonnet 4.5. This time, we will verify the following items.",
+    "host_name": "pub.towardsai.net",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=SfeD-0U4crE",
+    "name": "The Best Coding Model? Beats GPT-5 & Gemini 2.5 Pro (Hands-On)",
+    "snippet": "In this video I compare Claude Sonnet 4.5 vs GPT-5 and Gemini 2.5 Pro, then show how to use it in practice: chat on Claude.ai, Claude Code ...",
+    "host_name": "www.youtube.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.getpassionfruit.com/blog/gpt-5-1-vs-claude-4-5-sonnet-vs-gemini-3-pro-vs-deepseek-v3-2-the-definitive-2025-ai-model-comparison",
+    "name": "GPT 5.1 vs Claude 4.5 Sonnet vs Gemini 3 Pro vs DeepSeek-V3.2",
+    "snippet": "Gemini 3.1 Pro leads on the two benchmarks that matter most for research workflows: 94.3% on GPQA Diamond (graduate-level science reasoning) and ...",
+    "host_name": "www.getpassionfruit.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@leucopsis/claude-sonnet-4-5-review-32516b15c1e0",
+    "name": "Claude Sonnet 4.5 Review - Medium",
+    "snippet": "In this article, I'll explore Sonnet 4.5's features and benchmarks in coding and math, then compare it to competitors including OpenAI's GPT-5, ...",
+    "host_name": "medium.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-sonnet-4-5",
+    "name": "Introducing Claude Sonnet 4.5 - Anthropic",
+    "snippet": "Claude Sonnet 4.5 is the best coding model in the world, strongest model for building complex agents, and best model at using computers.",
+    "host_name": "www.anthropic.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/wanmohdazizi-dev_looking-at-the-latest-benchmark-comparison-activity-7396532843729956864-rSUP",
+    "name": "Benchmarking Gemini 3 Pro, GPT-5.1, Claude Sonnet 4.5",
+    "snippet": "Claude Sonnet 4.5 performs well for structured reasoning but falls behind in the heavier math and visual reasoning benchmarks. Gemini 2.5 Pro is ...",
+    "host_name": "www.linkedin.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1o6h8jn/we_tested_claude_sonnet_45_gpt5codex_qwen3coder",
+    "name": "We tested Claude Sonnet 4.5, GPT-5-codex, Qwen3-Coder, GLM",
+    "snippet": "It's a SWE-bench–style setup: models read real PR issues, run tests, edit code, and must make the suite pass. Models: Sonnet-4.5, GPT-5-Codex, ...",
+    "host_name": "www.reddit.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

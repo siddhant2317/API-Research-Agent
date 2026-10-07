@@ -1,0 +1,34 @@
+{
+  "app_id": 15,
+  "app_name": "Pylon",
+  "app_slug": "pylon",
+  "started_at": 1783544256.1993613,
+  "fetched_urls": [
+    {
+      "url": "https://docs.pylon.com/",
+      "status": 0,
+      "md_len": 0
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 7.29,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": true,
+    "slug": "pylon_mcp",
+    "auth_schemes": [
+      "DCR_OAUTH"
+    ],
+    "tools_count": 12
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544264.6302722,
+  "duration_s": 8.43
+}

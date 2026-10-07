@@ -1,0 +1,46 @@
+{
+  "id": 76,
+  "app_name": "Monday.com",
+  "app_slug": "monday-com",
+  "category": "Productivity and Project Management",
+  "website": "https://monday.com",
+  "docs_url": "https://developer.monday.com/api-reference/docs",
+  "primary_docs_url_used": "https://developer.monday.com/api-reference/docs",
+  "one_line_description": "Work OS where teams create and shape their own workflows",
+  "auth_methods": [
+    "api_key",
+    "oauth2"
+  ],
+  "auth_methods_evidence": "Monday.com supports API tokens (api_key) AND OAuth2. Nango lists OAUTH2, we originally found api_key \u2014 both correct. https://developer.monday.com/api-reference/docs/authentication",
+  "self_serve": true,
+  "self_serve_evidence": "The docs mention a 'Getting started' section and API playground, suggesting developers can self-onboard without contacting sales.",
+  "gating_type": "free_trial",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "graphql"
+  ],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": false,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "https://developer.monday.com/api-reference/docs/monday-mcp-overview"
+  ],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 4,
+  "buildability_rationale": "Good documentation, broad API surface with GraphQL, self-serve access with free trial, and MCP server available.",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://developer.monday.com/api-reference/docs"
+  ],
+  "confidence": "high",
+  "agent_notes": "The API uses GraphQL and has extensive documentation with MCP support. The docs mention a free trial but don't specify exact pricing tiers. [NANGO CROSS-CHECK: Nango lists OAUTH2. Updated to include both \u2014 Monday.com supports API tokens AND OAuth2.]",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544522.688266,
+  "cross_checked_at": 1783548223.424043
+}

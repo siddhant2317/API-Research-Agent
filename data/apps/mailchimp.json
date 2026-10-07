@@ -1,0 +1,47 @@
+{
+  "id": 35,
+  "app_name": "Mailchimp",
+  "app_slug": "mailchimp",
+  "category": "Marketing, Ads, Email and Social",
+  "website": "https://mailchimp.com",
+  "docs_url": "https://mailchimp.com/developer/marketing/api/",
+  "primary_docs_url_used": "https://mailchimp.com/developer/marketing/api/",
+  "one_line_description": "Email marketing and automation platform with campaign templates and analytics",
+  "auth_methods": [
+    "oauth2"
+  ],
+  "auth_methods_evidence": "Composio registry shows auth_schemes: [\"OAUTH2\"]",
+  "self_serve": true,
+  "self_serve_evidence": "The documentation is publicly accessible at https://mailchimp.com/developer/marketing/api/ without requiring sales contact",
+  "gating_type": "free",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest"
+  ],
+  "endpoint_count_estimate": 50,
+  "openapi_spec_available": false,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:mailchimp"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "OAUTH2"
+  ],
+  "composio_tools_count": 272,
+  "buildability_score": 5,
+  "buildability_rationale": "Self-serve access with OAuth2 authentication, comprehensive API documentation, broad API surface with 50+ endpoints, and Composio support",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://mailchimp.com/developer/marketing/api/",
+    "https://mailchimp.com/"
+  ],
+  "confidence": "high",
+  "agent_notes": "Mailchimp provides a comprehensive REST API with extensive endpoints for marketing automation, email campaigns, audience management, and more. The API is well-documented and publicly accessible.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544343.3692212
+}

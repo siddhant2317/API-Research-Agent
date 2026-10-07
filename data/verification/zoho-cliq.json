@@ -1,0 +1,35 @@
+{
+  "app_slug": "zoho-cliq",
+  "app_name": "Zoho Cliq",
+  "category": "Communications and Messaging",
+  "original_record": {
+    "auth_methods": [
+      "oauth2"
+    ],
+    "self_serve": true,
+    "gating_type": "free",
+    "buildability_score": 3,
+    "main_blocker": "unknown",
+    "composio_supported": false,
+    "confidence": "medium"
+  },
+  "composio_ground_truth": null,
+  "thinking_reextract": {
+    "auth_methods": [
+      "OAuth 2.0"
+    ],
+    "self_serve": true,
+    "gating_type": "none",
+    "buildability_score": 8,
+    "main_blocker": "none",
+    "confidence": "high",
+    "reasoning": "Zoho Cliq API offers comprehensive documentation with OAuth 2.0 authentication, clear examples, and a Postman collection for easy implementation. The API supports both V2 and V3 versions with V3 being the latest. Developers can self-register their applications without requiring direct approval from "
+  },
+  "field_agreement": {
+    "auth_methods_original_vs_thinking": false,
+    "auth_methods_original_vs_composio": null,
+    "self_serve_agreement": true,
+    "buildability_agreement": false
+  },
+  "verdict": "self_inconsistent"
+}

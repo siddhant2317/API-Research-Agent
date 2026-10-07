@@ -1,0 +1,45 @@
+{
+  "id": 5,
+  "app_name": "Twenty",
+  "app_slug": "twenty",
+  "category": "CRM and Sales",
+  "website": "https://twenty.com",
+  "docs_url": "https://docs.twenty.com/",
+  "primary_docs_url_used": "https://docs.twenty.com/",
+  "one_line_description": "Open-source CRM with GraphQL API",
+  "auth_methods": [
+    "api_key"
+  ],
+  "auth_methods_evidence": "Twenty CRM is open-source with REST API using API keys. https://docs.twenty.com/",
+  "self_serve": true,
+  "self_serve_evidence": "Open-source, self-host or cloud free tier. https://twenty.com",
+  "gating_type": "free",
+  "api_surface_breadth": "medium",
+  "api_protocol": [
+    "rest",
+    "graphql"
+  ],
+  "endpoint_count_estimate": 30,
+  "openapi_spec_available": false,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 3,
+  "buildability_rationale": "Open-source, self-serve, GraphQL + REST, but API is still maturing.",
+  "main_blocker": "poor_docs",
+  "evidence_urls": [
+    "https://docs.twenty.com/",
+    "https://github.com/twentyhq/twenty"
+  ],
+  "confidence": "medium",
+  "agent_notes": "[HUMAN OVERRIDE: Twenty is open-source CRM with GraphQL API. Free to self-host.] [HUMAN-IN-THE-LOOP: verified manually with cited docs URL]",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544224.7449203,
+  "human_override_at": 1783545417.4470308
+}

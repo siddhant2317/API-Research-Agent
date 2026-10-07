@@ -1,0 +1,32 @@
+{
+  "app_id": 97,
+  "app_name": "higgsfield",
+  "app_slug": "higgsfield",
+  "started_at": 1783544591.6859205,
+  "fetched_urls": [
+    {
+      "url": "https://docs.higgsfield.ai/",
+      "status": 200,
+      "md_len": 2601
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 6.49,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544599.854929,
+  "duration_s": 8.17
+}

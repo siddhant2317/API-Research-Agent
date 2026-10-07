@@ -1,0 +1,44 @@
+{
+  "id": 90,
+  "app_name": "PitchBook",
+  "app_slug": "pitchbook",
+  "category": "Finance and Fintech",
+  "website": "https://pitchbook.com",
+  "docs_url": "https://my.pitchbook.com/api",
+  "primary_docs_url_used": "https://my.pitchbook.com/api",
+  "one_line_description": "Private capital market research data API",
+  "auth_methods": [
+    "api_key"
+  ],
+  "auth_methods_evidence": "PitchBook API uses API keys. https://my.pitchbook.com/api",
+  "self_serve": false,
+  "self_serve_evidence": "PitchBook is enterprise-only; requires sales contact for API access. https://pitchbook.com/pro",
+  "gating_type": "contact_sales",
+  "api_surface_breadth": "medium",
+  "api_protocol": [
+    "rest"
+  ],
+  "endpoint_count_estimate": 30,
+  "openapi_spec_available": false,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 1,
+  "buildability_rationale": "Gated behind enterprise sales; even if API exists, individual devs can't access.",
+  "main_blocker": "gated_access",
+  "evidence_urls": [
+    "https://my.pitchbook.com/api",
+    "https://pitchbook.com/pro"
+  ],
+  "confidence": "medium",
+  "agent_notes": "[HUMAN OVERRIDE: PitchBook is enterprise-only financial data. Contact sales required. API key auth.] [HUMAN-IN-THE-LOOP: verified manually with cited docs URL]",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544572.629099,
+  "human_override_at": 1783545417.4444907
+}

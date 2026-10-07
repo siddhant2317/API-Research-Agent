@@ -1,0 +1,48 @@
+{
+  "app_slug": "supabase",
+  "app_name": "Supabase",
+  "category": "Developer, Infra and Data platforms",
+  "original_record": {
+    "auth_methods": [
+      "oauth2",
+      "api_key"
+    ],
+    "self_serve": true,
+    "gating_type": "free",
+    "buildability_score": 5,
+    "main_blocker": "none",
+    "composio_supported": true,
+    "confidence": "high"
+  },
+  "composio_ground_truth": {
+    "slug": "supabase",
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "tools_count": 124,
+    "normalized_auth": [
+      "api_key",
+      "oauth2"
+    ]
+  },
+  "thinking_reextract": {
+    "auth_methods": [
+      "oauth2",
+      "api_key"
+    ],
+    "self_serve": true,
+    "gating_type": "none",
+    "buildability_score": 8,
+    "main_blocker": "none",
+    "confidence": "high",
+    "reasoning": "Based on the Composio registry data, Supabase supports OAuth2 and API key authentication. The documentation shows extensive client libraries for multiple programming languages, a Management API, and CLI, indicating it's designed to be self-serve with high buildability."
+  },
+  "field_agreement": {
+    "auth_methods_original_vs_thinking": true,
+    "auth_methods_original_vs_composio": true,
+    "self_serve_agreement": true,
+    "buildability_agreement": false
+  },
+  "verdict": "correct"
+}

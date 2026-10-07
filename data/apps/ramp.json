@@ -1,0 +1,47 @@
+{
+  "id": 89,
+  "app_name": "Ramp",
+  "app_slug": "ramp",
+  "category": "Finance and Fintech",
+  "website": "https://ramp.com",
+  "docs_url": "https://docs.ramp.com/",
+  "primary_docs_url_used": "https://docs.ramp.com/",
+  "one_line_description": "Expense management and corporate card platform",
+  "auth_methods": [
+    "oauth2"
+  ],
+  "auth_methods_evidence": "Composio registry lists auth_schemes as [\"OAUTH2\"]",
+  "self_serve": false,
+  "self_serve_evidence": "The main documentation page requires JavaScript rendering and doesn't provide clear self-service signup information. The docs mention issues with JavaScript rendering and suggest contacting support for feedback.",
+  "gating_type": "contact_sales",
+  "api_surface_breadth": "medium",
+  "api_protocol": [
+    "rest"
+  ],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": true,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:ramp"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "OAUTH2"
+  ],
+  "composio_tools_count": 88,
+  "buildability_score": 2,
+  "buildability_rationale": "OAuth2 authentication is standard, but access appears to require sales contact and documentation is not easily accessible.",
+  "main_blocker": "gated_access",
+  "evidence_urls": [
+    "https://docs.ramp.com/",
+    "https://composio.com/"
+  ],
+  "confidence": "medium",
+  "agent_notes": "The main documentation page requires JavaScript rendering and doesn't provide clear self-service signup information. The docs mention issues with JavaScript rendering and suggest contacting support for feedback.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544568.0630445
+}

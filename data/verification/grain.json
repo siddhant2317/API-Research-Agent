@@ -1,0 +1,31 @@
+{
+  "app_slug": "grain",
+  "app_name": "Grain",
+  "category": "AI, Research and Media-native",
+  "original_record": {
+    "auth_methods": [],
+    "self_serve": false,
+    "gating_type": "unknown",
+    "buildability_score": 0,
+    "main_blocker": "no_public_api",
+    "composio_supported": false,
+    "confidence": "high"
+  },
+  "composio_ground_truth": null,
+  "thinking_reextract": {
+    "auth_methods": [],
+    "self_serve": false,
+    "gating_type": "unknown",
+    "buildability_score": 0,
+    "main_blocker": "unknown",
+    "confidence": "low",
+    "reasoning": "No information was available from documentation, search snippets, or Composio registry for the Grain API. All assessments are conservative defaults due to complete lack of verifiable information."
+  },
+  "field_agreement": {
+    "auth_methods_original_vs_thinking": true,
+    "auth_methods_original_vs_composio": null,
+    "self_serve_agreement": true,
+    "buildability_agreement": true
+  },
+  "verdict": "self_consistent"
+}

@@ -1,0 +1,36 @@
+{
+  "app_id": 41,
+  "app_name": "Shopify",
+  "app_slug": "shopify",
+  "started_at": 1783544352.5462036,
+  "fetched_urls": [
+    {
+      "url": "https://shopify.dev/docs/api/admin-rest",
+      "status": 200,
+      "md_len": 28299
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 8.73,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": true,
+    "slug": "shopify",
+    "auth_schemes": [
+      "API_KEY",
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "tools_count": 315
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544362.5263944,
+  "duration_s": 9.98
+}

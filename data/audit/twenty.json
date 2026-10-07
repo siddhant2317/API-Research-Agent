@@ -1,0 +1,32 @@
+{
+  "app_id": 5,
+  "app_name": "Twenty",
+  "app_slug": "twenty",
+  "started_at": 1783544213.3709257,
+  "fetched_urls": [
+    {
+      "url": "https://docs.twenty.com/",
+      "status": 200,
+      "md_len": 4208
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 6.8,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544224.7451425,
+  "duration_s": 11.37
+}

@@ -1,0 +1,32 @@
+{
+  "app_id": 91,
+  "app_name": "NotebookLM",
+  "app_slug": "notebooklm",
+  "started_at": 1783544567.2163115,
+  "fetched_urls": [
+    {
+      "url": "https://cloud.google.com/gemini/docs",
+      "status": 200,
+      "md_len": 36950
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 22.1,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544591.68369,
+  "duration_s": 24.47
+}

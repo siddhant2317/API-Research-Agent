@@ -1,0 +1,34 @@
+{
+  "app_id": 64,
+  "app_name": "Cloudflare",
+  "app_slug": "cloudflare",
+  "started_at": 1783544460.2652495,
+  "fetched_urls": [
+    {
+      "url": "https://developers.cloudflare.com/api/",
+      "status": 200,
+      "md_len": 889663
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 6.98,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": true,
+    "slug": "cloudflare",
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "tools_count": 20
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544472.0915868,
+  "duration_s": 11.83
+}

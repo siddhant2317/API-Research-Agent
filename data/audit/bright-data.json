@@ -1,0 +1,36 @@
+{
+  "app_id": 57,
+  "app_name": "Bright Data",
+  "app_slug": "bright-data",
+  "started_at": 1783544423.9167783,
+  "fetched_urls": [
+    {
+      "url": "https://docs.brightdata.com/",
+      "status": 200,
+      "md_len": 3686
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 30.38,
+      "success": false
+    }
+  ],
+  "errors": [
+    "extraction_failed"
+  ],
+  "composio_lookup": {
+    "found": true,
+    "slug": "brightdata",
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "tools_count": 10
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544460.2626069,
+  "duration_s": 36.35
+}

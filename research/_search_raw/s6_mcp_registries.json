@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://smithery.ai",
+    "name": "Smithery - Connect agents to services in minutes",
+    "snippet": "The Microsoft Learn MCP Server is a remote MCP Server that enables clients like GitHub Copilot and other AI agents to bring trusted and up-to-date information ...",
+    "host_name": "smithery.ai",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://glama.ai/mcp/servers",
+    "name": "Open-Source MCP Servers - Glama",
+    "snippet": "Everything MCP – servers updated daily. The most comprehensive registry of Model Context Protocol (MCP) servers, clients, tools, and integrations.",
+    "host_name": "glama.ai",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/modelcontextprotocol/comments/1jf1oub/best_places_to_find_mcps",
+    "name": "Best places to find MCPs : r/modelcontextprotocol - Reddit",
+    "snippet": "Below are the ones I usually use MCP Repo: https://github.com/modelcontextprotocol/servers Smithery ... Glama.ai: https://glama.ai/mcp/servers. How to publish MCP server? Smithery - A Registry of 200+ MCP Servers w/ Installer More results from www.reddit.com",
+    "host_name": "www.reddit.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://smithery.ai/servers",
+    "name": "MCPs - Smithery",
+    "snippet": "Browse MCP servers to extend your AI agent's capabilities. Find and connect to community-built Model Context Protocol servers.",
+    "host_name": "smithery.ai",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2503.23278v1",
+    "name": "Model Context Protocol (MCP): Landscape, Security Threats, and",
+    "snippet": "The Model Context Protocol (MCP) is a standardized interface designed to enable seamless interaction between AI models and external tools and ...",
+    "host_name": "arxiv.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mcp.so",
+    "name": "MCP Servers",
+    "snippet": "MCP Server is a system that provides context, tools, and prompts to AI clients. It can expose data sources like files, documents, databases, and API ...",
+    "host_name": "mcp.so",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://apify.com/jungle_synthesizer/mcp-so-server-directory-scraper",
+    "name": "MCP.so Server Directory Scraper - Apify",
+    "snippet": "Scrape the complete MCP.so server directory — the 3rd canonical MCP registry alongside Smithery and Glama. Extracts server name, author,",
+    "host_name": "apify.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/kevin-kernegger_a-list-of-mcp-directories-server-registries-activity-7321227573181530113-5N0j",
+    "name": "Kevin Kernegger's Post - LinkedIn",
+    "snippet": "I you are into Model Context Protocol and wondering about 1. how to build MCP servers 2. how to integrate MCP servers into your agent workflow 3 ...",
+    "host_name": "www.linkedin.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

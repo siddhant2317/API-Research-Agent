@@ -1,0 +1,32 @@
+{
+  "app_id": 52,
+  "app_name": "SE Ranking",
+  "app_slug": "se-ranking",
+  "started_at": 1783544399.8478718,
+  "fetched_urls": [
+    {
+      "url": "https://seranking.com/api.html",
+      "status": 200,
+      "md_len": 39694
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 6.97,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544413.1433408,
+  "duration_s": 13.3
+}

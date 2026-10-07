@@ -1,0 +1,34 @@
+{
+  "app_id": 35,
+  "app_name": "Mailchimp",
+  "app_slug": "mailchimp",
+  "started_at": 1783544334.3729963,
+  "fetched_urls": [
+    {
+      "url": "https://mailchimp.com/developer/marketing/api/",
+      "status": 200,
+      "md_len": 62805
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 7.62,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": true,
+    "slug": "mailchimp",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "tools_count": 272
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544343.3695445,
+  "duration_s": 9.0
+}

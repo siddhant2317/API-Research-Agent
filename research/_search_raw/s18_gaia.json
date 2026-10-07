@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2311.12983",
+    "name": "[2311.12983] GAIA: a benchmark for General AI Assistants - arXiv",
+    "snippet": "Abstract:We introduce GAIA, a benchmark for General AI Assistants that, if solved, would represent a milestone in AI research.",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://huggingface.co/spaces/gaia-benchmark/leaderboard",
+    "name": "GAIA Leaderboard - a Hugging Face Space by gaia-benchmark",
+    "snippet": "GAIA is a benchmark which aims at evaluating next-generation LLMs (LLMs with augmented capabilities due to added tooling, efficient prompting, access to search ...",
+    "host_name": "huggingface.co",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://towardsdatascience.com/gaia-the-llm-agent-benchmark-everyones-talking-about",
+    "name": "GAIA: The LLM Agent Benchmark Everyone's Talking About | Towards Data Science",
+    "snippet": "This benchmark was introduced to specifically evaluate LLM agents on their ability to act as general-purpose AI assistants. It is the result of ...",
+    "host_name": "towardsdatascience.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arduin.io/blog/gaia-overview",
+    "name": "GAIA benchmark overview | arduin.io",
+    "snippet": "The General AI Assistant (GAIA) benchmark by Mialon et al. (2023 ) aims to provide a “convenient yet challenging benchmark for AI assistants”.",
+    "host_name": "arduin.io",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/pdf/2311.12983",
+    "name": "[PDF] GAIA: A Benchmark for General AI Assistants arXiv:2311.12983v1 [cs.CL] 21 Nov 2023",
+    "snippet": "We introduce GAIA, a benchmark for General AI Assistants that, if solved, would represent a milestone in AI research.",
+    "host_name": "arxiv.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://openreview.net/forum?id=fibxvahvs3",
+    "name": "GAIA: a benchmark for General AI Assistants - OpenReview",
+    "snippet": "This paper presents a new benchmark for general AI assistants, GAIA. The benchmark consists of 466 questions across 3 levels of complexity, ...",
+    "host_name": "openreview.net",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

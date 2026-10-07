@@ -1,0 +1,32 @@
+{
+  "app_id": 43,
+  "app_name": "BigCommerce",
+  "app_slug": "bigcommerce",
+  "started_at": 1783544362.527564,
+  "fetched_urls": [
+    {
+      "url": "https://developer.bigcommerce.com/api-reference",
+      "status": 200,
+      "md_len": 157979
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 8.6,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544373.4704545,
+  "duration_s": 10.94
+}

@@ -1,0 +1,35 @@
+{
+  "app_id": 72,
+  "app_name": "Airtable",
+  "app_slug": "airtable",
+  "started_at": 1783544491.0511038,
+  "fetched_urls": [
+    {
+      "url": "https://airtable.com/developers/web/api/introduction",
+      "status": 200,
+      "md_len": 85
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 8.06,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": true,
+    "slug": "airtable",
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "tools_count": 24
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544501.0189762,
+  "duration_s": 9.97
+}

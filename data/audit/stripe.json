@@ -1,0 +1,35 @@
+{
+  "app_id": 81,
+  "app_name": "Stripe",
+  "app_slug": "stripe",
+  "started_at": 1783544532.7066648,
+  "fetched_urls": [
+    {
+      "url": "https://docs.stripe.com/api",
+      "status": 200,
+      "md_len": 14980
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 9.75,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": true,
+    "slug": "stripe",
+    "auth_schemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "tools_count": 425
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544543.4713762,
+  "duration_s": 10.76
+}

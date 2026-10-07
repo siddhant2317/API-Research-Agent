@@ -1,0 +1,46 @@
+{
+  "id": 40,
+  "app_name": "SendGrid",
+  "app_slug": "sendgrid",
+  "category": "Marketing, Ads, Email and Social",
+  "website": "https://sendgrid.com",
+  "docs_url": "https://docs.sendgrid.com/api-reference",
+  "primary_docs_url_used": "https://docs.sendgrid.com/api-reference",
+  "one_line_description": "Cloud-based email delivery platform for transactional and marketing emails",
+  "auth_methods": [
+    "api_key"
+  ],
+  "auth_methods_evidence": "Authentication section in the SendGrid v3 API documentation",
+  "self_serve": true,
+  "self_serve_evidence": "SendGrid offers a free tier that allows developers to sign up and obtain API keys without contacting sales",
+  "gating_type": "free",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest"
+  ],
+  "endpoint_count_estimate": 100,
+  "openapi_spec_available": false,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:sendgrid"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "API_KEY"
+  ],
+  "composio_tools_count": 359,
+  "buildability_score": 5,
+  "buildability_rationale": "Self-serve with free tier, good documentation, broad API surface, simple API key authentication, and Composio support",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://docs.sendgrid.com/api-reference"
+  ],
+  "confidence": "high",
+  "agent_notes": "SendGrid provides comprehensive API documentation with a wide range of endpoints for email delivery, account management, and deliverability features",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544366.4091187
+}

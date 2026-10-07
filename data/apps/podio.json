@@ -1,0 +1,43 @@
+{
+  "id": 6,
+  "app_name": "Podio",
+  "app_slug": "podio",
+  "category": "CRM and Sales",
+  "website": "https://podio.com",
+  "docs_url": "https://developers.podio.com/",
+  "primary_docs_url_used": "https://developers.podio.com/",
+  "one_line_description": "Work management platform with customizable apps",
+  "auth_methods": [
+    "api_key"
+  ],
+  "auth_methods_evidence": "You'll need a Podio account, first of all. Then you should review our Terms of API use and then grab an API key for each app you want to build from your account settings page.",
+  "self_serve": true,
+  "self_serve_evidence": "Get started right away - generate your API key.",
+  "gating_type": "free",
+  "api_surface_breadth": "medium",
+  "api_protocol": [
+    "rest",
+    "webhook"
+  ],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": false,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 3,
+  "buildability_rationale": "API key authentication is straightforward and self-serve, but documentation doesn't specify endpoint count or provide OpenAPI spec.",
+  "main_blocker": "poor_docs",
+  "evidence_urls": [
+    "https://developers.podio.com/"
+  ],
+  "confidence": "medium",
+  "agent_notes": "The documentation mentions client libraries for multiple languages and webhook support, but doesn't provide a complete API endpoint count or OpenAPI specification.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544226.9199154
+}

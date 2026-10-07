@@ -1,0 +1,32 @@
+{
+  "app_id": 59,
+  "app_name": "Waterfall.io",
+  "app_slug": "waterfall-io",
+  "started_at": 1783544427.1903007,
+  "fetched_urls": [
+    {
+      "url": "https://docs.waterfall.io/",
+      "status": 200,
+      "md_len": 5236
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 12.69,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544447.6026897,
+  "duration_s": 20.41
+}

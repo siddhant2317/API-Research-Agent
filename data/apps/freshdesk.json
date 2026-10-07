@@ -1,0 +1,49 @@
+{
+  "id": 13,
+  "app_name": "Freshdesk",
+  "app_slug": "freshdesk",
+  "category": "Support and Helpdesk",
+  "website": "https://freshdesk.com",
+  "docs_url": "https://developers.freshdesk.com/api/",
+  "primary_docs_url_used": "https://developers.freshdesk.com/api/",
+  "one_line_description": "Customer support software with ticketing and automation features",
+  "auth_methods": [
+    "api_key",
+    "basic"
+  ],
+  "auth_methods_evidence": "Freshdesk uses Basic Auth with API key as username. Composio lists API_KEY, Nango lists BASIC \u2014 both are correct (the API key IS sent via Basic auth header). https://developers.freshdesk.com/api/",
+  "self_serve": true,
+  "self_serve_evidence": "The Freshdesk API documentation is publicly accessible at https://developers.freshdesk.com/api/ and includes authentication information, suggesting developers can self-serve credentials.",
+  "gating_type": "free_trial",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest"
+  ],
+  "endpoint_count_estimate": 178,
+  "openapi_spec_available": false,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:freshdesk"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "API_KEY"
+  ],
+  "composio_tools_count": 178,
+  "buildability_score": 4,
+  "buildability_rationale": "Self-serve API with good documentation and broad API surface, though requires API key authentication.",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://developers.freshdesk.com/api/",
+    "https://www.freshworks.com/"
+  ],
+  "confidence": "high",
+  "agent_notes": "Freshdesk provides a comprehensive REST API with extensive endpoints for support and helpdesk operations. The API uses API key authentication and is well-documented. Composio registry confirms 178 tools are available. [NANGO CROSS-CHECK: Nango lists BASIC, Composio lists API_KEY. Both correct \u2014 Freshdesk sends API key via Basic auth header. Updated to include both.]",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544274.5914493,
+  "cross_checked_at": 1783548223.423736
+}

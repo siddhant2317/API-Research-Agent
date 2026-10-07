@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://composio.dev/toolkits/composio",
+    "name": "Composio MCP Integration for AI Agents",
+    "snippet": "Securely connect your AI agents and chatbots (Claude, ChatGPT, Cursor, etc) with Composio MCP or direct API to link accounts, trigger cross-platform actions, ...",
+    "host_name": "composio.dev",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://composio.dev/toolkits/composio/framework/crew-ai",
+    "name": "Composio MCP Integration with CrewAI",
+    "snippet": "Learn how to integrate Composio with CrewAI using the Model Context Protocol (MCP). Step-by-step guide with Python and TypeScript code examples.",
+    "host_name": "composio.dev",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "http://krasserm.github.io/2025/08/06/agent-authorization",
+    "name": "Agent authorization without the pain - Martin Krasser",
+    "snippet": "Composio handles authorization, remote MCP servers and tool execution, while your application focuses on agentic reasoning and tool usage. Note: ...",
+    "host_name": "krasserm.github.io",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://natesnewsletter.substack.com/p/composio-mcp-wants-to-dance-with",
+    "name": "Composio MCP wants to dance with your LLM, but some people are",
+    "snippet": "Composio acts as a unifying layer between AI agents (like large language models) and the web of third-party services they need to use.",
+    "host_name": "natesnewsletter.substack.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mcpmarket.com/tools/skills/composio-connect",
+    "name": "Composio Connect | Claude Code Skill for App Automation",
+    "snippet": "Empower Claude to take real actions across 1000+ apps. Connect Claude to Gmail, Slack, and GitHub with the Composio Connect Claude Code Skill.",
+    "host_name": "mcpmarket.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=9uKPGCdruHU",
+    "name": "This is the EASIEST Way to Build MCP Servers - YouTube",
+    "snippet": "... strategy-call Composio.dev is so underrated and I have no idea why. It is easily one of the best ways to create and build mcp servers.",
+    "host_name": "www.youtube.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=tfyZe0i_zuI",
+    "name": "How To Make Machines Work With Composio Part 1 - YouTube",
+    "snippet": "Introducing Composio Tools Agentic LLMs API Gateway| How To Make Machines Work With Composio Part 1. @insightbuilder11 likes367 views1 year ...",
+    "host_name": "www.youtube.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://composio.dev",
+    "name": "Composio",
+    "snippet": "Managed MCP servers and tool routing for your agents. FOR AGENTS. CLAUDE ... Every tool comes production-ready — authenticated, optimized, and reliable.",
+    "host_name": "composio.dev",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

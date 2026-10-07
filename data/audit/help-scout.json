@@ -1,0 +1,34 @@
+{
+  "app_id": 18,
+  "app_name": "Help Scout",
+  "app_slug": "help-scout",
+  "started_at": 1783544269.2250302,
+  "fetched_urls": [
+    {
+      "url": "https://developer.helpscout.com/docs-api/",
+      "status": 200,
+      "md_len": 8223
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 8.97,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": true,
+    "slug": "help_scout",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "tools_count": 129
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544279.435444,
+  "duration_s": 10.21
+}

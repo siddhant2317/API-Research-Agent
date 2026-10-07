@@ -1,0 +1,32 @@
+{
+  "app_id": 76,
+  "app_name": "Monday.com",
+  "app_slug": "monday-com",
+  "started_at": 1783544512.9519124,
+  "fetched_urls": [
+    {
+      "url": "https://developer.monday.com/api-reference/docs",
+      "status": 200,
+      "md_len": 13859
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 8.5,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544522.6886742,
+  "duration_s": 9.74
+}

@@ -1,0 +1,46 @@
+{
+  "id": 93,
+  "app_name": "Fathom",
+  "app_slug": "fathom",
+  "category": "AI, Research and Media-native",
+  "website": "https://fathom.video",
+  "docs_url": "https://fathom.video/api",
+  "primary_docs_url_used": "https://fathom.video/api",
+  "one_line_description": "AI meeting assistant that records, transcribes, and summarizes meetings",
+  "auth_methods": [
+    "oauth2",
+    "api_key"
+  ],
+  "auth_methods_evidence": "Composio registry lists auth_schemes as [\"OAUTH2\", \"API_KEY\"]",
+  "self_serve": false,
+  "self_serve_evidence": "Official docs URL (https://fathom.video/api) returned 404, preventing verification of self-serve access",
+  "gating_type": "unknown",
+  "api_surface_breadth": "unknown",
+  "api_protocol": [],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": false,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:fathom"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "OAUTH2",
+    "API_KEY"
+  ],
+  "composio_tools_count": 7,
+  "buildability_score": 1,
+  "buildability_rationale": "Blocked by lack of accessible documentation despite having authentication methods and Composio support",
+  "main_blocker": "poor_docs",
+  "evidence_urls": [
+    "https://fathom.video/api"
+  ],
+  "confidence": "low",
+  "agent_notes": "Official API documentation is not accessible (404 error), making it impossible to verify self-serve access, API surface, or other implementation details. Composio registry provides some information about authentication and tools count.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544581.9522922
+}

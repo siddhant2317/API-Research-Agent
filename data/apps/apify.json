@@ -1,0 +1,47 @@
+{
+  "id": 55,
+  "app_name": "Apify",
+  "app_slug": "apify",
+  "category": "Data, SEO and Scraping",
+  "website": "https://apify.com",
+  "docs_url": "https://docs.apify.com/api/v2",
+  "primary_docs_url_used": "https://docs.apify.com/api/v2",
+  "one_line_description": "Platform for building, deploying, and managing web scraping tools",
+  "auth_methods": [
+    "api_key"
+  ],
+  "auth_methods_evidence": "API_KEY",
+  "self_serve": true,
+  "self_serve_evidence": "The Composio registry indicates it's a developer tool with API_KEY authentication, suggesting self-service access.",
+  "gating_type": "free_trial",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest"
+  ],
+  "endpoint_count_estimate": 112,
+  "openapi_spec_available": true,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:apify"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "API_KEY"
+  ],
+  "composio_tools_count": 112,
+  "buildability_score": 4,
+  "buildability_rationale": "Good API breadth with clear documentation, self-service access with API key auth, and Composio support.",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://docs.apify.com/api/v2",
+    "https://apify.com/"
+  ],
+  "confidence": "high",
+  "agent_notes": "The API documentation is comprehensive with over 100 endpoints, and the platform offers a free trial for developers to get started.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544427.189092
+}

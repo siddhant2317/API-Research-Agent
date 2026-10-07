@@ -1,0 +1,32 @@
+{
+  "app_id": 83,
+  "app_name": "Binance",
+  "app_slug": "binance",
+  "started_at": 1783544534.4914336,
+  "fetched_urls": [
+    {
+      "url": "https://binance-docs.github.io/apidocs/",
+      "status": 200,
+      "md_len": 0
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 6.99,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544542.882412,
+  "duration_s": 8.39
+}

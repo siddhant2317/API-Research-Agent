@@ -1,0 +1,49 @@
+{
+  "id": 16,
+  "app_name": "LiveAgent",
+  "app_slug": "liveagent",
+  "category": "Support and Helpdesk",
+  "website": "https://liveagent.com",
+  "docs_url": "https://developers.ladesk.com/",
+  "primary_docs_url_used": "https://developers.ladesk.com/",
+  "agent_notes": "[HUMAN OVERRIDE: LiveAgent has REST API with API key. 14-day free trial.] [HUMAN-IN-THE-LOOP: verified manually with cited docs URL]",
+  "confidence": "medium",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": [
+      "extraction_failed"
+    ],
+    "retry_thinking_enabled": true,
+    "retry_succeeded": true
+  },
+  "researched_at": 1783544288.3241522,
+  "one_line_description": "Helpdesk and live chat with REST API",
+  "auth_methods": [
+    "api_key"
+  ],
+  "auth_methods_evidence": "LiveAgent API uses API keys. https://developers.ladesk.com/",
+  "self_serve": true,
+  "self_serve_evidence": "14-day free trial, API keys in account. https://www.liveagent.com/pricing/",
+  "gating_type": "free_trial",
+  "api_surface_breadth": "medium",
+  "api_protocol": [
+    "rest",
+    "webhook"
+  ],
+  "endpoint_count_estimate": 40,
+  "openapi_spec_available": false,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 3,
+  "buildability_rationale": "Self-serve trial, API key auth, decent API but no OpenAPI spec.",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://developers.ladesk.com/"
+  ],
+  "retried_at": 1783545252.112844,
+  "human_override_at": 1783545417.4474401
+}

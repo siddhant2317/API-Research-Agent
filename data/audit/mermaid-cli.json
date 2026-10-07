@@ -1,0 +1,32 @@
+{
+  "app_id": 98,
+  "app_name": "Mermaid CLI",
+  "app_slug": "mermaid-cli",
+  "started_at": 1783544592.0774546,
+  "fetched_urls": [
+    {
+      "url": "https://github.com/mermaid-js/mermaid-cli",
+      "status": 200,
+      "md_len": 23506
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 22.68,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544616.8302238,
+  "duration_s": 24.75
+}

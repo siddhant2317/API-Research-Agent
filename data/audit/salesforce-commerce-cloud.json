@@ -1,0 +1,32 @@
+{
+  "app_id": 44,
+  "app_name": "Salesforce Commerce Cloud",
+  "app_slug": "salesforce-commerce-cloud",
+  "started_at": 1783544366.4116974,
+  "fetched_urls": [
+    {
+      "url": "https://developer.salesforce.com/docs/commerce/commerce-api/overview",
+      "status": 403,
+      "md_len": 0
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 7.71,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544375.2442977,
+  "duration_s": 8.83
+}

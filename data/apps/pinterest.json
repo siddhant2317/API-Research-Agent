@@ -1,0 +1,43 @@
+{
+  "id": 38,
+  "app_name": "Pinterest",
+  "app_slug": "pinterest",
+  "category": "Marketing, Ads, Email and Social",
+  "website": "https://developers.pinterest.com",
+  "docs_url": "https://developers.pinterest.com/docs/api/v5/",
+  "primary_docs_url_used": "https://developers.pinterest.com/docs/api/v5/",
+  "one_line_description": "Pin and board management API for marketing",
+  "auth_methods": [
+    "oauth2"
+  ],
+  "auth_methods_evidence": "Pinterest API v5 uses OAuth 2.0. https://developers.pinterest.com/docs/api/v5/",
+  "self_serve": true,
+  "self_serve_evidence": "Free developer account; can test in sandbox. https://developers.pinterest.com/docs/getting-started/introduction/",
+  "gating_type": "free",
+  "api_surface_breadth": "medium",
+  "api_protocol": [
+    "rest"
+  ],
+  "endpoint_count_estimate": 40,
+  "openapi_spec_available": true,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 4,
+  "buildability_rationale": "Self-serve OAuth2, medium API, OpenAPI spec, decent docs.",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://developers.pinterest.com/docs/api/v5/"
+  ],
+  "confidence": "high",
+  "agent_notes": "[HUMAN OVERRIDE: Pinterest v5 API uses OAuth2, free dev account, OpenAPI spec available.] [HUMAN-IN-THE-LOOP: verified manually with cited docs URL]",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544358.044462,
+  "human_override_at": 1783545417.4370508
+}

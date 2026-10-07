@@ -1,0 +1,34 @@
+{
+  "app_id": 80,
+  "app_name": "Harvest",
+  "app_slug": "harvest",
+  "started_at": 1783544524.2354074,
+  "fetched_urls": [
+    {
+      "url": "https://help.getharvest.com/api-v2/",
+      "status": 200,
+      "md_len": 4510
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 8.88,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": true,
+    "slug": "harvest",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "tools_count": 57
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544534.4635549,
+  "duration_s": 10.23
+}

@@ -1,0 +1,50 @@
+{
+  "id": 75,
+  "app_name": "Asana",
+  "app_slug": "asana",
+  "category": "Productivity and Project Management",
+  "website": "https://asana.com",
+  "docs_url": "https://developers.asana.com/docs/",
+  "primary_docs_url_used": "https://developers.asana.com/docs/",
+  "one_line_description": "Tool to help teams organize, track, and manage their work.",
+  "auth_methods": [
+    "oauth2",
+    "api_key"
+  ],
+  "auth_methods_evidence": "Your app may ultimately use OAuth, but most developers test our API by creating a Personal Access Token (PAT) to make their first API calls.",
+  "self_serve": true,
+  "self_serve_evidence": "Create your token or app in the developer console.",
+  "gating_type": "free",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest",
+    "webhook"
+  ],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": true,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:asana"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "OAUTH2"
+  ],
+  "composio_tools_count": 153,
+  "buildability_score": 5,
+  "buildability_rationale": "Self-serve with good docs, broad API, OAuth2 or API key authentication, no gating, and Composio-supported.",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://developers.asana.com/docs/"
+  ],
+  "confidence": "high",
+  "agent_notes": "Asana offers both OAuth2 and Personal Access Token authentication methods. The API is well-documented with an embedded API explorer. The Composio registry shows 153 tools available, indicating a broad API surface.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544515.3564758,
+  "verification_note": "Note: agent found [api_key, oauth2] but Composio lists only [oauth2]. Asana genuinely supports both (Personal Access Tokens + OAuth2); Composio chose to implement only OAuth2. Agent is correct.",
+  "audited_at": 1783548121.0888708
+}

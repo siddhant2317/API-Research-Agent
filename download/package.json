@@ -1,0 +1,9 @@
+{
+  "name": "composio-takehome",
+  "version": "1.0.0",
+  "description": "AI Product Ops take-home: 100-app API research agent",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

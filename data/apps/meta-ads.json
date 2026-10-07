@@ -1,0 +1,50 @@
+{
+  "id": 32,
+  "app_name": "Meta Ads",
+  "app_slug": "meta-ads",
+  "category": "Marketing, Ads, Email and Social",
+  "website": "https://developers.facebook.com",
+  "docs_url": "https://developers.facebook.com/docs/marketing-apis",
+  "primary_docs_url_used": "https://developers.facebook.com/docs/marketing-apis",
+  "one_line_description": "Create, edit and get insights from ads across Meta technologies",
+  "auth_methods": [
+    "oauth2",
+    "api_key"
+  ],
+  "auth_methods_evidence": "Composio registry lists auth_schemes as [\"OAUTH2\", \"API_KEY\"]",
+  "self_serve": true,
+  "self_serve_evidence": "The app is listed in Composio registry with a public URL (https://business.meta.com/), suggesting self-service access is available",
+  "gating_type": "free",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest",
+    "graphql"
+  ],
+  "endpoint_count_estimate": 50,
+  "openapi_spec_available": false,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:metaads"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "OAUTH2",
+    "API_KEY"
+  ],
+  "composio_tools_count": 50,
+  "buildability_score": 4,
+  "buildability_rationale": "Self-service access with OAuth2 and API key authentication, broad API surface with 50 tools, and Composio support",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://developers.facebook.com/docs/marketing-apis",
+    "https://business.meta.com/"
+  ],
+  "confidence": "medium",
+  "agent_notes": "The main documentation URL returned a 400 error, but Composio registry provides reliable information about the API structure and authentication methods.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544333.8458638
+}

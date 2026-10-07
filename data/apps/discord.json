@@ -1,0 +1,48 @@
+{
+  "id": 26,
+  "app_name": "Discord",
+  "app_slug": "discord",
+  "category": "Communications and Messaging",
+  "website": "https://discord.com",
+  "docs_url": "https://discord.com/developers/docs/intro",
+  "primary_docs_url_used": "https://discord.com/developers/docs/intro",
+  "one_line_description": "An instant messaging and VoIP social platform.",
+  "auth_methods": [
+    "oauth2"
+  ],
+  "auth_methods_evidence": "The Composio registry lists OAuth2 as an authentication scheme for Discord.",
+  "self_serve": true,
+  "self_serve_evidence": "The Discord Developer Platform provides a self-serve environment for developers to build bots and integrations without requiring sales contact.",
+  "gating_type": "free",
+  "api_surface_breadth": "medium",
+  "api_protocol": [
+    "rest",
+    "webhook"
+  ],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": false,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:discord"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "OAUTH2"
+  ],
+  "composio_tools_count": 27,
+  "buildability_score": 4,
+  "buildability_rationale": "Discord offers a free self-serve platform with good documentation, OAuth2 authentication, and a substantial API with 27 tools in Composio.",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://discord.com/developers/docs/intro",
+    "https://composio.dev"
+  ],
+  "confidence": "high",
+  "agent_notes": "Discord provides a comprehensive developer platform with OAuth2 authentication and a variety of API endpoints for building bots and integrations.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544314.2784464
+}

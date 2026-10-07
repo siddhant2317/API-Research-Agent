@@ -1,0 +1,32 @@
+{
+  "app_id": 46,
+  "app_name": "Squarespace",
+  "app_slug": "squarespace",
+  "started_at": 1783544375.2470703,
+  "fetched_urls": [
+    {
+      "url": "https://developers.squarespace.com/commerce-apis/overview",
+      "status": 200,
+      "md_len": 3104
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 22.04,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544399.8456237,
+  "duration_s": 24.6
+}

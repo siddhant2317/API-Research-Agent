@@ -1,0 +1,32 @@
+{
+  "app_id": 94,
+  "app_name": "Consensus",
+  "app_slug": "consensus",
+  "started_at": 1783544576.0627527,
+  "fetched_urls": [
+    {
+      "url": "https://docs.consensus.app/api",
+      "status": 404,
+      "md_len": 0
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 5.9,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544583.4697564,
+  "duration_s": 7.41
+}

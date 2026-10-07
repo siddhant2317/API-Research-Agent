@@ -1,0 +1,50 @@
+{
+  "id": 21,
+  "app_name": "Slack",
+  "app_slug": "slack",
+  "category": "Communications and Messaging",
+  "website": "https://slack.com",
+  "docs_url": "https://api.slack.com/web",
+  "primary_docs_url_used": "https://api.slack.com/web",
+  "one_line_description": "Channel-based messaging platform for team collaboration",
+  "auth_methods": [
+    "oauth2",
+    "bearer_token"
+  ],
+  "auth_methods_evidence": "Authenticate your Web API requests by providing a [bearer token](/authentication/tokens), which identifies a single user or bot user relationship. [Register your application](https://api.slack.com/apps) with Slack to obtain credentials for use with our [OAuth 2.0](/authentication/installing-with-oauth) implementation",
+  "self_serve": true,
+  "self_serve_evidence": "Register your application with Slack to obtain credentials for use with our OAuth 2.0 implementation",
+  "gating_type": "free",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest",
+    "webhook"
+  ],
+  "endpoint_count_estimate": 200,
+  "openapi_spec_available": false,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:slack"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "OAUTH2"
+  ],
+  "composio_tools_count": 158,
+  "buildability_score": 5,
+  "buildability_rationale": "Self-serve OAuth2 authentication with broad API surface and good documentation",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://api.slack.com/web"
+  ],
+  "confidence": "high",
+  "agent_notes": "Slack provides a comprehensive Web API with over 200 methods, supports OAuth2 authentication, and has good documentation. The Composio registry shows 158 tools available for integration.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544291.8654387,
+  "verification_note": "Note: agent found [api_key, oauth2] but Composio lists only [oauth2]. Slack supports bot tokens (xoxb-, which are API keys) AND OAuth2; Composio implements only OAuth2. Agent is correct.",
+  "audited_at": 1783548121.0894794
+}

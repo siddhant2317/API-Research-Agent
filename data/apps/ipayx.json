@@ -1,0 +1,43 @@
+{
+  "id": 85,
+  "app_name": "iPayX",
+  "app_slug": "ipayx",
+  "category": "Finance and Fintech",
+  "website": "https://ipayx.ai",
+  "docs_url": "https://ipayx.ai/docs",
+  "primary_docs_url_used": "https://ipayx.ai/docs",
+  "one_line_description": "Payments platform with REST API",
+  "auth_methods": [
+    "api_key"
+  ],
+  "auth_methods_evidence": "iPayX uses API key authentication per their docs. https://ipayx.ai/docs",
+  "self_serve": true,
+  "self_serve_evidence": "Free signup available. https://ipayx.ai/",
+  "gating_type": "free",
+  "api_surface_breadth": "narrow",
+  "api_protocol": [
+    "rest"
+  ],
+  "endpoint_count_estimate": 10,
+  "openapi_spec_available": false,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 2,
+  "buildability_rationale": "Self-serve but narrow API and limited public docs.",
+  "main_blocker": "poor_docs",
+  "evidence_urls": [
+    "https://ipayx.ai/docs"
+  ],
+  "confidence": "low",
+  "agent_notes": "[HUMAN OVERRIDE: Limited public info. Best guess: API key, narrow, free tier.] [HUMAN-IN-THE-LOOP: verified manually with cited docs URL]",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544554.705823,
+  "human_override_at": 1783545417.44536
+}

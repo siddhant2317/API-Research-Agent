@@ -1,0 +1,25 @@
+{
+  "app_slug": "salesforce-commerce-cloud",
+  "app_name": "Salesforce Commerce Cloud",
+  "category": "Ecommerce",
+  "original_record": {
+    "auth_methods": [
+      "oauth2"
+    ],
+    "self_serve": false,
+    "gating_type": "enterprise_only",
+    "buildability_score": 2,
+    "main_blocker": "gated_access",
+    "composio_supported": false,
+    "confidence": "high"
+  },
+  "composio_ground_truth": null,
+  "thinking_reextract": null,
+  "field_agreement": {
+    "auth_methods_original_vs_thinking": false,
+    "auth_methods_original_vs_composio": null,
+    "self_serve_agreement": null,
+    "buildability_agreement": null
+  },
+  "verdict": "unverifiable"
+}

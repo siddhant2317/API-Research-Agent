@@ -1,0 +1,41 @@
+{
+  "id": 98,
+  "app_name": "Mermaid CLI",
+  "app_slug": "mermaid-cli",
+  "category": "AI, Research and Media-native",
+  "website": "https://github.com/mermaid-js/mermaid-cli",
+  "docs_url": "https://github.com/mermaid-js/mermaid-cli",
+  "primary_docs_url_used": "https://github.com/mermaid-js/mermaid-cli",
+  "one_line_description": "Command-line interface for generating diagrams from text",
+  "auth_methods": [
+    "none"
+  ],
+  "auth_methods_evidence": "The documentation does not mention any authentication requirements for using the Mermaid CLI tool.",
+  "self_serve": true,
+  "self_serve_evidence": "The project is open source and available on GitHub with no indication of requiring special access or approval to use.",
+  "gating_type": "free",
+  "api_surface_breadth": "unknown",
+  "api_protocol": [],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": false,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 2,
+  "buildability_rationale": "CLI tool (no API), but can be wrapped as a subprocess tool for agents. Open-source, self-serve, no auth needed.",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://github.com/mermaid-js/mermaid-cli"
+  ],
+  "confidence": "medium",
+  "agent_notes": "Mermaid CLI is a command-line tool for generating diagrams from text-based descriptions. It doesn't provide a traditional REST API but rather a CLI interface that can be integrated into development workflows. [AUDIT FIX: buildability 3\u21922; it's a CLI not an API, but still usable as a subprocess tool.]",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544616.829934,
+  "audited_at": 1783548003.4088535
+}

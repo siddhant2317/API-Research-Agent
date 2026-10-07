@@ -1,0 +1,35 @@
+{
+  "app_id": 69,
+  "app_name": "Datadog",
+  "app_slug": "datadog",
+  "started_at": 1783544475.55606,
+  "fetched_urls": [
+    {
+      "url": "https://docs.datadoghq.com/api/latest/",
+      "status": 200,
+      "md_len": 432514
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 8.68,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": true,
+    "slug": "datadog",
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "tools_count": 42
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544491.050356,
+  "duration_s": 15.49
+}

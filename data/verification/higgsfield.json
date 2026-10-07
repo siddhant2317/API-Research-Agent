@@ -1,0 +1,35 @@
+{
+  "app_slug": "higgsfield",
+  "app_name": "higgsfield",
+  "category": "AI, Research and Media-native",
+  "original_record": {
+    "auth_methods": [
+      "api_key"
+    ],
+    "self_serve": true,
+    "gating_type": "free",
+    "buildability_score": 2,
+    "main_blocker": "poor_docs",
+    "composio_supported": false,
+    "confidence": "low"
+  },
+  "composio_ground_truth": null,
+  "thinking_reextract": {
+    "auth_methods": [
+      "API keys"
+    ],
+    "self_serve": true,
+    "gating_type": "open",
+    "buildability_score": 7,
+    "main_blocker": "Limited documentation details on authentication and pricing",
+    "confidence": "medium",
+    "reasoning": "The documentation indicates a well-structured API with unified integration points and client libraries, suggesting a developer-friendly platform. However, specific authentication methods and pricing details are not clearly outlined, which could present integration challenges. The presence of a dashb"
+  },
+  "field_agreement": {
+    "auth_methods_original_vs_thinking": false,
+    "auth_methods_original_vs_composio": null,
+    "self_serve_agreement": true,
+    "buildability_agreement": false
+  },
+  "verdict": "self_inconsistent"
+}

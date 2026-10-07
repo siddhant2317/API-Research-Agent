@@ -1,0 +1,44 @@
+{
+  "app_slug": "dataforseo",
+  "app_name": "DataForSEO",
+  "category": "Data, SEO and Scraping",
+  "original_record": {
+    "auth_methods": [
+      "basic"
+    ],
+    "self_serve": true,
+    "gating_type": "free_trial",
+    "buildability_score": 4,
+    "main_blocker": "none",
+    "composio_supported": true,
+    "confidence": "medium"
+  },
+  "composio_ground_truth": {
+    "slug": "dataforseo",
+    "auth_schemes": [
+      "BASIC"
+    ],
+    "tools_count": 312,
+    "normalized_auth": [
+      "basic"
+    ]
+  },
+  "thinking_reextract": {
+    "auth_methods": [
+      "BASIC"
+    ],
+    "self_serve": true,
+    "gating_type": "unknown",
+    "buildability_score": 7,
+    "main_blocker": "none",
+    "confidence": "high",
+    "reasoning": "DataForSEO appears to be a self-serve API with BASIC authentication based on the Composio registry. The comprehensive documentation with pricing and sign-up functionality suggests it has some form of gating, but the exact model isn't clear from the provided information. With 312 tools available and "
+  },
+  "field_agreement": {
+    "auth_methods_original_vs_thinking": true,
+    "auth_methods_original_vs_composio": true,
+    "self_serve_agreement": true,
+    "buildability_agreement": false
+  },
+  "verdict": "correct"
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://docs.composio.dev/docs/tools-direct/authenticating-tools",
+    "name": "Authenticating Tools - Composio Docs",
+    "snippet": "The first step in authenticating your users is to create an Auth Config. Every toolkit has its own authentication method such as OAuth , API key , Basic Auth , ...",
+    "host_name": "docs.composio.dev",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://composio.dev",
+    "name": "Composio",
+    "snippet": "Composio handles OAuth end-to-end: OAuth, API keys, token refresh, lifecycle management. Your tools and auth carry over, zero rework.",
+    "host_name": "composio.dev",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://composio.dev/content/per-user-oauth-for-ai-agents",
+    "name": "Per-User OAuth for AI Agents: Why It Matters and What to Look For",
+    "snippet": "This article breaks down what per-user OAuth means for AI agents, API keys identify the calling application, Composio covers every item on that ...",
+    "host_name": "composio.dev",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.composio.dev/docs/authentication",
+    "name": "Authentication - Composio Docs",
+    "snippet": "When a user authenticates, Composio creates a connected account: their credentials (OAuth tokens or API keys) linked to your userID. Each user can have multiple ...",
+    "host_name": "docs.composio.dev",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/api-evangelist/composio",
+    "name": "api-evangelist/composio - GitHub",
+    "snippet": "Composio is a unified API and tooling platform for AI agents with 1000+ pre-built connectors, managed OAuth, tool search, context management ...",
+    "host_name": "github.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.composio.dev/reference/api-reference/toolkits/getToolkits",
+    "name": "List available toolkits - Composio Docs",
+    "snippet": "Retrieves a comprehensive list of toolkits of their latest versions that are available to the authenticated project. Authorization ApiKeyAuth. Project API key ...",
+    "host_name": "docs.composio.dev",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://composio.dev/toolkits/composio",
+    "name": "Composio MCP Integration for AI Agents",
+    "snippet": "Composio MCP or direct API to link accounts, List all the available toolkits on composio with filtering options.",
+    "host_name": "composio.dev",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://omgreenfield.com/blog/composio-integrations-for-ai-agents",
+    "name": "Composio: integrate apps with agents seamlessly",
+    "snippet": "Composio is an open‐source collection of tool kits that enable integrations with hundreds of apps with OAuth, API keys, or JWT.",
+    "host_name": "omgreenfield.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

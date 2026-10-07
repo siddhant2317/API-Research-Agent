@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2212.08073",
+    "name": "Constitutional AI: Harmlessness from AI Feedback - arXiv",
+    "snippet": "We experiment with methods for training a harmless AI assistant through self-improvement, without any human labels identifying harmful outputs.",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://digi-con.org/on-constitutional-ai",
+    "name": "On 'Constitutional' AI",
+    "snippet": "In December 2022, Bai et al. ... In Phase 1 (supervised learning), the model revises harmful AI responses through iterative self-critique and fine-tuning.",
+    "host_name": "digi-con.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www-cdn.anthropic.com/7512771452629584566b6303311496c262da1006/Anthropic_ConstitutionalAI_v2.pdf",
+    "name": "[PDF] Constitutional AI: Harmlessness from AI Feedback - Anthropic",
+    "snippet": "The model's self-critique and -revision approach can be framed as reinforcement learning from AI feedback (RLAIF). This is important for three main reasons ...",
+    "host_name": "www-cdn.anthropic.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mcpservers.org/agent-skills/firecrawl/constitutional-ai",
+    "name": "constitutional-ai | Agent Skills Library - Awesome MCP Servers",
+    "snippet": "Constitutional AI (CAI) trains models to be harmless through self-critique and AI feedback, without requiring human labels for harmful outputs. Key concept: ...",
+    "host_name": "mcpservers.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/pdf/2212.08073",
+    "name": "[PDF] Constitutional AI: Harmlessness from AI Feedback - arXiv",
+    "snippet": "Generating critiques improves harmlessness compared to simply generating revisions directly (Figure 7). We use this method to specifically ...",
+    "host_name": "arxiv.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.merantix-aicampus.com/event/ai-reading-group-constitutional-ai-harmlessness-from-ai-feedback",
+    "name": "AI Reading Group | Constitutional AI: Harmlessness from AI Feedback",
+    "snippet": "... AI: Harmlessness from AI Feedback (Bai et al., 2022). ​An Anthropic study proposing to replace some human oversight with an AI-mediated process.",
+    "host_name": "www.merantix-aicampus.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

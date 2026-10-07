@@ -1,0 +1,51 @@
+{
+  "id": 61,
+  "app_name": "GitHub",
+  "app_slug": "github",
+  "category": "Developer, Infra and Data platforms",
+  "website": "https://github.com",
+  "docs_url": "https://docs.github.com/en/rest",
+  "primary_docs_url_used": "https://docs.github.com/en/rest",
+  "agent_notes": "",
+  "confidence": "high",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": [
+      "extraction_failed"
+    ],
+    "retry_attempted": true,
+    "retry_thinking_enabled": true
+  },
+  "researched_at": 1783544472.3899083,
+  "one_line_description": "Code hosting platform for version control and collaboration.",
+  "auth_methods": [
+    "oauth2"
+  ],
+  "auth_methods_evidence": "The documentation includes an 'Authentication' section with links to 'Authenticating', 'Keeping API credentials secure', etc.",
+  "self_serve": true,
+  "self_serve_evidence": "The documentation suggests developers can authenticate directly without contacting sales or admin.",
+  "gating_type": "free",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest"
+  ],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": true,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:github"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "OAUTH2"
+  ],
+  "composio_tools_count": 871,
+  "buildability_score": 5,
+  "buildability_rationale": "GitHub offers a self-serve OAuth2 authentication, comprehensive documentation, a broad API surface, and is Composio-supported with 871 tools.",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://docs.github.com/en/rest"
+  ],
+  "retried_at": 1783544779.8668385
+}

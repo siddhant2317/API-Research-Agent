@@ -1,0 +1,32 @@
+{
+  "app_id": 90,
+  "app_name": "PitchBook",
+  "app_slug": "pitchbook",
+  "started_at": 1783544564.733066,
+  "fetched_urls": [
+    {
+      "url": "https://my.pitchbook.com/api",
+      "status": 403,
+      "md_len": 0
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 6.73,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544572.6293786,
+  "duration_s": 7.9
+}

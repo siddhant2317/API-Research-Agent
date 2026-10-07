@@ -1,0 +1,32 @@
+{
+  "app_id": 38,
+  "app_name": "Pinterest",
+  "app_slug": "pinterest",
+  "started_at": 1783544343.3708632,
+  "fetched_urls": [
+    {
+      "url": "https://developers.pinterest.com/docs/api/v5/",
+      "status": 200,
+      "md_len": 306
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 11.31,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544358.044861,
+  "duration_s": 14.67
+}

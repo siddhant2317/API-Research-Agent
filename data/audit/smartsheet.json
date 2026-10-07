@@ -1,0 +1,32 @@
+{
+  "app_id": 79,
+  "app_name": "Smartsheet",
+  "app_slug": "smartsheet",
+  "started_at": 1783544522.6896417,
+  "fetched_urls": [
+    {
+      "url": "https://smartsheet.redoc.ly/",
+      "status": 200,
+      "md_len": 491
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 7.06,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544532.7060683,
+  "duration_s": 10.02
+}

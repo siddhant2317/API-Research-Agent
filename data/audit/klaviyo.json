@@ -1,0 +1,35 @@
+{
+  "app_id": 36,
+  "app_name": "Klaviyo",
+  "app_slug": "klaviyo",
+  "started_at": 1783544337.2833872,
+  "fetched_urls": [
+    {
+      "url": "https://developers.klaviyo.com/en/reference",
+      "status": 200,
+      "md_len": 52180
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 13.68,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": true,
+    "slug": "klaviyo",
+    "auth_schemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "tools_count": 225
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544352.5432317,
+  "duration_s": 15.26
+}

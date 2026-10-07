@@ -1,0 +1,50 @@
+{
+  "id": 41,
+  "app_name": "Shopify",
+  "app_slug": "shopify",
+  "category": "Ecommerce",
+  "website": "https://shopify.dev",
+  "docs_url": "https://shopify.dev/docs/api/admin-rest",
+  "primary_docs_url_used": "https://shopify.dev/docs/api/admin-rest",
+  "one_line_description": "E-commerce platform for building online stores",
+  "auth_methods": [
+    "oauth2",
+    "api_key"
+  ],
+  "auth_methods_evidence": "Public and custom apps created in the Dev Dashboard generate tokens using OAuth, and custom apps made in the Shopify admin are authenticated in the Shopify admin. Include your token as a X-Shopify-Access-Token header on all API queries.",
+  "self_serve": true,
+  "self_serve_evidence": "Public and custom apps created in the Dev Dashboard generate tokens using OAuth",
+  "gating_type": "free",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest",
+    "graphql"
+  ],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": false,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:shopify"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "API_KEY",
+    "OAUTH2",
+    "S2S_OAUTH2"
+  ],
+  "composio_tools_count": 315,
+  "buildability_score": 5,
+  "buildability_rationale": "Self-serve authentication with OAuth2 and API key options, comprehensive documentation, broad API coverage with both REST and GraphQL, and Composio support with 315 tools.",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://shopify.dev/docs/api/admin-rest"
+  ],
+  "confidence": "high",
+  "agent_notes": "The REST Admin API is legacy as of October 1, 2024, and new public apps must use GraphQL Admin API starting April 1, 2025.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544362.526059
+}

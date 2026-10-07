@@ -1,0 +1,26 @@
+{
+  "app_slug": "mongodb-atlas",
+  "app_name": "MongoDB Atlas",
+  "category": "Developer, Infra and Data platforms",
+  "original_record": {
+    "auth_methods": [
+      "api_key",
+      "digest"
+    ],
+    "self_serve": true,
+    "gating_type": "free",
+    "buildability_score": 4,
+    "main_blocker": "auth_complexity",
+    "composio_supported": false,
+    "confidence": "high"
+  },
+  "composio_ground_truth": null,
+  "thinking_reextract": null,
+  "field_agreement": {
+    "auth_methods_original_vs_thinking": false,
+    "auth_methods_original_vs_composio": null,
+    "self_serve_agreement": null,
+    "buildability_agreement": null
+  },
+  "verdict": "unverifiable"
+}

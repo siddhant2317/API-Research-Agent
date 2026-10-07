@@ -1,0 +1,34 @@
+{
+  "app_id": 70,
+  "app_name": "Sentry",
+  "app_slug": "sentry",
+  "started_at": 1783544482.0731804,
+  "fetched_urls": [
+    {
+      "url": "https://docs.sentry.io/api/",
+      "status": 200,
+      "md_len": 3770
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 24.26,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": true,
+    "slug": "sentry",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "tools_count": 209
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544512.9506838,
+  "duration_s": 30.88
+}

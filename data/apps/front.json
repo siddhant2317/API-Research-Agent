@@ -1,0 +1,45 @@
+{
+  "id": 14,
+  "app_name": "Front",
+  "app_slug": "front",
+  "category": "Support and Helpdesk",
+  "website": "https://front.com",
+  "docs_url": "https://dev.frontapp.com/reference",
+  "primary_docs_url_used": "https://dev.frontapp.com/reference",
+  "one_line_description": "Shared inbox + customer ops platform",
+  "auth_methods": [
+    "api_key",
+    "oauth2"
+  ],
+  "auth_methods_evidence": "Front Core API uses API Bearer tokens and OAuth 2.0. https://dev.frontapp.com/reference",
+  "self_serve": true,
+  "self_serve_evidence": "Free trial available; API tokens in settings. https://front.com/signup",
+  "gating_type": "free_trial",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest",
+    "webhook"
+  ],
+  "endpoint_count_estimate": 100,
+  "openapi_spec_available": true,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 4,
+  "buildability_rationale": "Self-serve trial, OAuth2 + Bearer, OpenAPI spec, broad API.",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://dev.frontapp.com/reference"
+  ],
+  "confidence": "high",
+  "agent_notes": "[HUMAN OVERRIDE: Front API uses Bearer tokens and OAuth2. OpenAPI via Stoplight. Free trial.] [HUMAN-IN-THE-LOOP: verified manually with cited docs URL]",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544256.2355278,
+  "human_override_at": 1783545417.4426968
+}

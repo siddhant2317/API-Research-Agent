@@ -1,0 +1,50 @@
+{
+  "id": 81,
+  "app_name": "Stripe",
+  "app_slug": "stripe",
+  "category": "Finance and Fintech",
+  "website": "https://stripe.com",
+  "docs_url": "https://docs.stripe.com/api",
+  "primary_docs_url_used": "https://docs.stripe.com/api",
+  "one_line_description": "Online payment infrastructure and APIs for global payments",
+  "auth_methods": [
+    "api_key",
+    "oauth2"
+  ],
+  "auth_methods_evidence": "The Stripe API uses API keys to authenticate requests. You can view and manage your API keys in the Stripe Dashboard. Test mode secret keys start with sk_test_ and have unrestricted access to their sandboxes. In live mode, you configure a restricted API key (starts with rk_live_) with specific API permissions.",
+  "self_serve": true,
+  "self_serve_evidence": "You can view and manage your API keys in the Stripe Dashboard. Test mode secret keys start with sk_test_ and have unrestricted access to their sandboxes.",
+  "gating_type": "free",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest",
+    "webhook"
+  ],
+  "endpoint_count_estimate": 425,
+  "openapi_spec_available": false,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:stripe"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "API_KEY",
+    "OAUTH2"
+  ],
+  "composio_tools_count": 425,
+  "buildability_score": 5,
+  "buildability_rationale": "Self-serve with free tier, comprehensive API documentation, broad API surface, multiple auth methods, and Composio support.",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://docs.stripe.com/api/authentication",
+    "https://docs.stripe.com/api"
+  ],
+  "confidence": "high",
+  "agent_notes": "Stripe offers a comprehensive API with both API key and OAuth2 authentication methods. The documentation is thorough and accessible, with a clear self-serve onboarding process. The API is REST-based with webhook support, and Composio provides extensive tooling integration.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544543.4710293
+}

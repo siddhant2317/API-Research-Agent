@@ -1,0 +1,37 @@
+{
+  "app_id": 66,
+  "app_name": "Neo4j",
+  "app_slug": "neo4j",
+  "started_at": 1783544462.3745856,
+  "fetched_urls": [
+    {
+      "url": "https://neo4j.com/docs/python-manual/current/",
+      "status": 200,
+      "md_len": 15931
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 13.43,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": true,
+    "slug": "neo4j",
+    "auth_schemes": [
+      "OAUTH2",
+      "BASIC",
+      "API_KEY",
+      "S2S_OAUTH2"
+    ],
+    "tools_count": 21
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544482.0710087,
+  "duration_s": 19.7
+}

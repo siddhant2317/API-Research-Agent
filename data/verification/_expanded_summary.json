@@ -1,0 +1,1119 @@
+{
+  "total_verified": 51,
+  "verdicts": {
+    "partial": 7,
+    "correct": 42,
+    "no_composio_match": 2
+  },
+  "correct": 42,
+  "partial": 7,
+  "incorrect": 0,
+  "no_composio_match": 2,
+  "f1_score": 0.8922,
+  "f1_score_pct": 89.2,
+  "wilson_95_ci": {
+    "low": 77.8,
+    "high": 95.1
+  },
+  "failure_code_distribution": {
+    "F03": 7
+  },
+  "failure_code_descriptions": {
+    "F03": "auth_label_confusion \u2014 OAuth2 vs OAuth 2.0 / Bearer / client-credentials conflation"
+  },
+  "results": [
+    {
+      "app_name": "Ahrefs",
+      "app_slug": "ahrefs",
+      "verdict": "partial",
+      "our_auth": [
+        "api_key",
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key"
+      ],
+      "composio_tools_count": 40,
+      "failure_code": "F03",
+      "failure_description": "auth_label_confusion \u2014 OAuth2 vs OAuth 2.0 / Bearer / client-credentials conflation"
+    },
+    {
+      "app_name": "Airtable",
+      "app_slug": "airtable",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 24,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Apify",
+      "app_slug": "apify",
+      "verdict": "correct",
+      "our_auth": [
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key"
+      ],
+      "composio_auth": [
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key"
+      ],
+      "composio_tools_count": 112,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Asana",
+      "app_slug": "asana",
+      "verdict": "partial",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 153,
+      "failure_code": "F03",
+      "failure_description": "auth_label_confusion \u2014 OAuth2 vs OAuth 2.0 / Bearer / client-credentials conflation"
+    },
+    {
+      "app_name": "Attio",
+      "app_slug": "attio",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 99,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Brex",
+      "app_slug": "brex",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 84,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Bright Data",
+      "app_slug": "bright-data",
+      "verdict": "correct",
+      "our_auth": [
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key"
+      ],
+      "composio_auth": [
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key"
+      ],
+      "composio_tools_count": 10,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "ClickUp",
+      "app_slug": "clickup",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 162,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Close",
+      "app_slug": "close",
+      "verdict": "partial",
+      "our_auth": [
+        "api_key",
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key"
+      ],
+      "composio_tools_count": 6,
+      "failure_code": "F03",
+      "failure_description": "auth_label_confusion \u2014 OAuth2 vs OAuth 2.0 / Bearer / client-credentials conflation"
+    },
+    {
+      "app_name": "Cloudflare",
+      "app_slug": "cloudflare",
+      "verdict": "correct",
+      "our_auth": [
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key"
+      ],
+      "composio_auth": [
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key"
+      ],
+      "composio_tools_count": 20,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Coda",
+      "app_slug": "coda",
+      "verdict": "correct",
+      "our_auth": [
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key"
+      ],
+      "composio_auth": [
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key"
+      ],
+      "composio_tools_count": 109,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Datadog",
+      "app_slug": "datadog",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 42,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "DataForSEO",
+      "app_slug": "dataforseo",
+      "verdict": "correct",
+      "our_auth": [
+        "basic"
+      ],
+      "our_auth_normalized": [
+        "basic"
+      ],
+      "composio_auth": [
+        "BASIC"
+      ],
+      "composio_auth_normalized": [
+        "basic"
+      ],
+      "composio_tools_count": 312,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Devin",
+      "app_slug": "devin",
+      "verdict": "no_composio_match",
+      "our_auth": [
+        "api_key"
+      ],
+      "composio_auth": null,
+      "failure_code": null
+    },
+    {
+      "app_name": "Discord",
+      "app_slug": "discord",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 27,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Fathom",
+      "app_slug": "fathom",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 7,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Firecrawl",
+      "app_slug": "firecrawl",
+      "verdict": "correct",
+      "our_auth": [
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key"
+      ],
+      "composio_auth": [
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key"
+      ],
+      "composio_tools_count": 29,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Freshdesk",
+      "app_slug": "freshdesk",
+      "verdict": "partial",
+      "our_auth": [
+        "api_key",
+        "basic"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "basic"
+      ],
+      "composio_auth": [
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key"
+      ],
+      "composio_tools_count": 178,
+      "failure_code": "F03",
+      "failure_description": "auth_label_confusion \u2014 OAuth2 vs OAuth 2.0 / Bearer / client-credentials conflation"
+    },
+    {
+      "app_name": "GitHub",
+      "app_slug": "github",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 871,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Google Ads",
+      "app_slug": "google-ads",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 22,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Gorgias",
+      "app_slug": "gorgias",
+      "verdict": "correct",
+      "our_auth": [
+        "api_key",
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "API_KEY",
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 32,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Gumroad",
+      "app_slug": "gumroad",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 7,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Harvest",
+      "app_slug": "harvest",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 57,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Help Scout",
+      "app_slug": "help-scout",
+      "verdict": "partial",
+      "our_auth": [
+        "oauth2",
+        "basic"
+      ],
+      "our_auth_normalized": [
+        "basic",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 129,
+      "failure_code": "F03",
+      "failure_description": "auth_label_confusion \u2014 OAuth2 vs OAuth 2.0 / Bearer / client-credentials conflation"
+    },
+    {
+      "app_name": "HubSpot",
+      "app_slug": "hubspot",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 244,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Intercom",
+      "app_slug": "intercom",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 133,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Jira",
+      "app_slug": "jira",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "S2S_OAUTH2",
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 97,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Klaviyo",
+      "app_slug": "klaviyo",
+      "verdict": "correct",
+      "our_auth": [
+        "api_key",
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "API_KEY",
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 225,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Linear",
+      "app_slug": "linear",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 46,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "LinkedIn Ads",
+      "app_slug": "linkedin-ads",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 28,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Mailchimp",
+      "app_slug": "mailchimp",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 272,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Meta Ads",
+      "app_slug": "meta-ads",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 50,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Neo4j",
+      "app_slug": "neo4j",
+      "verdict": "correct",
+      "our_auth": [
+        "basic",
+        "api_key",
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "basic",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "BASIC",
+        "API_KEY",
+        "S2S_OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "basic",
+        "oauth2"
+      ],
+      "composio_tools_count": 21,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Notion",
+      "app_slug": "notion",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2",
+        "api_key",
+        "bearer_token"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 45,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Pipedrive",
+      "app_slug": "pipedrive",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 399,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Plain",
+      "app_slug": "plain",
+      "verdict": "correct",
+      "our_auth": [
+        "API_KEY"
+      ],
+      "our_auth_normalized": [
+        "api_key"
+      ],
+      "composio_auth": [
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key"
+      ],
+      "composio_tools_count": 22,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "QuickBooks",
+      "app_slug": "quickbooks",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 114,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Ramp",
+      "app_slug": "ramp",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 88,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Salesforce",
+      "app_slug": "salesforce",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2",
+        "s2s_oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "S2S_OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 184,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "SendGrid",
+      "app_slug": "sendgrid",
+      "verdict": "correct",
+      "our_auth": [
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key"
+      ],
+      "composio_auth": [
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key"
+      ],
+      "composio_tools_count": 359,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Sentry",
+      "app_slug": "sentry",
+      "verdict": "partial",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 209,
+      "failure_code": "F03",
+      "failure_description": "auth_label_confusion \u2014 OAuth2 vs OAuth 2.0 / Bearer / client-credentials conflation"
+    },
+    {
+      "app_name": "Shopify",
+      "app_slug": "shopify",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "API_KEY",
+        "OAUTH2",
+        "S2S_OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 315,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Slack",
+      "app_slug": "slack",
+      "verdict": "partial",
+      "our_auth": [
+        "oauth2",
+        "bearer_token"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 158,
+      "failure_code": "F03",
+      "failure_description": "auth_label_confusion \u2014 OAuth2 vs OAuth 2.0 / Bearer / client-credentials conflation"
+    },
+    {
+      "app_name": "Snowflake",
+      "app_slug": "snowflake",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 16,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Stripe",
+      "app_slug": "stripe",
+      "verdict": "correct",
+      "our_auth": [
+        "api_key",
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "API_KEY",
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 425,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Supabase",
+      "app_slug": "supabase",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2",
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key",
+        "oauth2"
+      ],
+      "composio_tools_count": 124,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Telegram",
+      "app_slug": "telegram",
+      "verdict": "correct",
+      "our_auth": [
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key"
+      ],
+      "composio_auth": [
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key"
+      ],
+      "composio_tools_count": 18,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Vercel",
+      "app_slug": "vercel",
+      "verdict": "correct",
+      "our_auth": [
+        "api_key"
+      ],
+      "our_auth_normalized": [
+        "api_key"
+      ],
+      "composio_auth": [
+        "API_KEY"
+      ],
+      "composio_auth_normalized": [
+        "api_key"
+      ],
+      "composio_tools_count": 131,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "WhatsApp Business",
+      "app_slug": "whatsapp-business",
+      "verdict": "no_composio_match",
+      "our_auth": [
+        "oauth2",
+        "api_key"
+      ],
+      "composio_auth": null,
+      "failure_code": null
+    },
+    {
+      "app_name": "Xero",
+      "app_slug": "xero",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 53,
+      "failure_code": null,
+      "failure_description": ""
+    },
+    {
+      "app_name": "Zendesk",
+      "app_slug": "zendesk",
+      "verdict": "correct",
+      "our_auth": [
+        "oauth2"
+      ],
+      "our_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_auth": [
+        "OAUTH2"
+      ],
+      "composio_auth_normalized": [
+        "oauth2"
+      ],
+      "composio_tools_count": 452,
+      "failure_code": null,
+      "failure_description": ""
+    }
+  ]
+}

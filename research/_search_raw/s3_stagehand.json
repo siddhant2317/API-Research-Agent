@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://stagehand.dev",
+    "name": "Stagehand",
+    "snippet": "Start using Stagehand locally with full feature compatibility. Four primitives (act, extract, observe, agent) all work out of the box. When you're ready for ...",
+    "host_name": "stagehand.dev",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.browserbase.com/blog/ai-web-agent-sdk",
+    "name": "Stagehand gets even better – The AI Web Agent SDK | Browserbase",
+    "snippet": "It uses atomic primitives (act, extract, observe) for precise control and a dynamic Stagehand Agent for high-level decision making. Key ...",
+    "host_name": "www.browserbase.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/browserbase/stagehand",
+    "name": "browserbase/stagehand: The SDK For Browser Agents - GitHub",
+    "snippet": "Stagehand is a browser automation framework used to control web browsers with natural language and code. By combining the power of AI with the precision of ... Missing: observe | Show results with: observe",
+    "host_name": "github.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.nxcode.io/resources/news/stagehand-vs-browser-use-vs-playwright-ai-browser-automation-2026",
+    "name": "Stagehand vs Browser Use vs Playwright - NxCode",
+    "snippet": "Different tools for different architectures: Stagehand adds surgical AI primitives (act, extract, observe) on top of Playwright for hybrid ...",
+    "host_name": "www.nxcode.io",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dev.to/stevengonsalvez/stagehand-ai-primitives-for-playwright-that-actually-stick-47bm",
+    "name": "Stagehand: AI Primitives for Playwright That Actually Stick",
+    "snippet": "Stagehand adds three AI primitives to Playwright: act (do something), extract (pull data out), and agent (figure it out yourself). That's ...",
+    "host_name": "dev.to",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://yatheendrasai.medium.com/stagehand-a-new-era-of-automation-testing-with-natural-language-and-llms-09d613cab80e",
+    "name": "Stagehand: A New Era of Automation Testing with Natural Language and",
+    "snippet": "At the core of Stagehand are three essential functions, its three musketeers: page.act() page.extract() , and page.observe() . These functions ...",
+    "host_name": "yatheendrasai.medium.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://crawlee.dev/js/docs/guides/stagehand-crawler-guide",
+    "name": "StagehandCrawler guide | Crawlee for JavaScript · Build reliable crawlers",
+    "snippet": "Pages are enhanced with AI methods - Each page gets act() , extract() , observe() , and agent() methods; BrowserPool manages scaling ...",
+    "host_name": "crawlee.dev",
+    "rank": 6,
+    "date": "Jul 3, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://devblogs.microsoft.com/ise/app-modernization-llm-driven-ui-tests-hve",
+    "name": "Ensuring Seamless User Experience in Modernization Projects with AI",
+    "snippet": "Using AI‑generated tools like Stagehand with Microsoft's Playwright helps ensure a smooth user experience during modernization efforts such as ...",
+    "host_name": "devblogs.microsoft.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

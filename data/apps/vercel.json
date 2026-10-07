@@ -1,0 +1,46 @@
+{
+  "id": 62,
+  "app_name": "Vercel",
+  "app_slug": "vercel",
+  "category": "Developer, Infra and Data platforms",
+  "website": "https://vercel.com",
+  "docs_url": "https://vercel.com/docs/rest-api",
+  "primary_docs_url_used": "https://vercel.com/docs/rest-api",
+  "one_line_description": "Platform for frontend frameworks and static sites",
+  "auth_methods": [
+    "api_key"
+  ],
+  "auth_methods_evidence": "Vercel Access Tokens are required to authenticate and use the Vercel API. Include the token in the `Authorization` header: `Authorization: Bearer <TOKEN>`",
+  "self_serve": true,
+  "self_serve_evidence": "Create and manage Access Tokens in your [account settings](https://vercel.com/account/tokens).",
+  "gating_type": "free",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest"
+  ],
+  "endpoint_count_estimate": 131,
+  "openapi_spec_available": false,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:vercel"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "API_KEY"
+  ],
+  "composio_tools_count": 131,
+  "buildability_score": 5,
+  "buildability_rationale": "Self-serve access with good documentation, broad API surface, and API key authentication.",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://vercel.com/docs/rest-api"
+  ],
+  "confidence": "high",
+  "agent_notes": "The API is well-documented with clear authentication instructions and a broad range of endpoints.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544461.3626277
+}

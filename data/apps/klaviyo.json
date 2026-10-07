@@ -1,0 +1,49 @@
+{
+  "id": 36,
+  "app_name": "Klaviyo",
+  "app_slug": "klaviyo",
+  "category": "Marketing, Ads, Email and Social",
+  "website": "https://klaviyo.com",
+  "docs_url": "https://developers.klaviyo.com/en/reference",
+  "primary_docs_url_used": "https://developers.klaviyo.com/en/reference",
+  "one_line_description": "Data-driven email and SMS marketing platform",
+  "auth_methods": [
+    "api_key",
+    "oauth2"
+  ],
+  "auth_methods_evidence": "Composio registry shows auth_schemes: [\"API_KEY\", \"OAUTH2\"]",
+  "self_serve": true,
+  "self_serve_evidence": "Composio registry indicates it's a publicly available platform with developer tools",
+  "gating_type": "free",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest"
+  ],
+  "endpoint_count_estimate": 225,
+  "openapi_spec_available": false,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:klaviyo"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "API_KEY",
+    "OAUTH2"
+  ],
+  "composio_tools_count": 225,
+  "buildability_score": 5,
+  "buildability_rationale": "Self-serve access with broad API surface, multiple auth options, and Composio support",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://developers.klaviyo.com/en/reference",
+    "https://www.klaviyo.com/"
+  ],
+  "confidence": "high",
+  "agent_notes": "Composio registry confirms Klaviyo has extensive API coverage with 225 tools and supports both API key and OAuth2 authentication",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544352.5428426
+}

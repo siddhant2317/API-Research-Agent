@@ -1,0 +1,43 @@
+{
+  "id": 46,
+  "app_name": "Squarespace",
+  "app_slug": "squarespace",
+  "category": "Ecommerce",
+  "website": "https://squarespace.com",
+  "docs_url": "https://developers.squarespace.com/commerce-apis/overview",
+  "primary_docs_url_used": "https://developers.squarespace.com/commerce-apis/overview",
+  "one_line_description": "Manage commerce features of Squarespace merchant sites",
+  "auth_methods": [
+    "oauth2"
+  ],
+  "auth_methods_evidence": "Authentication for Commerce APIs also provides permissions to keep Squarespace merchant site data private and secure.",
+  "self_serve": true,
+  "self_serve_evidence": "Become familiar with commerce terms and how they're related to the APIs\nLearn how to send authenticated requests\nRead the FAQ for answers to common questions",
+  "gating_type": "free",
+  "api_surface_breadth": "medium",
+  "api_protocol": [
+    "rest",
+    "webhook"
+  ],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": false,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 3,
+  "buildability_rationale": "Good documentation and REST API with OAuth2, but limited endpoint information and no Composio support.",
+  "main_blocker": "unknown",
+  "evidence_urls": [
+    "https://developers.squarespace.com/commerce-apis/overview"
+  ],
+  "confidence": "medium",
+  "agent_notes": "The documentation provides a good overview of the Commerce APIs but doesn't specify the exact number of endpoints. The API uses REST principles and supports webhooks.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544399.8453667
+}

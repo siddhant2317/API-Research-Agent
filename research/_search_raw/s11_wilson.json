@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4792103",
+    "name": "A comment on sample size calculations for binomial confidence",
+    "snippet": "In this article we examine sample size calculations for a binomial proportion based on the confidence interval width of the Agresti–Coull, Wald and Wilson Score ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.econometrics.blog/post/the-wilson-confidence-interval-for-a-proportion",
+    "name": "The Wilson Confidence Interval for a Proportion - econometrics.blog",
+    "snippet": "The following plot shows the actual type I error rates of the score and Wald tests, with sample sizes of 25, 50, and 100.",
+    "host_name": "www.econometrics.blog",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.statskingdom.com/proportion-confidence-interval-calculator.html",
+    "name": "Proportion confidence interval calculator - Statistics Kingdom",
+    "snippet": "The Wilson score interval produces better results. The Wilson score interval is the best method to estimate the proportion confidence interval.",
+    "host_name": "www.statskingdom.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval",
+    "name": "Binomial proportion confidence interval - Wikipedia",
+    "snippet": "Wilson score intervals plotted on a logistic curve, revealing asymmetry and good performance for small n and where p is at or near 0 or 1.",
+    "host_name": "en.wikipedia.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://epitools.ausvet.com.au/ciproportion",
+    "name": "Calculate confidence limits for a sample proportion - Epitools - Ausvet",
+    "snippet": "This utility calculates confidence limits for a population proportion for a specified level of confidence. Inputs are the sample size and number of positive ...",
+    "host_name": "epitools.ausvet.com.au",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://towardsdatascience.com/five-confidence-intervals-for-proportions-that-you-should-know-about-7ff5484c024f",
+    "name": "Five Confidence Intervals for Proportions That You Should Know",
+    "snippet": "Here, I detail about confidence intervals for proportions and five different statistical methodologies for deriving confidence intervals for proportions.",
+    "host_name": "towardsdatascience.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

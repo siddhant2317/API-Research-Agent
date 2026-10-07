@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://labelstud.io",
+    "name": "Label Studio: Open Source Data Labeling and AI Evaluation",
+    "snippet": "The open source platform for data labeling, AI evaluation, and human-in-the-loop workflows. tools to enable human-in-the-loop review. Create custom benchmarks ...",
+    "host_name": "labelstud.io",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://futureagi.com/blog/best-llm-annotation-tools-2026",
+    "name": "Best LLM Annotation Tools in 2026: 8 Picked Honestly - Future AGI",
+    "snippet": "Best LLM annotation tools in 2026 across marketplaces, self-service queues, and in-product queues. 8 platforms compared on calibration, IAA, ...",
+    "host_name": "futureagi.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.braintrust.dev/articles/best-human-in-the-loop-llm-evaluation-platforms-2026",
+    "name": "8 best human-in-the-loop LLM evaluation platforms in 2026 - Articles",
+    "snippet": "Compare the top human-in-the-loop LLM evaluation platforms for 2026. Learn how Braintrust, Langfuse, , spot checks, and escalation workflows. ...",
+    "host_name": "www.braintrust.dev",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://labelstud.io/videos/in-the-loop-llm-as-a-judge",
+    "name": "In the Loop: LLM-as-a-Judge | Label Studio",
+    "snippet": "A flexible data labeling tool for all data types. Prepare training data for computer vision, natural language processing, speech, voice, ...",
+    "host_name": "labelstud.io",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2604.13899v4",
+    "name": "Do We Still Need Humans in the Loop? Comparing Human and LLM",
+    "snippet": "LLM annotation at scale outperforms human-supervised classifiers at roughly one-tenth the cost ($28 for GPT-5.2 Batch API vs. $316 for Prolific ...",
+    "host_name": "arxiv.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.johnsnowlabs.com/top-6-annotation-tools-for-hitl-llms-evaluation-and-domain-specific-ai-model-training",
+    "name": "Top 6 Annotation Tools for HITL LLMs Evaluation and Domain-Specific AI",
+    "snippet": "Comparing top 6 annotation tools for HITL LLM evaluation and domain-specific AI training, including Generative AI Lab, SuperAnnotate, Label ...",
+    "host_name": "www.johnsnowlabs.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://humansignal.com/blog",
+    "name": "Blog - HumanSignal",
+    "snippet": "Evaluate the output of LLMs and RAG pipelines with Label Studio using five new templates designed for human supervision of AI models.",
+    "host_name": "humansignal.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.potatoannotator.com/docs/guides/annotation-tools-compared",
+    "name": "Open-Source Annotation Tools Compared - Potato",
+    "snippet": "This guide compares the main open-source options fairly. Argilla are free and open-source; Label Studio is broader in some integrations but pushes teams toward ...",
+    "host_name": "www.potatoannotator.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

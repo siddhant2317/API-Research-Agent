@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://nishant-mishra.medium.com/why-i-switched-to-async-langchain-and-langgraph-and-you-should-too-c30635c9cf19",
+    "name": "Why I Switched to Async LangChain and LangGraph (And You",
+    "snippet": "I was using llm.invoke(messages) which blocks everything until OpenAI responds. With ainvoke , Python can juggle multiple requests at once.",
+    "host_name": "nishant-mishra.medium.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/LangChain/comments/1h7cu92/does_langgraph_work_in_the_browser",
+    "name": "Does LangGraph work in the browser??? : r/LangChain - Reddit",
+    "snippet": "LangGraph is primarily designed for Node.js environments and uses node-specific modules like async_hooks. It won't work directly in the browser right now. How to create Async Tools in LangChain? Building tools that utilize async : r/LangChain More results from www.reddit.com",
+    "host_name": "www.reddit.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=xekw62yQu14",
+    "name": "Python Advanced AI Agent Tutorial - YouTube",
+    "snippet": "Your browser can't play this video. Learn more ... agent using LangChain, LangGraph, Firecrawl, and Python. Video ...",
+    "host_name": "www.youtube.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://forum.langchain.com/t/how-should-i-provide-an-agent-to-a-langgraph-server/3575",
+    "name": "How should I provide an agent to a LangGraph server?",
+    "snippet": "I'm using LangGraph to serve an agent with langgraph dev --no-browser. The code below provides a get_agent function that returns a ...",
+    "host_name": "forum.langchain.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/langchain-ai/langchain-mcp-adapters/issues/14",
+    "name": "Usage in langgraph · Issue #14 - GitHub",
+    "snippet": "How to integrate this in langgraph where i create tool nodes and use a chatmodel in an agent node. The tool is called by langgraph after ...",
+    "host_name": "github.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://runtime.agentscope.io/en/langgraph_guidelines.html",
+    "name": "LangGraph Integration Guide - AgentScope Runtime",
+    "snippet": "This guide introduces how to integrate and use LangGraph with AgentScope Runtime to build complex agent workflows. Recommend to use python 3.11 or above for ...",
+    "host_name": "runtime.agentscope.io",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

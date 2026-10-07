@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://browser-use.com/posts/ai-browser-agent-benchmark",
+    "name": "Browser Agent Benchmark: Comparing LLM Models for Web",
+    "snippet": "We benchmark every major LLM on 100 hard browser tasks. Browser Use Cloud scores 78%, 16 points ahead of the best open-source model.",
+    "host_name": "browser-use.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://aimultiple.com/open-source-web-agents",
+    "name": "Best 30+ Open Source Web Agents in 2026 - AIMultiple",
+    "snippet": "We tested 30+ open-source web agents across four categories: Browser-Use and Agent-E ran. Install via Python or browser extension. agents to ...",
+    "host_name": "aimultiple.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/browser-use/benchmark",
+    "name": "browser-use/benchmark - GitHub",
+    "snippet": "Comparing Agent Frameworks. The Online-Mind2Web benchmark is evaluated across agent frameworks.",
+    "host_name": "github.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.firecrawl.dev/blog/best-browser-agents",
+    "name": "11 Best AI Browser Agents in 2026 - Firecrawl",
+    "snippet": "Best open-source framework: Browser Use, with a state-of-the-art 89.1% success rate on the WebVoyager benchmark. Best for form-heavy, no-code ...",
+    "host_name": "www.firecrawl.dev",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2506.03011v1",
+    "name": "Coding Agents with Multimodal Browsing are Generalist Problem",
+    "snippet": "A generalist agent built with a modest number of general tools: code editing and execution, web search, as well as multimodal web browsing and file access.",
+    "host_name": "arxiv.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/data-and-beyond/browser-use-explained-the-open-source-ai-agent-that-clicks-reads-and-automates-the-web-d4689f3ef012",
+    "name": "Browser-Use Explained: The Open-Source AI Agent That Clicks",
+    "snippet": "Browser Use is a Python library that lets AI agents — powered by LLMs like GPT-4 or Claude — control your web browser using natural language.",
+    "host_name": "medium.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://browser-use.com/posts",
+    "name": "Blog - Browser Use",
+    "snippet": "We benchmark every major LLM on 100 hard browser tasks. Browser Use Cloud scores 78%, 16 points ahead of the best open-source model.",
+    "host_name": "browser-use.com",
+    "rank": 6,
+    "date": "Jun 30, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://clickhouse.com/blog/how-to-build-ai-agents-mcp-12-frameworks",
+    "name": "How to build AI agents with MCP: 12 framework comparison (2025)",
+    "snippet": "Compare 12 AI agent frameworks with MCP support. Complete guide with code examples for Claude SDK, OpenAI Agents, LangChain, and more.",
+    "host_name": "clickhouse.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

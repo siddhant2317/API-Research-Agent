@@ -1,0 +1,38 @@
+{
+  "app_id": 74,
+  "app_name": "Jira",
+  "app_slug": "jira",
+  "started_at": 1783544501.020796,
+  "fetched_urls": [
+    {
+      "url": "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/",
+      "status": 200,
+      "md_len": 28150
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 30.36,
+      "success": false
+    }
+  ],
+  "errors": [
+    "extraction_failed"
+  ],
+  "composio_lookup": {
+    "found": true,
+    "slug": "jira",
+    "auth_schemes": [
+      "OAUTH2",
+      "S2S_OAUTH2",
+      "API_KEY"
+    ],
+    "tools_count": 97
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544534.489388,
+  "duration_s": 33.47
+}

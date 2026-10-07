@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://arxiv.org/html/2509.18970v1",
+    "name": "LLM-based Agents Suffer from Hallucinations: A Survey of  - arXiv",
+    "snippet": "However, despite their remarkable potential, LLM-based agents remain vulnerable to hallucination issues, which can result in erroneous task ...",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.getzep.com/ai-agents/reducing-llm-hallucinations",
+    "name": "How to Reduce LLM Hallucinations - Zep",
+    "snippet": "Draft, generate independent verification questions, answer them in isolation, then revise. For agents, run verification gates at each step, not ...",
+    "host_name": "www.getzep.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mdpi.com/2078-2489/16/7/517",
+    "name": "Mitigating LLM Hallucinations Using a Multi-Agent Framework - MDPI",
+    "snippet": "Multi-agent verification frameworks introduce deliberation and disagreement to improve hallucination detection. These systems employ multiple ...",
+    "host_name": "www.mdpi.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pub.towardsai.net/reflection-agent-architecture-eliminating-llm-hallucinations-via-tool-grounded-iterative-9a61767cc979",
+    "name": "Reflection Agent Architecture: Eliminating LLM Hallucinations via",
+    "snippet": "The fundamental principle is: reflection is only as trustworthy as its verification source. A reflection pipeline that relies exclusively on LLM ...",
+    "host_name": "pub.towardsai.net",
+    "rank": 3,
+    "date": "Jul 3, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@nirdiamant21/llm-hallucinations-explained-8c76cdd82532",
+    "name": "LLM Hallucinations Explained. LLMs like the GPT family, Claude",
+    "snippet": "Another powerful approach is fine-tuning the LLM on custom data or via specialized training processes to reduce its likelihood of hallucination.",
+    "host_name": "medium.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dev.to/aws/how-to-stop-ai-agents-from-hallucinating-silently-with-multi-agent-validation-3f7e",
+    "name": "How to Stop AI Agents from Hallucinating Silently with Multi-Agent",
+    "snippet": "Multi-agent validation catches hallucinations in multi-step reasoning chains. But some violations are more fundamental: parameter limits, ...",
+    "host_name": "dev.to",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://aws.amazon.com/blogs/machine-learning/reducing-hallucinations-in-llm-agents-with-a-verified-semantic-cache-using-amazon-bedrock-knowledge-bases",
+    "name": "Reducing hallucinations in LLM agents with a verified semantic",
+    "snippet": "Our solution implements a verified semantic cache using the Amazon Bedrock Knowledge Bases Retrieve API to reduce hallucinations in LLM responses.",
+    "host_name": "aws.amazon.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.datadoghq.com/blog/ai/llm-hallucination-detection",
+    "name": "Detecting hallucinations with LLM-as-a-judge: Prompt  - Datadog",
+    "snippet": "We'll review various approaches to detect hallucinations, and explain our focus on LLM-as-a-judge approaches with optimized judgment prompts. We ...",
+    "host_name": "www.datadoghq.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

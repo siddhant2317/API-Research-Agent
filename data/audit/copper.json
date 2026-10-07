@@ -1,0 +1,32 @@
+{
+  "app_id": 9,
+  "app_name": "Copper",
+  "app_slug": "copper",
+  "started_at": 1783544237.0427604,
+  "fetched_urls": [
+    {
+      "url": "https://developer.copper.com/",
+      "status": 200,
+      "md_len": 12370
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 6.87,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544248.1940324,
+  "duration_s": 11.15
+}

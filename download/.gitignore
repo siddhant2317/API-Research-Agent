@@ -1,0 +1,22 @@
+# Environment variables — never commit real keys
+.env
+.env.local
+.env.production
+*.env
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Vercel
+.vercel/

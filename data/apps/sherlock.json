@@ -1,0 +1,40 @@
+{
+  "id": 58,
+  "app_name": "Sherlock",
+  "app_slug": "sherlock",
+  "category": "Data, SEO and Scraping",
+  "website": "https://github.com/sherlock-project/sherlock",
+  "docs_url": "https://github.com/sherlock-project/sherlock",
+  "primary_docs_url_used": "https://github.com/sherlock-project/sherlock",
+  "one_line_description": "Hunt down social media accounts by username across 400+ social networks",
+  "auth_methods": [
+    "none"
+  ],
+  "auth_methods_evidence": "The documentation does not mention any authentication requirements for using Sherlock.",
+  "self_serve": true,
+  "self_serve_evidence": "The app can be installed via pipx, pip, or Docker without requiring any authentication or approval process.",
+  "gating_type": "free",
+  "api_surface_breadth": "unknown",
+  "api_protocol": [],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": false,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 1,
+  "buildability_rationale": "The tool is designed for command-line use rather than API integration, with no documented API endpoints.",
+  "main_blocker": "no_public_api",
+  "evidence_urls": [
+    "https://github.com/sherlock-project/sherlock"
+  ],
+  "confidence": "medium",
+  "agent_notes": "Sherlock is a command-line tool for finding social media accounts by username, not an API service. It does not provide any authentication methods or API endpoints for integration.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544436.1428246
+}

@@ -1,0 +1,46 @@
+{
+  "id": 78,
+  "app_name": "Coda",
+  "app_slug": "coda",
+  "category": "Productivity and Project Management",
+  "website": "https://coda.io",
+  "docs_url": "https://coda.io/developers/apis/v1",
+  "primary_docs_url_used": "https://coda.io/developers/apis/v1",
+  "one_line_description": "Collaborative workspace platform that transforms documents into powerful tools",
+  "auth_methods": [
+    "api_key"
+  ],
+  "auth_methods_evidence": "The Coda API is a RESTful API that lets you programmatically interact with Coda docs",
+  "self_serve": true,
+  "self_serve_evidence": "We make the Coda API available to all of our users free of charge, in both free and paid workspaces",
+  "gating_type": "free",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest"
+  ],
+  "endpoint_count_estimate": 109,
+  "openapi_spec_available": true,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:coda"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "API_KEY"
+  ],
+  "composio_tools_count": 109,
+  "buildability_score": 5,
+  "buildability_rationale": "Self-serve access with free tier, good documentation, broad API surface, simple API key authentication, and Composio support",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://coda.io/developers/apis/v1"
+  ],
+  "confidence": "high",
+  "agent_notes": "The API is well-documented with examples in multiple languages, has clear rate limits, and provides both free and paid workspace access",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544524.2344375
+}

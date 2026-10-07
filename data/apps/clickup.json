@@ -1,0 +1,53 @@
+{
+  "id": 77,
+  "app_name": "ClickUp",
+  "app_slug": "clickup",
+  "category": "Productivity and Project Management",
+  "website": "https://clickup.com",
+  "docs_url": "https://clickup.com/api/",
+  "primary_docs_url_used": "https://clickup.com/api/",
+  "agent_notes": "No significant caveats noted. [OVERRIDE: filled from Composio registry ground truth]",
+  "confidence": "high",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": [
+      "extraction_failed"
+    ],
+    "retry_attempted": true,
+    "retry_thinking_enabled": true
+  },
+  "researched_at": 1783544547.700358,
+  "one_line_description": "Unifies tasks, docs, goals and chat in one platform",
+  "auth_methods": [
+    "oauth2",
+    "api_key"
+  ],
+  "auth_methods_evidence": "From Composio registry: auth_schemes=['OAUTH2', 'API_KEY'] (ground truth from Composio backend)",
+  "self_serve": true,
+  "self_serve_evidence": "* [Try the API](/docs/trytheapi)\n* [ Download the spec ](/docs/open-api-spec)",
+  "gating_type": "free",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest"
+  ],
+  "endpoint_count_estimate": 162,
+  "openapi_spec_available": true,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:clickup"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "OAUTH2",
+    "API_KEY"
+  ],
+  "composio_tools_count": 162,
+  "buildability_score": 4,
+  "buildability_rationale": "Composio-supported with 2 auth method(s) and 162 tools; integration proven by Composio.",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://clickup.com/api/"
+  ],
+  "retried_at": 1783544730.0890512
+}

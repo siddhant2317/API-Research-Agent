@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://github.com/steel-dev/awesome-web-agents",
+    "name": "steel-dev/awesome-web-agents - GitHub",
+    "snippet": "A curated list of tools, frameworks, and resources for building AI agents that can browse and interact with the web.",
+    "host_name": "github.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://browser-use.com/posts/ai-browser-agent-benchmark",
+    "name": "Browser Agent Benchmark: Comparing LLM Models for Web",
+    "snippet": "We benchmark every major LLM on 100 hard browser tasks. Browser Use Cloud scores 78%, 16 points ahead of the best open-source model.",
+    "host_name": "browser-use.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=eXOeAws_ZGM",
+    "name": "FREE: Agent-E AI Browser Agent Controls EVERYTHING!   AutoGen",
+    "snippet": "... GitHub Repo, Blog, Research Papers 02:41 - Key Research Papers: Agent E, Autogen, Web Arena ... Performance Comparisons: Agent E vs Agent Q ...",
+    "host_name": "www.youtube.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://openreview.net/forum?id=7PQnFTbizU",
+    "name": "Agent-E: From Autonomous Web Navigation to Foundational Design",
+    "snippet": "In this paper, we present a novel web agent, Agent-E. This agentic system introduces several architectural improvements over prior state-of-the-art web agents.",
+    "host_name": "openreview.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2410.16464v3",
+    "name": "Beyond Browsing: API-Based Web Agents - arXiv",
+    "snippet": "In experiments on WebArena, a widely-used and realistic benchmark for web navigation tasks, we find that API-Based Agents outperform web Browsing Agents. Hybrid ...",
+    "host_name": "arxiv.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://invariantlabs.ai/blog/what-we-learned-from-analyzing-web-agents",
+    "name": "What we've learned from analyzing hundreds of AI web agent traces",
+    "snippet": "We discover, analyze and fix web agent failures in hundreds of traces, achieving up to 16% improvements on WebArena.",
+    "host_name": "invariantlabs.ai",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://huggingface.co/papers?q=Web-agent%20benchmarks",
+    "name": "Daily Papers - Hugging Face",
+    "snippet": "We first present the results of an evaluation of Agent-E on WebVoyager benchmark ... web agents on WebVoyager and WebArena benchmarks. We further ...",
+    "host_name": "huggingface.co",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://o-mega.ai/articles/browser-agent-environments-2025-workarena-browsergym-and-webarena-deep-dive",
+    "name": "Browser Agent Environments 2025: Complete Guide to AI Web",
+    "snippet": "By controlling the environment, WebArena provides a consistent benchmark where every agent is tested on the same web pages and tasks.",
+    "host_name": "o-mega.ai",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

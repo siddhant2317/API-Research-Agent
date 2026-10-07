@@ -1,0 +1,34 @@
+{
+  "app_id": 22,
+  "app_name": "Twilio",
+  "app_slug": "twilio",
+  "started_at": 1783544288.3268228,
+  "fetched_urls": [
+    {
+      "url": "https://www.twilio.com/docs/iam/api",
+      "status": 200,
+      "md_len": 10288
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 30.34,
+      "success": false
+    }
+  ],
+  "errors": [
+    "extraction_failed"
+  ],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544319.838637,
+  "duration_s": 31.51
+}

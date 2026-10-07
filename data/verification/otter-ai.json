@@ -1,0 +1,33 @@
+{
+  "app_slug": "otter-ai",
+  "app_name": "Otter AI",
+  "category": "AI, Research and Media-native",
+  "original_record": {
+    "auth_methods": [],
+    "self_serve": false,
+    "gating_type": "unknown",
+    "buildability_score": 0,
+    "main_blocker": "no_public_api",
+    "composio_supported": false,
+    "confidence": "high"
+  },
+  "composio_ground_truth": null,
+  "thinking_reextract": {
+    "auth_methods": [
+      "api_key"
+    ],
+    "self_serve": true,
+    "gating_type": "rate_limit",
+    "buildability_score": 60,
+    "main_blocker": "documentation_clarity",
+    "confidence": "low",
+    "reasoning": "Assessment based on general API patterns since specific Otter AI API documentation was not available in the provided research."
+  },
+  "field_agreement": {
+    "auth_methods_original_vs_thinking": false,
+    "auth_methods_original_vs_composio": null,
+    "self_serve_agreement": false,
+    "buildability_agreement": false
+  },
+  "verdict": "self_inconsistent"
+}

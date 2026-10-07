@@ -1,0 +1,81 @@
+{
+  "total_in_nango": 67,
+  "matches": 56,
+  "mismatches": 7,
+  "nango_only": 1,
+  "our_only": 3,
+  "match_rate": 0.8888888888888888,
+  "mismatches_detail": [
+    {
+      "app": "Ahrefs",
+      "our_auth": [
+        "api_key"
+      ],
+      "nango_auth_mode": "OAUTH2",
+      "nango_normalized": "oauth2",
+      "verdict": "mismatch"
+    },
+    {
+      "app": "BigCommerce",
+      "our_auth": [
+        "api_key",
+        "bearer_token"
+      ],
+      "nango_auth_mode": "OAUTH2",
+      "nango_normalized": "oauth2",
+      "verdict": "mismatch"
+    },
+    {
+      "app": "Freshdesk",
+      "our_auth": [
+        "api_key"
+      ],
+      "nango_auth_mode": "BASIC",
+      "nango_normalized": "basic",
+      "verdict": "mismatch"
+    },
+    {
+      "app": "Help Scout",
+      "our_auth": [
+        "oauth2"
+      ],
+      "nango_auth_mode": "BASIC",
+      "nango_normalized": "basic",
+      "verdict": "mismatch"
+    },
+    {
+      "app": "Monday.com",
+      "our_auth": [
+        "api_key"
+      ],
+      "nango_auth_mode": "OAUTH2",
+      "nango_normalized": "oauth2",
+      "verdict": "mismatch"
+    },
+    {
+      "app": "Sentry",
+      "our_auth": [
+        "oauth2"
+      ],
+      "nango_auth_mode": "API_KEY",
+      "nango_normalized": "api_key",
+      "verdict": "mismatch"
+    },
+    {
+      "app": "WooCommerce",
+      "our_auth": [
+        "api_key"
+      ],
+      "nango_auth_mode": "BASIC",
+      "nango_normalized": "basic",
+      "verdict": "mismatch"
+    }
+  ],
+  "nango_only_detail": [
+    {
+      "app": "Grain",
+      "nango_auth_mode": "OAUTH2",
+      "verdict": "nango_has_auth_we_dont"
+    }
+  ]
+}

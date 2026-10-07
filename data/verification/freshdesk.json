@@ -1,0 +1,44 @@
+{
+  "app_slug": "freshdesk",
+  "app_name": "Freshdesk",
+  "category": "Support and Helpdesk",
+  "original_record": {
+    "auth_methods": [
+      "api_key"
+    ],
+    "self_serve": true,
+    "gating_type": "free_trial",
+    "buildability_score": 4,
+    "main_blocker": "none",
+    "composio_supported": true,
+    "confidence": "high"
+  },
+  "composio_ground_truth": {
+    "slug": "freshdesk",
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "tools_count": 178,
+    "normalized_auth": [
+      "api_key"
+    ]
+  },
+  "thinking_reextract": {
+    "auth_methods": [
+      "API_KEY"
+    ],
+    "self_serve": true,
+    "gating_type": "open",
+    "buildability_score": 8,
+    "main_blocker": "none",
+    "confidence": "high",
+    "reasoning": "Freshdesk API uses API_KEY authentication as confirmed by the Composio registry. The documentation shows a comprehensive API with 178 tools covering tickets, contacts, agents, companies, and custom objects. The API appears to be well-documented with clear endpoints for all major functions, making it"
+  },
+  "field_agreement": {
+    "auth_methods_original_vs_thinking": true,
+    "auth_methods_original_vs_composio": true,
+    "self_serve_agreement": true,
+    "buildability_agreement": false
+  },
+  "verdict": "correct"
+}

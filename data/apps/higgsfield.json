@@ -1,0 +1,43 @@
+{
+  "id": 97,
+  "app_name": "higgsfield",
+  "app_slug": "higgsfield",
+  "category": "AI, Research and Media-native",
+  "website": "https://higgsfield.ai",
+  "docs_url": "https://docs.higgsfield.ai/",
+  "primary_docs_url_used": "https://docs.higgsfield.ai/",
+  "one_line_description": "AI content generation suite",
+  "auth_methods": [
+    "api_key"
+  ],
+  "auth_methods_evidence": "higgsfield CLI/API uses API keys. https://docs.higgsfield.ai/",
+  "self_serve": true,
+  "self_serve_evidence": "Free signup. https://higgsfield.ai/",
+  "gating_type": "free",
+  "api_surface_breadth": "narrow",
+  "api_protocol": [
+    "rest"
+  ],
+  "endpoint_count_estimate": 8,
+  "openapi_spec_available": false,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 2,
+  "buildability_rationale": "Self-serve but very narrow API focused on content generation.",
+  "main_blocker": "poor_docs",
+  "evidence_urls": [
+    "https://docs.higgsfield.ai/"
+  ],
+  "confidence": "low",
+  "agent_notes": "[HUMAN OVERRIDE: higgsfield uses API key. Very narrow content-generation API.] [HUMAN-IN-THE-LOOP: verified manually with cited docs URL]",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544599.854675,
+  "human_override_at": 1783545417.459173
+}

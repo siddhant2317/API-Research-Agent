@@ -1,0 +1,44 @@
+{
+  "id": 50,
+  "app_name": "fanbasis",
+  "app_slug": "fanbasis",
+  "category": "Ecommerce",
+  "website": "https://fanbasis.com",
+  "docs_url": "https://docs.fanbasis.com/",
+  "primary_docs_url_used": "https://docs.fanbasis.com/",
+  "agent_notes": "The documentation appears to be empty or blocked, preventing analysis of the API.",
+  "confidence": "low",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": [
+      "extraction_failed"
+    ],
+    "retry_attempted": true,
+    "retry_thinking_enabled": true,
+    "retry_succeeded": true
+  },
+  "researched_at": 1783544424.736786,
+  "one_line_description": "unknown",
+  "auth_methods": [],
+  "auth_methods_evidence": "No documentation provided",
+  "self_serve": false,
+  "self_serve_evidence": "No documentation provided",
+  "gating_type": "unknown",
+  "api_surface_breadth": "unknown",
+  "api_protocol": [],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": false,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 0,
+  "buildability_rationale": "Documentation is empty/blocked",
+  "main_blocker": "poor_docs",
+  "evidence_urls": [
+    "https://docs.fanbasis.com/"
+  ],
+  "retried_at": 1783545594.7460878
+}

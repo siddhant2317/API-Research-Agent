@@ -1,0 +1,40 @@
+{
+  "id": 100,
+  "app_name": "Grain",
+  "app_slug": "grain",
+  "category": "AI, Research and Media-native",
+  "website": "https://grain.com",
+  "docs_url": "https://docs.grain.com/",
+  "primary_docs_url_used": "https://docs.grain.com/",
+  "one_line_description": "Meeting notes (no public API)",
+  "auth_methods": [],
+  "auth_methods_evidence": "Grain has no public API as of 2026. The docs URL returns no content. https://docs.grain.com/",
+  "self_serve": false,
+  "self_serve_evidence": "No public API available.",
+  "gating_type": "unknown",
+  "api_surface_breadth": "unknown",
+  "api_protocol": [],
+  "endpoint_count_estimate": 0,
+  "openapi_spec_available": false,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 0,
+  "buildability_rationale": "No public API. Docs URL is empty.",
+  "main_blocker": "no_public_api",
+  "evidence_urls": [
+    "https://docs.grain.com/"
+  ],
+  "confidence": "high",
+  "agent_notes": "[HUMAN OVERRIDE: Grain appears to have no public API. Docs URL returns empty content.] [HUMAN-IN-THE-LOOP: verified manually with cited docs URL] [NANGO CROSS-CHECK: Nango has an entry for 'Grain' with OAUTH2, but this may be a different Grain product (agriculture vs meeting notes). Leaving as no public API for Grain.video.]",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544623.0294688,
+  "human_override_at": 1783545417.4568748,
+  "cross_checked_at": 1783548223.4245727
+}

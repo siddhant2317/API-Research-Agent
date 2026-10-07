@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://openreview.net/forum?id=oKn9c6ytLx&noteId=eyGMvQ6YDy",
+    "name": "WebArena: A Realistic Web Environment for Building Autonomous",
+    "snippet": "The authors present 812 tasks in their benchmark and evaluate GPT-based agents ... The success rate of human on the designed tasks are only 78%, ...",
+    "host_name": "openreview.net",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/abs/2307.13854",
+    "name": "A Realistic Web Environment for Building Autonomous Agents - arXiv",
+    "snippet": "The tasks in our benchmark are diverse, long-horizon, and designed to emulate tasks that humans routinely perform on the internet. We experiment ...",
+    "host_name": "arxiv.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@adnanmasood/webarena-benchmark-and-the-state-of-agentic-ai-c22697e8e192",
+    "name": "WebArena Benchmark and the State of Agentic AI - Medium",
+    "snippet": "... 78% human baseline, likely candidates include: 1. Visual-Semantic Understanding: Many web tasks require interpreting visual elements (icons ...",
+    "host_name": "medium.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.openlegion.ai/en/learn/ai-agent-benchmarks",
+    "name": "AI Agent Benchmarks: SWE-bench, GAIA, WebArena, and Private",
+    "snippet": "The benchmark measures performance on 500 human-verified GitHub issue patches drawn from 300 Python repositories: a specific task distribution.",
+    "host_name": "www.openlegion.ai",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://benchmarkingagents.com/webarena",
+    "name": "WebArena: Real Browser-Agent Tasks on Self-Hosted Sites",
+    "snippet": "The original WebArena paper reported a GPT-4 agent in a ReAct harness at 14.4% overall against a human baseline of roughly 78%, which is the one cleanly-sourced ...",
+    "host_name": "benchmarkingagents.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://rapidclaw.dev/blog/ai-agent-benchmarks-2026",
+    "name": "AI Agent Leaderboard 2026 [All 5 Benchmarks Ranked] | Rapid Claw",
+    "snippet": "WebArena leaderboard 2026: Claude Mythos Preview (68.7%), GPT-5.4 Pro (65.8%), Claude Opus 4.6 (64.5%). Human baseline ~78%. SWE-bench ...",
+    "host_name": "rapidclaw.dev",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

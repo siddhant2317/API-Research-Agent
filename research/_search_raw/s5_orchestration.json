@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://langfuse.com/blog/2025-03-19-ai-agent-comparison",
+    "name": "Comparing Open-Source AI Agent Frameworks - Langfuse",
+    "snippet": "This post offers an in-depth look at some of the leading open-source AI agent frameworks out there: LangGraph, the OpenAI Agents SDK, Google ADK ...",
+    "host_name": "langfuse.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://techsy.io/en/blog/langgraph-vs-crewai-vs-openai-agents-sdk",
+    "name": "LangGraph vs CrewAI vs OpenAI Agents: Ship Test - TECHSY",
+    "snippet": "Verdict: CrewAI wins for prototyping speed, LangGraph wins for workflow visibility. The OpenAI Agents SDK gets you to \"hello world\" fastest, but the moment you ...",
+    "host_name": "techsy.io",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/LangChain/comments/1jpk1vn/langgraph_vs_crewai_vs_autogen_vs_pydanticai_vs",
+    "name": "Langgraph vs CrewAI vs AutoGen vs PydanticAI vs Agno vs OpenAI",
+    "snippet": "I have seen that AutoGen offers a very very nice learning curve and easy to start, but its flexibility and scalability are really poor, in contrast with ... OpenAI Agent SDK vs LangGraph : r/LangChain - Reddit Which Framework is preferred? : r/AI_Agents - Reddit More results from www.reddit.com",
+    "host_name": "www.reddit.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pub.towardsai.net/i-tried-10-ai-agent-frameworks-in-2026-heres-the-honest-guide-i-wish-i-had-earlier-16da216282da",
+    "name": "I Tried 10 AI Agent Frameworks in 2026 - Towards AI",
+    "snippet": "A practical developer-first comparison of LangGraph, CrewAI, AutoGen, OpenAI Agents SDK, DSPy, and more after real experimentation.",
+    "host_name": "pub.towardsai.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@mpuig/which-multi-agent-framework-should-run-your-enterprise-ai-abdc8e09ad89",
+    "name": "Which Multi‑Agent Framework Should Run Your Enterprise AI?",
+    "snippet": "A field guide to OpenAI Agents SDK, Google ADK, Pydantic AI, Microsoft AutoGen, Hugging Face SmolAgents, LangGraph and CrewAI.",
+    "host_name": "medium.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://composio.dev/content/openai-agents-sdk-vs-langgraph-vs-autogen-vs-crewai",
+    "name": "OpenAI Agents SDK vs LangGraph vs Autogen vs CrewAI - Composio",
+    "snippet": "In this blog, I'll explain the OpenAI Agents SDK, its components, uses, and more and compare it with LangGraph, CrewAI, and AutoGen, helping you ...",
+    "host_name": "composio.dev",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pickaxe.co/post/top-ai-agent-frameworks",
+    "name": "Top 15 AI Agent Frameworks in 2026 - Pickaxe",
+    "snippet": "LangGraph surpassed CrewAI in adoption during early 2026, largely driven by enterprise teams that needed state persistence, conditional routing, and rollback ...",
+    "host_name": "pickaxe.co",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/amrit-tiwari_openai-agents-sdk-vs-langgraph-vs-autogen-activity-7322245048497033216-Rbln",
+    "name": "\"OpenAI SDK vs LangGraph vs AutoGen vs CrewAI: Frameworks for",
+    "snippet": "OpenAI's Agents SDK is presented as a lightweight, production-ready framework emphasizing minimal abstractions. It introduces three core primitives.",
+    "host_name": "www.linkedin.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

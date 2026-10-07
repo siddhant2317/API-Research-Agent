@@ -1,0 +1,34 @@
+{
+  "app_id": 16,
+  "app_name": "LiveAgent",
+  "app_slug": "liveagent",
+  "started_at": 1783544256.2393117,
+  "fetched_urls": [
+    {
+      "url": "https://developers.ladesk.com/",
+      "status": 404,
+      "md_len": 0
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 30.34,
+      "success": false
+    }
+  ],
+  "errors": [
+    "extraction_failed"
+  ],
+  "composio_lookup": {
+    "found": false,
+    "slug": null,
+    "auth_schemes": null,
+    "tools_count": null
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544288.324473,
+  "duration_s": 32.09
+}

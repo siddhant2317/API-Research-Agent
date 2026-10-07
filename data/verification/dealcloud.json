@@ -1,0 +1,26 @@
+{
+  "app_slug": "dealcloud",
+  "app_name": "DealCloud",
+  "category": "CRM and Sales",
+  "original_record": {
+    "auth_methods": [
+      "api_key",
+      "bearer_token"
+    ],
+    "self_serve": true,
+    "gating_type": "free_trial",
+    "buildability_score": 3,
+    "main_blocker": "gated_access",
+    "composio_supported": false,
+    "confidence": "medium"
+  },
+  "composio_ground_truth": null,
+  "thinking_reextract": null,
+  "field_agreement": {
+    "auth_methods_original_vs_thinking": false,
+    "auth_methods_original_vs_composio": null,
+    "self_serve_agreement": null,
+    "buildability_agreement": null
+  },
+  "verdict": "unverifiable"
+}

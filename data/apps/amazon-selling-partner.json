@@ -1,0 +1,43 @@
+{
+  "id": 49,
+  "app_name": "Amazon Selling Partner",
+  "app_slug": "amazon-selling-partner",
+  "category": "Ecommerce",
+  "website": "https://sellercentral.amazon.com",
+  "docs_url": "https://developer-docs.amazon.com/sp-api/docs/welcome",
+  "primary_docs_url_used": "https://developer-docs.amazon.com/sp-api/docs/welcome",
+  "one_line_description": "API for sellers to manage Amazon business operations",
+  "auth_methods": [
+    "oauth2"
+  ],
+  "auth_methods_evidence": "Authorize Applications\n* [Authorize Public Applications](/sp-api/docs/authorize-public-applications)\n  * [Selling Partner Appstore Authorization Workflow](/sp-api/docs/selling-partner-appstore-authorization-workflow)\n  * [Website Authorization Workflow](/sp-api/docs/website-authorization-workflow)\n* [Authorize Private Applications](/sp-api/docs/self-authorization)",
+  "self_serve": true,
+  "self_serve_evidence": "Step 1: Prepare for Registration\nStep 2: Create a Solution Provider Portal Account\nStep 3: Create a Developer Profile\nStep 4: Register a Sandbox Application\nStep 5: Make Your First Call to the SP-API Sandbox\nStep 6: Set up the Authorization Workflow\nStep 7: Register Your Production Application\nStep 8: Call the SP-API in Production\nStep 9: Test Your Application\nStep 10: List Your Application",
+  "gating_type": "free",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest",
+    "webhook"
+  ],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": true,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 4,
+  "buildability_rationale": "Good documentation with clear onboarding process, OAuth2 authentication, and broad API coverage with both REST and webhook support.",
+  "main_blocker": "none",
+  "evidence_urls": [
+    "https://developer-docs.amazon.com/sp-api/docs/welcome"
+  ],
+  "confidence": "high",
+  "agent_notes": "The documentation provides a comprehensive onboarding process with 10 clear steps for developers to get started. The API supports both public and private applications with OAuth2 authentication. The API appears to be broad with multiple endpoints and supports webhooks for notifications.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544397.7221775
+}

@@ -1,0 +1,44 @@
+{
+  "app_slug": "sentry",
+  "app_name": "Sentry",
+  "category": "Developer, Infra and Data platforms",
+  "original_record": {
+    "auth_methods": [
+      "oauth2"
+    ],
+    "self_serve": true,
+    "gating_type": "free",
+    "buildability_score": 4,
+    "main_blocker": "rate_limits",
+    "composio_supported": true,
+    "confidence": "high"
+  },
+  "composio_ground_truth": {
+    "slug": "sentry",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "tools_count": 209,
+    "normalized_auth": [
+      "oauth2"
+    ]
+  },
+  "thinking_reextract": {
+    "auth_methods": [
+      "oauth2"
+    ],
+    "self_serve": null,
+    "gating_type": null,
+    "buildability_score": null,
+    "main_blocker": null,
+    "confidence": "high",
+    "reasoning": "Composio registry confirms OAuth2 as the authentication method for Sentry API. Other details are not specified in the Composio registry or the provided documentation."
+  },
+  "field_agreement": {
+    "auth_methods_original_vs_thinking": true,
+    "auth_methods_original_vs_composio": true,
+    "self_serve_agreement": false,
+    "buildability_agreement": false
+  },
+  "verdict": "correct"
+}

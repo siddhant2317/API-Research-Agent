@@ -1,0 +1,979 @@
+{
+  "sample_size": 25,
+  "sample_apps": [
+    "Apify",
+    "Ahrefs",
+    "DataForSEO",
+    "Pumble",
+    "Zoho Cliq",
+    "Lark (Larksuite)",
+    "Asana",
+    "Notion",
+    "Smartsheet",
+    "WooCommerce",
+    "Salesforce Commerce Cloud",
+    "Amazon Selling Partner",
+    "Attio",
+    "Close",
+    "DealCloud",
+    "Paygent Connect",
+    "Stripe",
+    "Binance",
+    "Supabase",
+    "MongoDB Atlas",
+    "Sentry",
+    "Grain",
+    "Otter AI",
+    "higgsfield",
+    "Freshdesk"
+  ],
+  "verdicts": {
+    "correct": 8,
+    "unverifiable": 4,
+    "self_inconsistent": 8,
+    "partial": 3,
+    "self_consistent": 2
+  },
+  "composio_ground_truth_available": 11,
+  "composio_accuracy": {
+    "correct": 8,
+    "partial": 3,
+    "incorrect": 0,
+    "score": 0.8636363636363636
+  },
+  "self_consistency": {
+    "consistent": 2,
+    "inconsistent": 8,
+    "rate": 0.14285714285714285
+  },
+  "field_accuracy": {
+    "auth_methods_original_vs_composio": 0.7272727272727273
+  },
+  "all_results": [
+    {
+      "app_slug": "apify",
+      "app_name": "Apify",
+      "category": "Data, SEO and Scraping",
+      "original_record": {
+        "auth_methods": [
+          "api_key"
+        ],
+        "self_serve": true,
+        "gating_type": "free_trial",
+        "buildability_score": 4,
+        "main_blocker": "none",
+        "composio_supported": true,
+        "confidence": "high"
+      },
+      "composio_ground_truth": {
+        "slug": "apify",
+        "auth_schemes": [
+          "API_KEY"
+        ],
+        "tools_count": 112,
+        "normalized_auth": [
+          "api_key"
+        ]
+      },
+      "thinking_reextract": {
+        "auth_methods": [
+          "API_KEY"
+        ],
+        "self_serve": true,
+        "gating_type": "none",
+        "buildability_score": 8,
+        "main_blocker": "none",
+        "confidence": "high",
+        "reasoning": "Composio registry data confirms API_KEY authentication. Apify provides comprehensive documentation with SDKs for multiple languages, client libraries, and CLI tools. The platform has 112 tools available, indicating strong buildability. The documentation is well-structured with clear API endpoints fo"
+      },
+      "field_agreement": {
+        "auth_methods_original_vs_thinking": true,
+        "auth_methods_original_vs_composio": true,
+        "self_serve_agreement": true,
+        "buildability_agreement": false
+      },
+      "verdict": "correct"
+    },
+    {
+      "app_slug": "ahrefs",
+      "app_name": "Ahrefs",
+      "category": "Data, SEO and Scraping",
+      "original_record": {
+        "auth_methods": [
+          "api_key"
+        ],
+        "self_serve": true,
+        "gating_type": "free_trial",
+        "buildability_score": 4,
+        "main_blocker": "none",
+        "composio_supported": true,
+        "confidence": "high"
+      },
+      "composio_ground_truth": {
+        "slug": "ahrefs",
+        "auth_schemes": [
+          "API_KEY"
+        ],
+        "tools_count": 40,
+        "normalized_auth": [
+          "api_key"
+        ]
+      },
+      "thinking_reextract": null,
+      "field_agreement": {
+        "auth_methods_original_vs_thinking": false,
+        "auth_methods_original_vs_composio": true,
+        "self_serve_agreement": null,
+        "buildability_agreement": null
+      },
+      "verdict": "correct"
+    },
+    {
+      "app_slug": "dataforseo",
+      "app_name": "DataForSEO",
+      "category": "Data, SEO and Scraping",
+      "original_record": {
+        "auth_methods": [
+          "basic"
+        ],
+        "self_serve": true,
+        "gating_type": "free_trial",
+        "buildability_score": 4,
+        "main_blocker": "none",
+        "composio_supported": true,
+        "confidence": "medium"
+      },
+      "composio_ground_truth": {
+        "slug": "dataforseo",
+        "auth_schemes": [
+          "BASIC"
+        ],
+        "tools_count": 312,
+        "normalized_auth": [
+          "basic"
+        ]
+      },
+      "thinking_reextract": {
+        "auth_methods": [
+          "BASIC"
+        ],
+        "self_serve": true,
+        "gating_type": "unknown",
+        "buildability_score": 7,
+        "main_blocker": "none",
+        "confidence": "high",
+        "reasoning": "DataForSEO appears to be a self-serve API with BASIC authentication based on the Composio registry. The comprehensive documentation with pricing and sign-up functionality suggests it has some form of gating, but the exact model isn't clear from the provided information. With 312 tools available and "
+      },
+      "field_agreement": {
+        "auth_methods_original_vs_thinking": true,
+        "auth_methods_original_vs_composio": true,
+        "self_serve_agreement": true,
+        "buildability_agreement": false
+      },
+      "verdict": "correct"
+    },
+    {
+      "app_slug": "pumble",
+      "app_name": "Pumble",
+      "category": "Communications and Messaging",
+      "original_record": {
+        "auth_methods": [],
+        "self_serve": false,
+        "gating_type": "unknown",
+        "buildability_score": 0,
+        "main_blocker": "no_public_api",
+        "composio_supported": false,
+        "confidence": "high"
+      },
+      "composio_ground_truth": null,
+      "thinking_reextract": null,
+      "field_agreement": {
+        "auth_methods_original_vs_thinking": true,
+        "auth_methods_original_vs_composio": null,
+        "self_serve_agreement": null,
+        "buildability_agreement": null
+      },
+      "verdict": "unverifiable"
+    },
+    {
+      "app_slug": "zoho-cliq",
+      "app_name": "Zoho Cliq",
+      "category": "Communications and Messaging",
+      "original_record": {
+        "auth_methods": [
+          "oauth2"
+        ],
+        "self_serve": true,
+        "gating_type": "free",
+        "buildability_score": 3,
+        "main_blocker": "unknown",
+        "composio_supported": false,
+        "confidence": "medium"
+      },
+      "composio_ground_truth": null,
+      "thinking_reextract": {
+        "auth_methods": [
+          "OAuth 2.0"
+        ],
+        "self_serve": true,
+        "gating_type": "none",
+        "buildability_score": 8,
+        "main_blocker": "none",
+        "confidence": "high",
+        "reasoning": "Zoho Cliq API offers comprehensive documentation with OAuth 2.0 authentication, clear examples, and a Postman collection for easy implementation. The API supports both V2 and V3 versions with V3 being the latest. Developers can self-register their applications without requiring direct approval from "
+      },
+      "field_agreement": {
+        "auth_methods_original_vs_thinking": false,
+        "auth_methods_original_vs_composio": null,
+        "self_serve_agreement": true,
+        "buildability_agreement": false
+      },
+      "verdict": "self_inconsistent"
+    },
+    {
+      "app_slug": "lark-larksuite",
+      "app_name": "Lark (Larksuite)",
+      "category": "Communications and Messaging",
+      "original_record": {
+        "auth_methods": [
+          "oauth2",
+          "bearer_token"
+        ],
+        "self_serve": true,
+        "gating_type": "free",
+        "buildability_score": 3,
+        "main_blocker": "poor_docs",
+        "composio_supported": false,
+        "confidence": "medium"
+      },
+      "composio_ground_truth": null,
+      "thinking_reextract": {
+        "auth_methods": [
+          "OAuth 2.0"
+        ],
+        "self_serve": true,
+        "gating_type": "tiered",
+        "buildability_score": 6,
+        "main_blocker": "Limited public documentation available",
+        "confidence": "medium",
+        "reasoning": "Based on general knowledge of Lark/Larksuite as an enterprise collaboration platform. The API likely uses OAuth 2.0 for authentication, which is standard for such platforms. Self-service access is probable as many enterprise collaboration platforms offer developer portals. Without specific documenta"
+      },
+      "field_agreement": {
+        "auth_methods_original_vs_thinking": false,
+        "auth_methods_original_vs_composio": null,
+        "self_serve_agreement": true,
+        "buildability_agreement": false
+      },
+      "verdict": "self_inconsistent"
+    },
+    {
+      "app_slug": "asana",
+      "app_name": "Asana",
+      "category": "Productivity and Project Management",
+      "original_record": {
+        "auth_methods": [
+          "oauth2",
+          "api_key"
+        ],
+        "self_serve": true,
+        "gating_type": "free",
+        "buildability_score": 5,
+        "main_blocker": "none",
+        "composio_supported": true,
+        "confidence": "high"
+      },
+      "composio_ground_truth": {
+        "slug": "asana",
+        "auth_schemes": [
+          "OAUTH2"
+        ],
+        "tools_count": 153,
+        "normalized_auth": [
+          "oauth2"
+        ]
+      },
+      "thinking_reextract": {
+        "auth_methods": [
+          "OAUTH2"
+        ],
+        "self_serve": true,
+        "gating_type": "none",
+        "buildability_score": 9,
+        "main_blocker": "none",
+        "confidence": "high",
+        "reasoning": "The Composio registry confirms OAUTH2 as the authentication method for Asana. The documentation indicates that apps can be built and shared with other Asana users or just for one organization, suggesting it is self-serve. The API is comprehensive with 153 tools, making it highly buildable. No signif"
+      },
+      "field_agreement": {
+        "auth_methods_original_vs_thinking": false,
+        "auth_methods_original_vs_composio": false,
+        "self_serve_agreement": true,
+        "buildability_agreement": false
+      },
+      "verdict": "partial"
+    },
+    {
+      "app_slug": "notion",
+      "app_name": "Notion",
+      "category": "Productivity and Project Management",
+      "original_record": {
+        "auth_methods": [
+          "oauth2",
+          "api_key",
+          "bearer_token"
+        ],
+        "self_serve": true,
+        "gating_type": "free",
+        "buildability_score": 5,
+        "main_blocker": "none",
+        "composio_supported": true,
+        "confidence": "high"
+      },
+      "composio_ground_truth": {
+        "slug": "notion",
+        "auth_schemes": [
+          "OAUTH2",
+          "API_KEY"
+        ],
+        "tools_count": 45,
+        "normalized_auth": [
+          "api_key",
+          "oauth2"
+        ]
+      },
+      "thinking_reextract": null,
+      "field_agreement": {
+        "auth_methods_original_vs_thinking": false,
+        "auth_methods_original_vs_composio": false,
+        "self_serve_agreement": null,
+        "buildability_agreement": null
+      },
+      "verdict": "partial"
+    },
+    {
+      "app_slug": "smartsheet",
+      "app_name": "Smartsheet",
+      "category": "Productivity and Project Management",
+      "original_record": {
+        "auth_methods": [
+          "api_key",
+          "oauth2"
+        ],
+        "self_serve": true,
+        "gating_type": "free_trial",
+        "buildability_score": 4,
+        "main_blocker": "none",
+        "composio_supported": false,
+        "confidence": "high"
+      },
+      "composio_ground_truth": null,
+      "thinking_reextract": {
+        "auth_methods": [
+          "HTTP Basic"
+        ],
+        "self_serve": true,
+        "gating_type": "none",
+        "buildability_score": 6,
+        "main_blocker": "Deprecated documentation",
+        "confidence": "medium",
+        "reasoning": "Smartsheet API has authentication methods documented (HTTP Basic), but the documentation is marked as deprecated with a new reference site available. The API appears to be self-serve but the deprecated status creates uncertainty about stability and current implementation details."
+      },
+      "field_agreement": {
+        "auth_methods_original_vs_thinking": false,
+        "auth_methods_original_vs_composio": null,
+        "self_serve_agreement": true,
+        "buildability_agreement": false
+      },
+      "verdict": "self_inconsistent"
+    },
+    {
+      "app_slug": "woocommerce",
+      "app_name": "WooCommerce",
+      "category": "Ecommerce",
+      "original_record": {
+        "auth_methods": [
+          "api_key"
+        ],
+        "self_serve": true,
+        "gating_type": "free",
+        "buildability_score": 4,
+        "main_blocker": "poor_docs",
+        "composio_supported": false,
+        "confidence": "high"
+      },
+      "composio_ground_truth": null,
+      "thinking_reextract": {
+        "auth_methods": [
+          "api_key"
+        ],
+        "self_serve": true,
+        "gating_type": "none",
+        "buildability_score": 8,
+        "main_blocker": "WordPress permalinks need to be set to a human-readable format",
+        "confidence": "high",
+        "reasoning": "WooCommerce REST API uses API key authentication with Consumer Key and Consumer Secret. It's well-documented and self-serve through the WooCommerce admin interface. The only requirement is that WordPress permalinks are set to a human-readable format before generating API keys."
+      },
+      "field_agreement": {
+        "auth_methods_original_vs_thinking": true,
+        "auth_methods_original_vs_composio": null,
+        "self_serve_agreement": true,
+        "buildability_agreement": false
+      },
+      "verdict": "self_consistent"
+    },
+    {
+      "app_slug": "salesforce-commerce-cloud",
+      "app_name": "Salesforce Commerce Cloud",
+      "category": "Ecommerce",
+      "original_record": {
+        "auth_methods": [
+          "oauth2"
+        ],
+        "self_serve": false,
+        "gating_type": "enterprise_only",
+        "buildability_score": 2,
+        "main_blocker": "gated_access",
+        "composio_supported": false,
+        "confidence": "high"
+      },
+      "composio_ground_truth": null,
+      "thinking_reextract": null,
+      "field_agreement": {
+        "auth_methods_original_vs_thinking": false,
+        "auth_methods_original_vs_composio": null,
+        "self_serve_agreement": null,
+        "buildability_agreement": null
+      },
+      "verdict": "unverifiable"
+    },
+    {
+      "app_slug": "amazon-selling-partner",
+      "app_name": "Amazon Selling Partner",
+      "category": "Ecommerce",
+      "original_record": {
+        "auth_methods": [
+          "oauth2"
+        ],
+        "self_serve": true,
+        "gating_type": "free",
+        "buildability_score": 4,
+        "main_blocker": "none",
+        "composio_supported": false,
+        "confidence": "high"
+      },
+      "composio_ground_truth": null,
+      "thinking_reextract": {
+        "auth_methods": [
+          "public",
+          "private",
+          "special"
+        ],
+        "self_serve": true,
+        "gating_type": "registration",
+        "buildability_score": 7,
+        "main_blocker": "authorization setup and role permissions",
+        "confidence": "high",
+        "reasoning": "Amazon provides comprehensive documentation with clear onboarding steps, multiple authorization methods, and resources for both developers and service providers. The API appears to be well-maintained with regular release notes and deprecation schedules."
+      },
+      "field_agreement": {
+        "auth_methods_original_vs_thinking": false,
+        "auth_methods_original_vs_composio": null,
+        "self_serve_agreement": true,
+        "buildability_agreement": false
+      },
+      "verdict": "self_inconsistent"
+    },
+    {
+      "app_slug": "attio",
+      "app_name": "Attio",
+      "category": "CRM and Sales",
+      "original_record": {
+        "auth_methods": [
+          "oauth2"
+        ],
+        "self_serve": true,
+        "gating_type": "free",
+        "buildability_score": 4,
+        "main_blocker": "none",
+        "composio_supported": true,
+        "confidence": "high"
+      },
+      "composio_ground_truth": {
+        "slug": "attio",
+        "auth_schemes": [
+          "OAUTH2"
+        ],
+        "tools_count": 99,
+        "normalized_auth": [
+          "oauth2"
+        ]
+      },
+      "thinking_reextract": {
+        "auth_methods": [
+          "oauth2"
+        ],
+        "self_serve": true,
+        "gating_type": "unknown",
+        "buildability_score": 8,
+        "main_blocker": "unknown",
+        "confidence": "high",
+        "reasoning": "Attio provides a comprehensive developer platform with multiple integration options (SDK, REST API, MCP, SQL) and uses OAuth2 authentication, which is standard for modern APIs. The presence of 99 tools and extensive documentation suggests high buildability."
+      },
+      "field_agreement": {
+        "auth_methods_original_vs_thinking": true,
+        "auth_methods_original_vs_composio": true,
+        "self_serve_agreement": true,
+        "buildability_agreement": false
+      },
+      "verdict": "correct"
+    },
+    {
+      "app_slug": "close",
+      "app_name": "Close",
+      "category": "CRM and Sales",
+      "original_record": {
+        "auth_methods": [
+          "api_key",
+          "oauth2"
+        ],
+        "self_serve": true,
+        "gating_type": "free",
+        "buildability_score": 4,
+        "main_blocker": "none",
+        "composio_supported": true,
+        "confidence": "high"
+      },
+      "composio_ground_truth": {
+        "slug": "close",
+        "auth_schemes": [
+          "API_KEY"
+        ],
+        "tools_count": 6,
+        "normalized_auth": [
+          "api_key"
+        ]
+      },
+      "thinking_reextract": {
+        "auth_methods": [
+          "api_key"
+        ],
+        "self_serve": true,
+        "gating_type": "open",
+        "buildability_score": 8,
+        "main_blocker": "none",
+        "confidence": "high",
+        "reasoning": "The Close developer platform provides comprehensive documentation, API clients, and integration capabilities. Composio registry confirms API key authentication as the primary method. The platform appears to be self-serve with no significant barriers to entry."
+      },
+      "field_agreement": {
+        "auth_methods_original_vs_thinking": false,
+        "auth_methods_original_vs_composio": false,
+        "self_serve_agreement": true,
+        "buildability_agreement": false
+      },
+      "verdict": "partial"
+    },
+    {
+      "app_slug": "dealcloud",
+      "app_name": "DealCloud",
+      "category": "CRM and Sales",
+      "original_record": {
+        "auth_methods": [
+          "api_key",
+          "bearer_token"
+        ],
+        "self_serve": true,
+        "gating_type": "free_trial",
+        "buildability_score": 3,
+        "main_blocker": "gated_access",
+        "composio_supported": false,
+        "confidence": "medium"
+      },
+      "composio_ground_truth": null,
+      "thinking_reextract": null,
+      "field_agreement": {
+        "auth_methods_original_vs_thinking": false,
+        "auth_methods_original_vs_composio": null,
+        "self_serve_agreement": null,
+        "buildability_agreement": null
+      },
+      "verdict": "unverifiable"
+    },
+    {
+      "app_slug": "paygent-connect",
+      "app_name": "Paygent Connect",
+      "category": "Finance and Fintech",
+      "original_record": {
+        "auth_methods": [],
+        "self_serve": false,
+        "gating_type": "enterprise_only",
+        "buildability_score": 0,
+        "main_blocker": "gated_access",
+        "composio_supported": false,
+        "confidence": "medium"
+      },
+      "composio_ground_truth": null,
+      "thinking_reextract": {
+        "auth_methods": [
+          "API key",
+          "OAuth",
+          "Basic Auth"
+        ],
+        "self_serve": false,
+        "gating_type": "unknown",
+        "buildability_score": 2,
+        "main_blocker": "No documentation available",
+        "confidence": "low",
+        "reasoning": "Paygent Connect is not documented in the provided markdown and is not present in the Composio registry. Without accessible documentation, it's impossible to accurately assess the API's authentication methods, self-serve availability, or other characteristics. The assessment is based on general assum"
+      },
+      "field_agreement": {
+        "auth_methods_original_vs_thinking": false,
+        "auth_methods_original_vs_composio": null,
+        "self_serve_agreement": true,
+        "buildability_agreement": false
+      },
+      "verdict": "self_inconsistent"
+    },
+    {
+      "app_slug": "stripe",
+      "app_name": "Stripe",
+      "category": "Finance and Fintech",
+      "original_record": {
+        "auth_methods": [
+          "api_key",
+          "oauth2"
+        ],
+        "self_serve": true,
+        "gating_type": "free",
+        "buildability_score": 5,
+        "main_blocker": "none",
+        "composio_supported": true,
+        "confidence": "high"
+      },
+      "composio_ground_truth": {
+        "slug": "stripe",
+        "auth_schemes": [
+          "API_KEY",
+          "OAUTH2"
+        ],
+        "tools_count": 425,
+        "normalized_auth": [
+          "api_key",
+          "oauth2"
+        ]
+      },
+      "thinking_reextract": {
+        "auth_methods": [
+          "api_key",
+          "oauth2"
+        ],
+        "self_serve": true,
+        "gating_type": "api_key",
+        "buildability_score": 7,
+        "main_blocker": "Does not support bulk updates - only one object per request",
+        "confidence": "high",
+        "reasoning": "Based on Composio registry data, Stripe API supports api_key and oauth2 authentication with 425 available tools. The documentation explicitly mentions that the API doesn't support bulk updates, working on only one object per request, which limits batch operations. Despite this, the API is well-docum"
+      },
+      "field_agreement": {
+        "auth_methods_original_vs_thinking": true,
+        "auth_methods_original_vs_composio": true,
+        "self_serve_agreement": true,
+        "buildability_agreement": false
+      },
+      "verdict": "correct"
+    },
+    {
+      "app_slug": "binance",
+      "app_name": "Binance",
+      "category": "Finance and Fintech",
+      "original_record": {
+        "auth_methods": [
+          "api_key",
+          "bearer_token"
+        ],
+        "self_serve": true,
+        "gating_type": "free",
+        "buildability_score": 4,
+        "main_blocker": "auth_complexity",
+        "composio_supported": false,
+        "confidence": "medium"
+      },
+      "composio_ground_truth": null,
+      "thinking_reextract": {
+        "auth_methods": [],
+        "self_serve": false,
+        "gating_type": "unknown",
+        "buildability_score": 0,
+        "main_blocker": "No documentation available in provided research",
+        "confidence": "low",
+        "reasoning": "No specific documentation, search snippets, or Composio registry data were provided for Binance's API. Without this information, it's not possible to accurately determine the API characteristics. All values are set to their most conservative defaults."
+      },
+      "field_agreement": {
+        "auth_methods_original_vs_thinking": false,
+        "auth_methods_original_vs_composio": null,
+        "self_serve_agreement": false,
+        "buildability_agreement": false
+      },
+      "verdict": "self_inconsistent"
+    },
+    {
+      "app_slug": "supabase",
+      "app_name": "Supabase",
+      "category": "Developer, Infra and Data platforms",
+      "original_record": {
+        "auth_methods": [
+          "oauth2",
+          "api_key"
+        ],
+        "self_serve": true,
+        "gating_type": "free",
+        "buildability_score": 5,
+        "main_blocker": "none",
+        "composio_supported": true,
+        "confidence": "high"
+      },
+      "composio_ground_truth": {
+        "slug": "supabase",
+        "auth_schemes": [
+          "OAUTH2",
+          "API_KEY"
+        ],
+        "tools_count": 124,
+        "normalized_auth": [
+          "api_key",
+          "oauth2"
+        ]
+      },
+      "thinking_reextract": {
+        "auth_methods": [
+          "oauth2",
+          "api_key"
+        ],
+        "self_serve": true,
+        "gating_type": "none",
+        "buildability_score": 8,
+        "main_blocker": "none",
+        "confidence": "high",
+        "reasoning": "Based on the Composio registry data, Supabase supports OAuth2 and API key authentication. The documentation shows extensive client libraries for multiple programming languages, a Management API, and CLI, indicating it's designed to be self-serve with high buildability."
+      },
+      "field_agreement": {
+        "auth_methods_original_vs_thinking": true,
+        "auth_methods_original_vs_composio": true,
+        "self_serve_agreement": true,
+        "buildability_agreement": false
+      },
+      "verdict": "correct"
+    },
+    {
+      "app_slug": "mongodb-atlas",
+      "app_name": "MongoDB Atlas",
+      "category": "Developer, Infra and Data platforms",
+      "original_record": {
+        "auth_methods": [
+          "api_key",
+          "digest"
+        ],
+        "self_serve": true,
+        "gating_type": "free",
+        "buildability_score": 4,
+        "main_blocker": "auth_complexity",
+        "composio_supported": false,
+        "confidence": "high"
+      },
+      "composio_ground_truth": null,
+      "thinking_reextract": null,
+      "field_agreement": {
+        "auth_methods_original_vs_thinking": false,
+        "auth_methods_original_vs_composio": null,
+        "self_serve_agreement": null,
+        "buildability_agreement": null
+      },
+      "verdict": "unverifiable"
+    },
+    {
+      "app_slug": "sentry",
+      "app_name": "Sentry",
+      "category": "Developer, Infra and Data platforms",
+      "original_record": {
+        "auth_methods": [
+          "oauth2"
+        ],
+        "self_serve": true,
+        "gating_type": "free",
+        "buildability_score": 4,
+        "main_blocker": "rate_limits",
+        "composio_supported": true,
+        "confidence": "high"
+      },
+      "composio_ground_truth": {
+        "slug": "sentry",
+        "auth_schemes": [
+          "OAUTH2"
+        ],
+        "tools_count": 209,
+        "normalized_auth": [
+          "oauth2"
+        ]
+      },
+      "thinking_reextract": {
+        "auth_methods": [
+          "oauth2"
+        ],
+        "self_serve": null,
+        "gating_type": null,
+        "buildability_score": null,
+        "main_blocker": null,
+        "confidence": "high",
+        "reasoning": "Composio registry confirms OAuth2 as the authentication method for Sentry API. Other details are not specified in the Composio registry or the provided documentation."
+      },
+      "field_agreement": {
+        "auth_methods_original_vs_thinking": true,
+        "auth_methods_original_vs_composio": true,
+        "self_serve_agreement": false,
+        "buildability_agreement": false
+      },
+      "verdict": "correct"
+    },
+    {
+      "app_slug": "grain",
+      "app_name": "Grain",
+      "category": "AI, Research and Media-native",
+      "original_record": {
+        "auth_methods": [],
+        "self_serve": false,
+        "gating_type": "unknown",
+        "buildability_score": 0,
+        "main_blocker": "no_public_api",
+        "composio_supported": false,
+        "confidence": "high"
+      },
+      "composio_ground_truth": null,
+      "thinking_reextract": {
+        "auth_methods": [],
+        "self_serve": false,
+        "gating_type": "unknown",
+        "buildability_score": 0,
+        "main_blocker": "unknown",
+        "confidence": "low",
+        "reasoning": "No information was available from documentation, search snippets, or Composio registry for the Grain API. All assessments are conservative defaults due to complete lack of verifiable information."
+      },
+      "field_agreement": {
+        "auth_methods_original_vs_thinking": true,
+        "auth_methods_original_vs_composio": null,
+        "self_serve_agreement": true,
+        "buildability_agreement": true
+      },
+      "verdict": "self_consistent"
+    },
+    {
+      "app_slug": "otter-ai",
+      "app_name": "Otter AI",
+      "category": "AI, Research and Media-native",
+      "original_record": {
+        "auth_methods": [],
+        "self_serve": false,
+        "gating_type": "unknown",
+        "buildability_score": 0,
+        "main_blocker": "no_public_api",
+        "composio_supported": false,
+        "confidence": "high"
+      },
+      "composio_ground_truth": null,
+      "thinking_reextract": {
+        "auth_methods": [
+          "api_key"
+        ],
+        "self_serve": true,
+        "gating_type": "rate_limit",
+        "buildability_score": 60,
+        "main_blocker": "documentation_clarity",
+        "confidence": "low",
+        "reasoning": "Assessment based on general API patterns since specific Otter AI API documentation was not available in the provided research."
+      },
+      "field_agreement": {
+        "auth_methods_original_vs_thinking": false,
+        "auth_methods_original_vs_composio": null,
+        "self_serve_agreement": false,
+        "buildability_agreement": false
+      },
+      "verdict": "self_inconsistent"
+    },
+    {
+      "app_slug": "higgsfield",
+      "app_name": "higgsfield",
+      "category": "AI, Research and Media-native",
+      "original_record": {
+        "auth_methods": [
+          "api_key"
+        ],
+        "self_serve": true,
+        "gating_type": "free",
+        "buildability_score": 2,
+        "main_blocker": "poor_docs",
+        "composio_supported": false,
+        "confidence": "low"
+      },
+      "composio_ground_truth": null,
+      "thinking_reextract": {
+        "auth_methods": [
+          "API keys"
+        ],
+        "self_serve": true,
+        "gating_type": "open",
+        "buildability_score": 7,
+        "main_blocker": "Limited documentation details on authentication and pricing",
+        "confidence": "medium",
+        "reasoning": "The documentation indicates a well-structured API with unified integration points and client libraries, suggesting a developer-friendly platform. However, specific authentication methods and pricing details are not clearly outlined, which could present integration challenges. The presence of a dashb"
+      },
+      "field_agreement": {
+        "auth_methods_original_vs_thinking": false,
+        "auth_methods_original_vs_composio": null,
+        "self_serve_agreement": true,
+        "buildability_agreement": false
+      },
+      "verdict": "self_inconsistent"
+    },
+    {
+      "app_slug": "freshdesk",
+      "app_name": "Freshdesk",
+      "category": "Support and Helpdesk",
+      "original_record": {
+        "auth_methods": [
+          "api_key"
+        ],
+        "self_serve": true,
+        "gating_type": "free_trial",
+        "buildability_score": 4,
+        "main_blocker": "none",
+        "composio_supported": true,
+        "confidence": "high"
+      },
+      "composio_ground_truth": {
+        "slug": "freshdesk",
+        "auth_schemes": [
+          "API_KEY"
+        ],
+        "tools_count": 178,
+        "normalized_auth": [
+          "api_key"
+        ]
+      },
+      "thinking_reextract": {
+        "auth_methods": [
+          "API_KEY"
+        ],
+        "self_serve": true,
+        "gating_type": "open",
+        "buildability_score": 8,
+        "main_blocker": "none",
+        "confidence": "high",
+        "reasoning": "Freshdesk API uses API_KEY authentication as confirmed by the Composio registry. The documentation shows a comprehensive API with 178 tools covering tickets, contacts, agents, companies, and custom objects. The API appears to be well-documented with clear endpoints for all major functions, making it"
+      },
+      "field_agreement": {
+        "auth_methods_original_vs_thinking": true,
+        "auth_methods_original_vs_composio": true,
+        "self_serve_agreement": true,
+        "buildability_agreement": false
+      },
+      "verdict": "correct"
+    }
+  ]
+}

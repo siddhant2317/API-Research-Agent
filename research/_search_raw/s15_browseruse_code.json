@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://medium.com/@sumit.somanchd/browser-use-with-openai-langchain-for-automating-web-browsing-ba6db7439566",
+    "name": "Browser-use with OpenAI + Langchain for Automating Web Browsing",
+    "snippet": "Browser-use is a cutting-edge Python library that empowers AI agents to seamlessly interact with web browsers. ChatOpenAI from browser_use",
+    "host_name": "medium.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://machinelearningmastery.com/building-browser-using-ai-agents-in-python",
+    "name": "Building Browser-Using AI Agents in Python - Machine Learning Mastery",
+    "snippet": "In this article, you will learn how to build AI agents that can browse and interact with real websites using Playwright, browser-use, and ...",
+    "host_name": "machinelearningmastery.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.labellerr.com/blog/browser-use-agent",
+    "name": "Browser-Use: Open-Source AI Agent For Web Automation - Labellerr",
+    "snippet": "Browser-Use is an open-source Python library letting AI agents interact with browsers programmatically, combining LLMs and HTML/visual analysis ...",
+    "host_name": "www.labellerr.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Tm1_KHdh_kA",
+    "name": "OpenAI Computer Use Tutorial: Build a Browser Agent in Python",
+    "snippet": "video walks through implementing an AI agent that can interact with web browsers to perform searches, navigate pages, and click on elements ...",
+    "host_name": "www.youtube.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.langchain.com/oss/python/integrations/chat/openai",
+    "name": "ChatOpenAI integration - Docs by LangChain",
+    "snippet": "Integrate with the ChatOpenAI chat model using LangChain Python. To access OpenAI models you'll need to install the langchain-openai integration package and ...",
+    "host_name": "docs.langchain.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/browser-use/browser-use",
+    "name": "GitHub - browser-use/browser-use: Make websites accessible for AI",
+    "snippet": "Make websites accessible for AI agents. Give your coding agent a browser. Run your first agent: Python. Use across 100 real-world browser tasks. 'openai/gpt-5. ...",
+    "host_name": "github.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

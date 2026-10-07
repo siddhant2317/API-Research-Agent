@@ -1,0 +1,35 @@
+{
+  "app_id": 73,
+  "app_name": "Linear",
+  "app_slug": "linear",
+  "started_at": 1783544496.9400108,
+  "fetched_urls": [
+    {
+      "url": "https://developers.linear.app/docs/",
+      "status": 200,
+      "md_len": 3236
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 7.25,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": true,
+    "slug": "linear",
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "tools_count": 46
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544505.2065747,
+  "duration_s": 8.27
+}

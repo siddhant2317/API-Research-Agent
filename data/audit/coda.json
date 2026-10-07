@@ -1,0 +1,34 @@
+{
+  "app_id": 78,
+  "app_name": "Coda",
+  "app_slug": "coda",
+  "started_at": 1783544515.358781,
+  "fetched_urls": [
+    {
+      "url": "https://coda.io/developers/apis/v1",
+      "status": 200,
+      "md_len": 164234
+    }
+  ],
+  "model_calls": [
+    {
+      "step": "extract_fast",
+      "model": "glm-4.5-flash",
+      "thinking_enabled": false,
+      "duration_s": 7.6,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "composio_lookup": {
+    "found": true,
+    "slug": "coda",
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "tools_count": 109
+  },
+  "mcp_hits": [],
+  "completed_at": 1783544524.2346895,
+  "duration_s": 8.88
+}

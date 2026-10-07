@@ -1,0 +1,39 @@
+{
+  "id": 84,
+  "app_name": "Paygent Connect",
+  "app_slug": "paygent-connect",
+  "category": "Finance and Fintech",
+  "website": "https://paygent.com",
+  "docs_url": "https://www.paygent.com/",
+  "primary_docs_url_used": "https://www.paygent.com/",
+  "one_line_description": "Japanese payment gateway (enterprise-only)",
+  "auth_methods": [],
+  "auth_methods_evidence": "Paygent is a Japanese payment gateway; no public developer API docs accessible from outside. https://www.paygent.com/",
+  "self_serve": false,
+  "self_serve_evidence": "Japanese merchants only; requires contract.",
+  "gating_type": "enterprise_only",
+  "api_surface_breadth": "unknown",
+  "api_protocol": [],
+  "endpoint_count_estimate": 0,
+  "openapi_spec_available": false,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 0,
+  "buildability_rationale": "Enterprise-only Japanese payment gateway. No public API access.",
+  "main_blocker": "gated_access",
+  "evidence_urls": [
+    "https://www.paygent.com/"
+  ],
+  "confidence": "medium",
+  "agent_notes": "[HUMAN OVERRIDE: Paygent is Japanese-merchant-only, no public API. NMI-powered per hint.] [HUMAN-IN-THE-LOOP: verified manually with cited docs URL]",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544550.7039115,
+  "human_override_at": 1783545417.4615753
+}

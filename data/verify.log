@@ -1,0 +1,23 @@
+Step 1: 12 apps need retry (empty/failed extraction)
+  - fanbasis (id=50)
+  - Grain (id=100)
+  - HubSpot (id=2)
+  - Jira (id=74)
+  - LiveAgent (id=16)
+  - MongoDB Atlas (id=68)
+  - Pipedrive (id=3)
+  - Plaid (id=82)
+  - Plain (id=17)
+  - Threads (Meta) (id=39)
+  - Twilio (id=22)
+  - WhatsApp Business (id=28)
+
+=== Running retries for 12 apps ===
+  ↻ grain: retrying with thinking=on, docs_len=0
+  ↻ fanbasis: retrying with thinking=on, docs_len=0
+[21:07:14]   GLM 429, waiting 5s...
+[21:07:14]   GLM 429, waiting 5s...
+[21:07:20]   GLM 429, waiting 10s...
+[21:07:20]   GLM 429, waiting 10s...
+[21:07:30]   GLM 429, waiting 15s...
+[21:07:30]   GLM 429, waiting 15s...

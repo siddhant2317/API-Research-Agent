@@ -1,0 +1,38 @@
+{
+  "app_slug": "notion",
+  "app_name": "Notion",
+  "category": "Productivity and Project Management",
+  "original_record": {
+    "auth_methods": [
+      "oauth2",
+      "api_key",
+      "bearer_token"
+    ],
+    "self_serve": true,
+    "gating_type": "free",
+    "buildability_score": 5,
+    "main_blocker": "none",
+    "composio_supported": true,
+    "confidence": "high"
+  },
+  "composio_ground_truth": {
+    "slug": "notion",
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "tools_count": 45,
+    "normalized_auth": [
+      "api_key",
+      "oauth2"
+    ]
+  },
+  "thinking_reextract": null,
+  "field_agreement": {
+    "auth_methods_original_vs_thinking": false,
+    "auth_methods_original_vs_composio": false,
+    "self_serve_agreement": null,
+    "buildability_agreement": null
+  },
+  "verdict": "partial"
+}

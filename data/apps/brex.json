@@ -1,0 +1,50 @@
+{
+  "id": 88,
+  "app_name": "Brex",
+  "app_slug": "brex",
+  "category": "Finance and Fintech",
+  "website": "https://brex.com",
+  "docs_url": "https://developer.brex.com/",
+  "primary_docs_url_used": "https://developer.brex.com/",
+  "one_line_description": "Unified spend platform with corporate cards and expense management",
+  "auth_methods": [
+    "oauth2",
+    "api_key"
+  ],
+  "auth_methods_evidence": "Brex APIs use the REST architecture, are defined using the OpenAPI specification and use standard HTTP response codes and verbs. All APIs accept and return JSON and require HTTPS.",
+  "self_serve": true,
+  "self_serve_evidence": "Check out our quickstart guide to get up and running making your first Brex API call in just a few minutes.",
+  "gating_type": "free_trial",
+  "api_surface_breadth": "broad",
+  "api_protocol": [
+    "rest",
+    "webhook"
+  ],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": true,
+  "mcp_server_exists": true,
+  "mcp_server_sources": [
+    "composio:brex"
+  ],
+  "composio_supported": true,
+  "composio_auth_schemes": [
+    "OAUTH2",
+    "API_KEY"
+  ],
+  "composio_tools_count": 84,
+  "buildability_score": 4,
+  "buildability_rationale": "Good docs, broad API, self-serve with OAuth2 and API key options, but gating type suggests some limitations.",
+  "main_blocker": "gated_access",
+  "evidence_urls": [
+    "https://developer.brex.com/",
+    "https://developer.brex.com/index.html.md"
+  ],
+  "confidence": "high",
+  "agent_notes": "The API documentation is comprehensive and includes multiple endpoints for different aspects of the Brex platform. The Composio registry confirms the authentication methods and tools count.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544564.73169
+}

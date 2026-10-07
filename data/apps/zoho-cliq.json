@@ -1,0 +1,42 @@
+{
+  "id": 23,
+  "app_name": "Zoho Cliq",
+  "app_slug": "zoho-cliq",
+  "category": "Communications and Messaging",
+  "website": "https://zoho.com/cliq",
+  "docs_url": "https://www.zoho.com/cliq/help/restapi/v2/",
+  "primary_docs_url_used": "https://www.zoho.com/cliq/help/restapi/v2/",
+  "one_line_description": "Team communication and collaboration platform",
+  "auth_methods": [
+    "oauth2"
+  ],
+  "auth_methods_evidence": "Introduction to OAuth 2.0\n      * [Overview](/cliq/help/restapi/v2/oauth/#oauth-overview)\n      * [Terminologies](/cliq/help/restapi/v2/oauth/#terminologies)\n      * [Scopes](/cliq/help/restapi/v2/oauth/#scopes)",
+  "self_serve": true,
+  "self_serve_evidence": "Register your application\n      * [Overview](/cliq/help/restapi/v2/registerclient/#overview)",
+  "gating_type": "free",
+  "api_surface_breadth": "medium",
+  "api_protocol": [
+    "rest"
+  ],
+  "endpoint_count_estimate": null,
+  "openapi_spec_available": true,
+  "mcp_server_exists": false,
+  "mcp_server_sources": [],
+  "composio_supported": false,
+  "composio_auth_schemes": null,
+  "composio_tools_count": null,
+  "buildability_score": 3,
+  "buildability_rationale": "Good OAuth2 authentication and documentation available, but API breadth is unclear and no Composio support.",
+  "main_blocker": "unknown",
+  "evidence_urls": [
+    "https://www.zoho.com/cliq/help/restapi/v2/"
+  ],
+  "confidence": "medium",
+  "agent_notes": "The documentation shows OAuth2 authentication and mentions a registration process, but the actual content of the authentication and registration pages is not visible in the fetched markdown. The API appears to be REST-based with multiple endpoints for different functionalities like users, chats, messages, etc.",
+  "audit_summary": {
+    "fetched_url_count": 1,
+    "mcp_hit_count": 0,
+    "errors": []
+  },
+  "researched_at": 1783544301.2703311
+}
